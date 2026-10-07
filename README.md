@@ -14,7 +14,6 @@ Dominio: https://www.highlightsmoroccotours.com (ver `CNAME`).
 | `blog.html` | Listado de guías |
 | `merzouga-o-zagora.html` | Guía: Merzouga o Zagora |
 | `contact.html` | Contacto y formulario |
-| `*-en.html` | Redirecciones a la página equivalente en español (el sitio ya no tiene versión en inglés; se mantienen para no romper enlaces antiguos) |
 | `robots.txt`, `sitemap.xml` | SEO |
 
 ## SEO

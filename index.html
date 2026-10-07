@@ -3,11 +3,89 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Morocco Tours from Marrakech, Fes &amp; Casablanca | Highlights Morocco Tours</title>
-  <meta name="description" content="Private Morocco tours and day trips from Marrakech, Casablanca, Fes, Rabat, Tangier and Errachidia, led by local experts. Get a free quote today." />
+  <title>Private Morocco Tours from Marrakech | Highlights Morocco Tours</title>
+  <meta name="description" content="Private tours and day trips across Morocco from Marrakech, Fes, Casablanca, Rabat, Tangier and Errachidia. Local experts, Sahara camps and riads. Get a free quote." />
   <meta name="theme-color" content="#0b0b0b" />
   <link rel="canonical" href="https://www.highlightsmoroccotours.com/" />
   <link rel="icon" href="public/logo.jpg" />
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+  <link rel="preload" as="image" href="public/hero-sahara-camel-caravan-1920.webp" imagesrcset="public/hero-sahara-camel-caravan-960.webp 960w, public/hero-sahara-camel-caravan-1920.webp 1920w" imagesizes="100vw" fetchpriority="high" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:site_name" content="Highlights Morocco Tours" />
+  <meta property="og:title" content="Private Morocco Tours from Marrakech | Highlights Morocco Tours" />
+  <meta property="og:description" content="Private tours and day trips across Morocco led by local experts. Sahara camps, luxury riads and tailor-made itineraries." />
+  <meta property="og:url" content="https://www.highlightsmoroccotours.com/" />
+  <meta property="og:image" content="https://www.highlightsmoroccotours.com/public/og-highlights-morocco-tours.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="A camel caravan crossing the golden Sahara dunes in Morocco" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "TravelAgency",
+        "@id": "https://www.highlightsmoroccotours.com/#organization",
+        "name": "Highlights Morocco Tours",
+        "url": "https://www.highlightsmoroccotours.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.highlightsmoroccotours.com/public/logo.jpg"
+        },
+        "image": "https://www.highlightsmoroccotours.com/public/og-highlights-morocco-tours.jpg",
+        "description": "Private tour operator based in Morocco offering tailor-made multi-day tours and day trips from Marrakech, Casablanca, Fes, Rabat, Tangier, Errachidia, Ouarzazate and Merzouga, with local drivers and expert guides, Sahara desert camps and Marrakech riads.",
+        "telephone": "+212668561321",
+        "email": "info@highlightsmoroccotours.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Marrakech",
+          "addressCountry": "MA"
+        },
+        "areaServed": [
+          { "@type": "City", "name": "Marrakech" },
+          { "@type": "City", "name": "Casablanca" },
+          { "@type": "City", "name": "Fes" },
+          { "@type": "City", "name": "Rabat" },
+          { "@type": "City", "name": "Tangier" },
+          { "@type": "City", "name": "Errachidia" },
+          { "@type": "City", "name": "Ouarzazate" },
+          { "@type": "City", "name": "Merzouga" }
+        ],
+        "knowsLanguage": ["en", "es"],
+        "makesOffer": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Private Morocco tours" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Day trips in Morocco" } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Sahara desert camel trekking and camp stays" } }
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.highlightsmoroccotours.com/#website",
+        "url": "https://www.highlightsmoroccotours.com/",
+        "name": "Highlights Morocco Tours",
+        "inLanguage": "en",
+        "publisher": { "@id": "https://www.highlightsmoroccotours.com/#organization" }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.highlightsmoroccotours.com/#webpage",
+        "url": "https://www.highlightsmoroccotours.com/",
+        "name": "Private Morocco Tours from Marrakech | Highlights Morocco Tours",
+        "inLanguage": "en",
+        "isPartOf": { "@id": "https://www.highlightsmoroccotours.com/#website" },
+        "about": { "@id": "https://www.highlightsmoroccotours.com/#organization" },
+        "primaryImageOfPage": {
+          "@type": "ImageObject",
+          "url": "https://www.highlightsmoroccotours.com/public/og-highlights-morocco-tours.jpg"
+        }
+      }
+    ]
+  }
+  </script>
 
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,13 +109,10 @@
   </script>
   <style>
     html { scroll-behavior: smooth; }
-    .hero {
+    .hero-overlay {
       background-image:
         linear-gradient(90deg, rgba(8, 8, 8, 0.62) 0%, rgba(8, 8, 8, 0.28) 45%, rgba(8, 8, 8, 0) 78%),
-        linear-gradient(0deg, rgba(8, 8, 8, 0.78) 0%, rgba(8, 8, 8, 0) 38%),
-        url('public/caml.jpg');
-      background-size: cover;
-      background-position: center 62%;
+        linear-gradient(0deg, rgba(8, 8, 8, 0.78) 0%, rgba(8, 8, 8, 0) 38%);
     }
     .gold-text {
       background: linear-gradient(95deg, #fbeab0 0%, #f0c75a 50%, #dba42c 100%);
@@ -190,7 +265,12 @@
 
   <!-- ============ HERO ============ -->
   <main id="content">
-    <section class="hero relative flex min-h-[calc(100vh-5rem)] flex-col">
+    <section class="relative isolate flex min-h-[calc(100vh-5rem)] flex-col overflow-hidden">
+      <picture>
+        <source type="image/webp" srcset="public/hero-sahara-camel-caravan-960.webp 960w, public/hero-sahara-camel-caravan-1920.webp 1920w" sizes="100vw" />
+        <img src="public/hero-sahara-camel-caravan-1920.jpg" alt="A guide leading a camel caravan across the golden Sahara dunes in Morocco" width="1920" height="1187" fetchpriority="high" decoding="async" class="absolute inset-0 -z-20 h-full w-full object-cover object-[center_62%]" />
+      </picture>
+      <div class="hero-overlay absolute inset-0 -z-10" aria-hidden="true"></div>
       <div class="mx-auto w-full max-w-7xl px-5 pb-24 pt-16 sm:pt-24">
         <div class="max-w-4xl">
           <p class="mb-6 flex items-center gap-4 text-xs font-semibold uppercase tracking-[0.35em] text-gold-300 sm:text-[13px]">

@@ -1,0 +1,27 @@
+# Highlights Morocco Tours
+User-agent: *
+Allow: /
+
+# AI search and assistant crawlers: allowed so the business can be found and cited
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://www.highlightsmoroccotours.com/sitemap.xml

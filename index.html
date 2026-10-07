@@ -25,66 +25,211 @@
 
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "TravelAgency",
-        "@id": "https://www.highlightsmoroccotours.com/#organization",
-        "name": "Highlights Morocco Tours",
-        "url": "https://www.highlightsmoroccotours.com/",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://www.highlightsmoroccotours.com/public/logo.jpg"
-        },
-        "image": "https://www.highlightsmoroccotours.com/public/og-highlights-morocco-tours.jpg",
-        "description": "Private tour operator based in Morocco offering tailor-made multi-day tours and day trips from Marrakech, Casablanca, Fes, Rabat, Tangier, Errachidia, Ouarzazate and Merzouga, with local drivers and expert guides, Sahara desert camps and Marrakech riads.",
-        "telephone": "+212668561321",
-        "email": "info@highlightsmoroccotours.com",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Marrakech",
-          "addressCountry": "MA"
-        },
-        "areaServed": [
-          { "@type": "City", "name": "Marrakech" },
-          { "@type": "City", "name": "Casablanca" },
-          { "@type": "City", "name": "Fes" },
-          { "@type": "City", "name": "Rabat" },
-          { "@type": "City", "name": "Tangier" },
-          { "@type": "City", "name": "Errachidia" },
-          { "@type": "City", "name": "Ouarzazate" },
-          { "@type": "City", "name": "Merzouga" }
-        ],
-        "knowsLanguage": ["en", "es"],
-        "makesOffer": [
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Private Morocco tours" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Day trips in Morocco" } },
-          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Sahara desert camel trekking and camp stays" } }
-        ]
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TravelAgency",
+      "@id": "https://www.highlightsmoroccotours.com/#organization",
+      "name": "Highlights Morocco Tours",
+      "url": "https://www.highlightsmoroccotours.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.highlightsmoroccotours.com/public/logo.jpg"
       },
-      {
-        "@type": "WebSite",
-        "@id": "https://www.highlightsmoroccotours.com/#website",
-        "url": "https://www.highlightsmoroccotours.com/",
-        "name": "Highlights Morocco Tours",
-        "inLanguage": "en",
-        "publisher": { "@id": "https://www.highlightsmoroccotours.com/#organization" }
+      "image": "https://www.highlightsmoroccotours.com/public/og-highlights-morocco-tours.jpg",
+      "description": "Private tour operator based in Morocco offering tailor-made multi-day tours and day trips from Marrakech, Casablanca, Fes, Rabat, Tangier, Errachidia, Ouarzazate and Merzouga, with local drivers and expert guides, Sahara desert camps and Marrakech riads.",
+      "telephone": "+212668561321",
+      "email": "info@highlightsmoroccotours.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Marrakech",
+        "addressCountry": "MA"
       },
-      {
-        "@type": "WebPage",
-        "@id": "https://www.highlightsmoroccotours.com/#webpage",
-        "url": "https://www.highlightsmoroccotours.com/",
-        "name": "Private Morocco Tours from Marrakech | Highlights Morocco Tours",
-        "inLanguage": "en",
-        "isPartOf": { "@id": "https://www.highlightsmoroccotours.com/#website" },
-        "about": { "@id": "https://www.highlightsmoroccotours.com/#organization" },
-        "primaryImageOfPage": {
-          "@type": "ImageObject",
-          "url": "https://www.highlightsmoroccotours.com/public/og-highlights-morocco-tours.jpg"
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Marrakech"
+        },
+        {
+          "@type": "City",
+          "name": "Casablanca"
+        },
+        {
+          "@type": "City",
+          "name": "Fes"
+        },
+        {
+          "@type": "City",
+          "name": "Rabat"
+        },
+        {
+          "@type": "City",
+          "name": "Tangier"
+        },
+        {
+          "@type": "City",
+          "name": "Errachidia"
+        },
+        {
+          "@type": "City",
+          "name": "Ouarzazate"
+        },
+        {
+          "@type": "City",
+          "name": "Merzouga"
         }
+      ],
+      "knowsLanguage": [
+        "en",
+        "es"
+      ],
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Private Morocco tours"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Day trips in Morocco"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Sahara desert camel trekking and camp stays"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.highlightsmoroccotours.com/#website",
+      "url": "https://www.highlightsmoroccotours.com/",
+      "name": "Highlights Morocco Tours",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://www.highlightsmoroccotours.com/#organization"
       }
-    ]
-  }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.highlightsmoroccotours.com/#webpage",
+      "url": "https://www.highlightsmoroccotours.com/",
+      "name": "Private Morocco Tours from Marrakech | Highlights Morocco Tours",
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://www.highlightsmoroccotours.com/#website"
+      },
+      "about": {
+        "@id": "https://www.highlightsmoroccotours.com/#organization"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://www.highlightsmoroccotours.com/public/og-highlights-morocco-tours.jpg"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.highlightsmoroccotours.com/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Are your private Morocco tours truly private?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Our private Morocco tours are planned around your dates, interests and pace, with a private driver and a local guide."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which cities do your Morocco tours and day trips start from?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our multi-day Morocco tours start from Marrakech, Casablanca, Fes, Rabat, Tangier and Errachidia. Day trips start from Marrakech, Fes, Ouarzazate and Merzouga."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer Merzouga desert tours from Marrakech?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We offer 2, 3 and 4-day Merzouga desert tours from Marrakech, with a night in a Sahara desert camp. The 3-day tour includes a stop at Ait Ben Haddou and the Todra Gorges."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I go camel trekking in the Sahara desert?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. A camel ride at sunset is part of our Sahara desert experiences, with nights under the stars in a desert camp. Ask us for the details of the tour you prefer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What day trips do you offer from Marrakech?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Popular day trips from Marrakech include the Ourika Valley, the Ouzoud Waterfalls and Ait Ben Haddou. Each one returns to Marrakech the same day."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get a free quote for a Morocco tour?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Use the search bar or the contact form on this page, or write to us by email or WhatsApp. Quotes are free and come with no obligation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you tailor a private Morocco itinerary to my plans?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Tell us your dates, group size and what you would like to see, and we will build a tailor-made itinerary for couples, families or groups."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do your guides speak English and Spanish?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Our local guides speak English and Spanish, and we offer support before and during your trip."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where do we stay on a Sahara desert tour?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can stay in a desert camp in Merzouga, and we can arrange riads in Marrakech. Tell us your preferences and we will suggest options."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What should I pack for a Sahara desert tour?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Comfortable shoes, sun protection and light clothes for the day, plus a warm layer for the evening, as desert nights can be cool."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need a visa to travel to Morocco?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Entry requirements depend on your nationality and the length of your stay. Please check the current rules with the official Moroccan authorities before you travel."
+          }
+        }
+      ]
+    }
+  ]
+}
   </script>
 
   <script src="https://cdn.tailwindcss.com"></script>
@@ -154,6 +299,10 @@
       background-image:
         linear-gradient(90deg, rgba(8, 8, 8, 0.82) 0%, rgba(8, 8, 8, 0.55) 55%, rgba(8, 8, 8, 0.35) 100%);
     }
+    .faq-item summary::-webkit-details-marker { display: none; }
+    .faq-item .faq-icon { transition: background .25s ease, color .25s ease, transform .25s ease; }
+    .faq-item[open] .faq-icon { background: #d9b24c; color: #1a1305; transform: rotate(45deg); }
+    .faq-item[open] { border-color: rgba(201, 154, 46, 0.7); }
     .menu-panel {
       visibility: hidden; opacity: 0; transform: translateY(8px);
       transition: opacity .2s ease, transform .2s ease, visibility .2s;
@@ -855,6 +1004,93 @@
         <p class="mt-14 text-center">
           <a href="/blog/" class="gold-btn group inline-flex items-center gap-3 rounded-full px-10 py-4 text-[13px] font-bold uppercase tracking-[0.16em] text-[#1a1305] shadow-xl shadow-gold-500/30 ring-1 ring-gold-500/40 transition duration-300 hover:-translate-y-0.5 hover:shadow-2xl hover:shadow-gold-500/40 hover:brightness-110">View all articles <svg viewBox="0 0 24 24" class="h-4 w-4 fill-none stroke-current transition group-hover:translate-x-1" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
         </p>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section id="faq" aria-labelledby="faq-title" class="relative bg-[#f6f1e8] px-5 py-20 sm:py-24">
+      <div class="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[0.8fr_1.2fr] lg:gap-16">
+        <div class="lg:sticky lg:top-28 lg:self-start">
+          <p class="mb-5 flex items-center gap-4 text-xs font-semibold uppercase tracking-[0.35em] text-gold-600 sm:text-[13px]">
+            <span class="h-px w-12 bg-gold-500" aria-hidden="true"></span>FAQ
+          </p>
+          <h2 id="faq-title" class="font-display text-4xl font-semibold leading-tight text-[#14100a] sm:text-5xl">Frequently asked <span class="italic text-gold-600">questions</span></h2>
+          <p class="mt-6 font-jost text-base leading-8 text-gray-600 sm:text-lg">Everything you need to know before you travel to Morocco with us.</p>
+          <ul class="mt-6 flex flex-wrap gap-2" aria-label="FAQ topics"><li class="rounded-full border border-gold-500/50 bg-gold-500/5 px-4 py-1.5 text-[11px] font-semibold uppercase tracking-[0.16em] text-gold-600">Private Morocco Tours</li><li class="rounded-full border border-gold-500/50 bg-gold-500/5 px-4 py-1.5 text-[11px] font-semibold uppercase tracking-[0.16em] text-gold-600">Merzouga Desert Tours</li><li class="rounded-full border border-gold-500/50 bg-gold-500/5 px-4 py-1.5 text-[11px] font-semibold uppercase tracking-[0.16em] text-gold-600">Sahara Camel Trekking</li><li class="rounded-full border border-gold-500/50 bg-gold-500/5 px-4 py-1.5 text-[11px] font-semibold uppercase tracking-[0.16em] text-gold-600">Day Trips from Marrakech</li><li class="rounded-full border border-gold-500/50 bg-gold-500/5 px-4 py-1.5 text-[11px] font-semibold uppercase tracking-[0.16em] text-gold-600">Desert Camps &amp; Riads</li></ul>
+          <div class="mt-9 rounded-2xl border border-gold-500/40 bg-[#0b0b0b] p-7 text-white shadow-xl shadow-black/10">
+            <p class="font-display text-xl font-semibold">Still have a question?</p>
+            <p class="mt-2 font-jost text-[15px] leading-7 text-white/65">Write to us and we will reply with a free, no-obligation answer.</p>
+            <a href="https://wa.me/212668561321?text=Hello%2C%20I%20have%20a%20question%20about%20a%20Morocco%20tour." target="_blank" rel="noopener" class="gold-btn mt-6 inline-flex items-center gap-2.5 rounded-full px-7 py-3.5 text-[13px] font-bold uppercase tracking-[0.14em] text-[#1a1305] shadow-lg shadow-gold-500/20 transition hover:brightness-110"><i class="fab fa-whatsapp text-base" aria-hidden="true"></i>Ask on WhatsApp</a>
+          </div>
+        </div>
+        <div class="space-y-4">
+            <details class="faq-item group rounded-2xl border border-[#14100a]/10 bg-white shadow-md shadow-black/5 transition hover:border-gold-500/60" open>
+              <summary class="flex cursor-pointer list-none items-center gap-4 px-6 py-5 sm:px-7">
+                <h3 class="font-display text-lg font-semibold leading-snug text-[#14100a] sm:text-xl">Are your private Morocco tours truly private?</h3><span class="faq-icon relative ml-auto flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-gold-500/60 text-gold-600" aria-hidden="true"><svg viewBox="0 0 24 24" class="h-4 w-4 fill-none stroke-current" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span>
+              </summary>
+              <div class="px-6 pb-6 sm:px-7"><p class="border-t border-[#14100a]/10 pt-4 font-jost text-base leading-7 text-gray-600">Yes. Our private Morocco tours are planned around your dates, interests and pace, with a private driver and a local guide.</p></div>
+            </details>
+            <details class="faq-item group rounded-2xl border border-[#14100a]/10 bg-white shadow-md shadow-black/5 transition hover:border-gold-500/60">
+              <summary class="flex cursor-pointer list-none items-center gap-4 px-6 py-5 sm:px-7">
+                <h3 class="font-display text-lg font-semibold leading-snug text-[#14100a] sm:text-xl">Which cities do your Morocco tours and day trips start from?</h3><span class="faq-icon relative ml-auto flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-gold-500/60 text-gold-600" aria-hidden="true"><svg viewBox="0 0 24 24" class="h-4 w-4 fill-none stroke-current" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span>
+              </summary>
+              <div class="px-6 pb-6 sm:px-7"><p class="border-t border-[#14100a]/10 pt-4 font-jost text-base leading-7 text-gray-600">Our multi-day Morocco tours start from Marrakech, Casablanca, Fes, Rabat, Tangier and Errachidia. Day trips start from Marrakech, Fes, Ouarzazate and Merzouga.</p></div>
+            </details>
+            <details class="faq-item group rounded-2xl border border-[#14100a]/10 bg-white shadow-md shadow-black/5 transition hover:border-gold-500/60">
+              <summary class="flex cursor-pointer list-none items-center gap-4 px-6 py-5 sm:px-7">
+                <h3 class="font-display text-lg font-semibold leading-snug text-[#14100a] sm:text-xl">Do you offer Merzouga desert tours from Marrakech?</h3><span class="faq-icon relative ml-auto flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-gold-500/60 text-gold-600" aria-hidden="true"><svg viewBox="0 0 24 24" class="h-4 w-4 fill-none stroke-current" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span>
+              </summary>
+              <div class="px-6 pb-6 sm:px-7"><p class="border-t border-[#14100a]/10 pt-4 font-jost text-base leading-7 text-gray-600">Yes. We offer 2, 3 and 4-day Merzouga desert tours from Marrakech, with a night in a Sahara desert camp. The 3-day tour includes a stop at Ait Ben Haddou and the Todra Gorges.</p></div>
+            </details>
+            <details class="faq-item group rounded-2xl border border-[#14100a]/10 bg-white shadow-md shadow-black/5 transition hover:border-gold-500/60">
+              <summary class="flex cursor-pointer list-none items-center gap-4 px-6 py-5 sm:px-7">
+                <h3 class="font-display text-lg font-semibold leading-snug text-[#14100a] sm:text-xl">Can I go camel trekking in the Sahara desert?</h3><span class="faq-icon relative ml-auto flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-gold-500/60 text-gold-600" aria-hidden="true"><svg viewBox="0 0 24 24" class="h-4 w-4 fill-none stroke-current" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span>
+              </summary>
+              <div class="px-6 pb-6 sm:px-7"><p class="border-t border-[#14100a]/10 pt-4 font-jost text-base leading-7 text-gray-600">Yes. A camel ride at sunset is part of our Sahara desert experiences, with nights under the stars in a desert camp. Ask us for the details of the tour you prefer.</p></div>
+            </details>
+            <details class="faq-item group rounded-2xl border border-[#14100a]/10 bg-white shadow-md shadow-black/5 transition hover:border-gold-500/60">
+              <summary class="flex cursor-pointer list-none items-center gap-4 px-6 py-5 sm:px-7">
+                <h3 class="font-display text-lg font-semibold leading-snug text-[#14100a] sm:text-xl">What day trips do you offer from Marrakech?</h3><span class="faq-icon relative ml-auto flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-gold-500/60 text-gold-600" aria-hidden="true"><svg viewBox="0 0 24 24" class="h-4 w-4 fill-none stroke-current" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span>
+              </summary>
+              <div class="px-6 pb-6 sm:px-7"><p class="border-t border-[#14100a]/10 pt-4 font-jost text-base leading-7 text-gray-600">Popular day trips from Marrakech include the Ourika Valley, the Ouzoud Waterfalls and Ait Ben Haddou. Each one returns to Marrakech the same day.</p></div>
+            </details>
+            <details class="faq-item group rounded-2xl border border-[#14100a]/10 bg-white shadow-md shadow-black/5 transition hover:border-gold-500/60">
+              <summary class="flex cursor-pointer list-none items-center gap-4 px-6 py-5 sm:px-7">
+                <h3 class="font-display text-lg font-semibold leading-snug text-[#14100a] sm:text-xl">How do I get a free quote for a Morocco tour?</h3><span class="faq-icon relative ml-auto flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-gold-500/60 text-gold-600" aria-hidden="true"><svg viewBox="0 0 24 24" class="h-4 w-4 fill-none stroke-current" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span>
+              </summary>
+              <div class="px-6 pb-6 sm:px-7"><p class="border-t border-[#14100a]/10 pt-4 font-jost text-base leading-7 text-gray-600">Use the search bar or the contact form on this page, or write to us by email or WhatsApp. Quotes are free and come with no obligation.</p></div>
+            </details>
+            <details class="faq-item group rounded-2xl border border-[#14100a]/10 bg-white shadow-md shadow-black/5 transition hover:border-gold-500/60">
+              <summary class="flex cursor-pointer list-none items-center gap-4 px-6 py-5 sm:px-7">
+                <h3 class="font-display text-lg font-semibold leading-snug text-[#14100a] sm:text-xl">Can you tailor a private Morocco itinerary to my plans?</h3><span class="faq-icon relative ml-auto flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-gold-500/60 text-gold-600" aria-hidden="true"><svg viewBox="0 0 24 24" class="h-4 w-4 fill-none stroke-current" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span>
+              </summary>
+              <div class="px-6 pb-6 sm:px-7"><p class="border-t border-[#14100a]/10 pt-4 font-jost text-base leading-7 text-gray-600">Yes. Tell us your dates, group size and what you would like to see, and we will build a tailor-made itinerary for couples, families or groups.</p></div>
+            </details>
+            <details class="faq-item group rounded-2xl border border-[#14100a]/10 bg-white shadow-md shadow-black/5 transition hover:border-gold-500/60">
+              <summary class="flex cursor-pointer list-none items-center gap-4 px-6 py-5 sm:px-7">
+                <h3 class="font-display text-lg font-semibold leading-snug text-[#14100a] sm:text-xl">Do your guides speak English and Spanish?</h3><span class="faq-icon relative ml-auto flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-gold-500/60 text-gold-600" aria-hidden="true"><svg viewBox="0 0 24 24" class="h-4 w-4 fill-none stroke-current" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span>
+              </summary>
+              <div class="px-6 pb-6 sm:px-7"><p class="border-t border-[#14100a]/10 pt-4 font-jost text-base leading-7 text-gray-600">Yes. Our local guides speak English and Spanish, and we offer support before and during your trip.</p></div>
+            </details>
+            <details class="faq-item group rounded-2xl border border-[#14100a]/10 bg-white shadow-md shadow-black/5 transition hover:border-gold-500/60">
+              <summary class="flex cursor-pointer list-none items-center gap-4 px-6 py-5 sm:px-7">
+                <h3 class="font-display text-lg font-semibold leading-snug text-[#14100a] sm:text-xl">Where do we stay on a Sahara desert tour?</h3><span class="faq-icon relative ml-auto flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-gold-500/60 text-gold-600" aria-hidden="true"><svg viewBox="0 0 24 24" class="h-4 w-4 fill-none stroke-current" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span>
+              </summary>
+              <div class="px-6 pb-6 sm:px-7"><p class="border-t border-[#14100a]/10 pt-4 font-jost text-base leading-7 text-gray-600">You can stay in a desert camp in Merzouga, and we can arrange riads in Marrakech. Tell us your preferences and we will suggest options.</p></div>
+            </details>
+            <details class="faq-item group rounded-2xl border border-[#14100a]/10 bg-white shadow-md shadow-black/5 transition hover:border-gold-500/60">
+              <summary class="flex cursor-pointer list-none items-center gap-4 px-6 py-5 sm:px-7">
+                <h3 class="font-display text-lg font-semibold leading-snug text-[#14100a] sm:text-xl">What should I pack for a Sahara desert tour?</h3><span class="faq-icon relative ml-auto flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-gold-500/60 text-gold-600" aria-hidden="true"><svg viewBox="0 0 24 24" class="h-4 w-4 fill-none stroke-current" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span>
+              </summary>
+              <div class="px-6 pb-6 sm:px-7"><p class="border-t border-[#14100a]/10 pt-4 font-jost text-base leading-7 text-gray-600">Comfortable shoes, sun protection and light clothes for the day, plus a warm layer for the evening, as desert nights can be cool.</p></div>
+            </details>
+            <details class="faq-item group rounded-2xl border border-[#14100a]/10 bg-white shadow-md shadow-black/5 transition hover:border-gold-500/60">
+              <summary class="flex cursor-pointer list-none items-center gap-4 px-6 py-5 sm:px-7">
+                <h3 class="font-display text-lg font-semibold leading-snug text-[#14100a] sm:text-xl">Do I need a visa to travel to Morocco?</h3><span class="faq-icon relative ml-auto flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-gold-500/60 text-gold-600" aria-hidden="true"><svg viewBox="0 0 24 24" class="h-4 w-4 fill-none stroke-current" stroke-width="2" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></span>
+              </summary>
+              <div class="px-6 pb-6 sm:px-7"><p class="border-t border-[#14100a]/10 pt-4 font-jost text-base leading-7 text-gray-600">Entry requirements depend on your nationality and the length of your stay. Please check the current rules with the official Moroccan authorities before you travel.</p></div>
+            </details>
+        </div>
       </div>
     </section>
   </main>

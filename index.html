@@ -48,6 +48,31 @@
     .gold-btn {
       background: linear-gradient(135deg, #f3dc92 0%, #d9b24c 50%, #b98a22 100%);
     }
+    .features {
+      background:
+        radial-gradient(ellipse 60% 120% at 50% 0%, rgba(201, 154, 46, 0.12), transparent 70%),
+        #0b0b0b;
+    }
+    .icon-ring {
+      display: flex; height: 3.5rem; width: 3.5rem; flex-shrink: 0; align-items: center; justify-content: center;
+      border-radius: 9999px; color: #ecd079;
+      background: radial-gradient(circle at 30% 25%, #3d2f15 0%, #17120a 65%, #0e0b06 100%);
+      box-shadow:
+        0 0 0 1px rgba(217, 178, 76, 0.65),
+        0 0 0 6px rgba(217, 178, 76, 0.07),
+        0 10px 28px rgba(201, 154, 46, 0.22),
+        inset 0 1px 0 rgba(255, 255, 255, 0.10);
+      transition: box-shadow .3s ease, transform .3s ease;
+    }
+    .icon-ring svg { width: 1.6rem; height: 1.6rem; fill: none; stroke: currentColor; stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; }
+    .feature:hover .icon-ring {
+      transform: translateY(-2px);
+      box-shadow:
+        0 0 0 1px rgba(240, 205, 110, 0.95),
+        0 0 0 6px rgba(217, 178, 76, 0.12),
+        0 14px 34px rgba(201, 154, 46, 0.35),
+        inset 0 1px 0 rgba(255, 255, 255, 0.14);
+    }
     .menu-panel {
       visibility: hidden; opacity: 0; transform: translateY(8px);
       transition: opacity .2s ease, transform .2s ease, visibility .2s;
@@ -185,42 +210,42 @@
     </section>
 
     <!-- ============ FEATURES ============ -->
-    <section aria-labelledby="features-title" class="relative bg-[#0b0b0b] px-5 pb-20 pt-16 text-white">
+    <section aria-labelledby="features-title" class="features relative px-5 pb-20 pt-16 text-white">
       <div class="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-gold-400/60 to-transparent" aria-hidden="true"></div>
       <span class="absolute left-1/2 top-0 flex h-5 w-10 -translate-x-1/2 -translate-y-px items-start justify-center rounded-b-full bg-[#0b0b0b] text-gold-400" aria-hidden="true"><i class="fas fa-chevron-down text-[10px]"></i></span>
       <h2 id="features-title" class="sr-only">Why travel with Highlights Morocco Tours</h2>
 
-      <ul class="mx-auto grid max-w-[88rem] gap-x-6 gap-y-10 md:grid-cols-3 xl:grid-cols-5 xl:gap-x-0">
-        <li class="flex gap-4 xl:border-r xl:border-white/10 xl:px-6 xl:first:pl-0">
-          <span class="flex h-12 w-12 shrink-0 xl:h-11 xl:w-11 items-center justify-center rounded-full border border-gold-400/50 bg-gradient-to-br from-[#2a2112] to-[#120e08] text-xl text-gold-300"><i class="fas fa-user" aria-hidden="true"></i></span>
+      <ul class="mx-auto grid max-w-7xl gap-x-6 xl:px-5 gap-y-10 md:grid-cols-3 xl:grid-cols-5 xl:gap-x-0">
+        <li class="feature flex items-start gap-4 xl:border-r xl:border-white/10 xl:px-6 xl:first:pl-0">
+          <span class="icon-ring" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-7 8-7s8 2.6 8 7"/></svg></span>
           <div>
             <h3 class="font-cormorant text-lg font-bold uppercase leading-snug tracking-[0.05em] xl:text-base text-gold-200">Private Morocco Tours</h3>
             <p class="mt-2 font-jost text-[15px] leading-7 xl:text-sm xl:leading-6 text-white/60"><strong class="font-medium text-white">Tailor-made itineraries</strong> at your own pace, with your private driver.</p>
           </div>
         </li>
-        <li class="flex gap-4 xl:border-r xl:border-white/10 xl:px-6">
-          <span class="flex h-12 w-12 shrink-0 xl:h-11 xl:w-11 items-center justify-center rounded-full border border-gold-400/50 bg-gradient-to-br from-[#2a2112] to-[#120e08] text-xl text-gold-300"><i class="fas fa-comment-dots" aria-hidden="true"></i></span>
+        <li class="feature flex items-start gap-4 xl:border-r xl:border-white/10 xl:px-6">
+          <span class="icon-ring" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1.1-4.4A8 8 0 1 1 21 12z"/><path d="M8.5 12h.01M12 12h.01M15.5 12h.01" stroke-width="2.4"/></svg></span>
           <div>
             <h3 class="font-cormorant text-lg font-bold uppercase leading-snug tracking-[0.05em] xl:text-base text-gold-200">English &amp; Spanish Guides</h3>
             <p class="mt-2 font-jost text-[15px] leading-7 xl:text-sm xl:leading-6 text-white/60"><strong class="font-medium text-white">Multilingual support</strong> before and during your Morocco trip.</p>
           </div>
         </li>
-        <li class="flex gap-4 xl:border-r xl:border-white/10 xl:px-6">
-          <span class="flex h-12 w-12 shrink-0 xl:h-11 xl:w-11 items-center justify-center rounded-full border border-gold-400/50 bg-gradient-to-br from-[#2a2112] to-[#120e08] text-xl text-gold-300"><i class="fas fa-campground" aria-hidden="true"></i></span>
+        <li class="feature flex items-start gap-4 xl:border-r xl:border-white/10 xl:px-6">
+          <span class="icon-ring" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3 2.5 20.5h19L12 3z"/><path d="M12 3v17.5"/><path d="M9.2 20.5 12 14.5l2.8 6"/></svg></span>
           <div>
             <h3 class="font-cormorant text-lg font-bold uppercase leading-snug tracking-[0.05em] xl:text-base text-gold-200">Luxury Riads &amp; Desert Camps</h3>
             <p class="mt-2 font-jost text-[15px] leading-7 xl:text-sm xl:leading-6 text-white/60">Premium stays in <strong class="font-medium text-white">Marrakech riads</strong> and <strong class="font-medium text-white">Merzouga luxury camps</strong>.</p>
           </div>
         </li>
-        <li class="flex gap-4 xl:border-r xl:border-white/10 xl:px-6 xl:first:pl-0">
-          <span class="flex h-12 w-12 shrink-0 xl:h-11 xl:w-11 items-center justify-center rounded-full border border-gold-400/50 bg-gradient-to-br from-[#2a2112] to-[#120e08] text-xl text-gold-300"><i class="fas fa-camera" aria-hidden="true"></i></span>
+        <li class="feature flex items-start gap-4 xl:border-r xl:border-white/10 xl:px-6 xl:first:pl-0">
+          <span class="icon-ring" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 8h3l2-3h6l2 3h3a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z"/><circle cx="12" cy="13.5" r="3.5"/></svg></span>
           <div>
             <h3 class="font-cormorant text-lg font-bold uppercase leading-snug tracking-[0.05em] xl:text-base text-gold-200">Authentic Sahara Experiences</h3>
             <p class="mt-2 font-jost text-[15px] leading-7 xl:text-sm xl:leading-6 text-white/60"><strong class="font-medium text-white">Camel trekking</strong>, Berber culture and nights under the stars.</p>
           </div>
         </li>
-        <li class="flex gap-4 xl:px-6 xl:last:pr-0">
-          <span class="flex h-12 w-12 shrink-0 xl:h-11 xl:w-11 items-center justify-center rounded-full border border-gold-400/50 bg-gradient-to-br from-[#2a2112] to-[#120e08] text-xl text-gold-300"><i class="fas fa-shield-halved" aria-hidden="true"></i></span>
+        <li class="feature flex items-start gap-4 xl:px-6 xl:last:pr-0">
+          <span class="icon-ring" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3 4.5 6v5.5c0 4.6 3.1 8.1 7.5 9.5 4.4-1.4 7.5-4.9 7.5-9.5V6L12 3z"/><path d="m8.8 12 2.4 2.4 4.2-4.6"/></svg></span>
           <div>
             <h3 class="font-cormorant text-lg font-bold uppercase leading-snug tracking-[0.05em] xl:text-base text-gold-200">Safe Travel in Morocco</h3>
             <p class="mt-2 font-jost text-[15px] leading-7 xl:text-sm xl:leading-6 text-white/60"><strong class="font-medium text-white">Licensed local drivers</strong> and expert guides, 24/7 assistance.</p>

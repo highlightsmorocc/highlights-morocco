@@ -12,7 +12,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Jost:wght@400;500;600&family=Playfair+Display:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
   <script>
     tailwind.config = {
@@ -21,6 +21,8 @@
           colors: { gold: { 200: '#f3e2a9', 300: '#e9c96a', 400: '#d9b24c', 500: '#c99a2e', 600: '#a87a1c' } },
           fontFamily: {
             display: ['Playfair Display', 'Georgia', 'serif'],
+            cormorant: ['Cormorant Garamond', 'Georgia', 'serif'],
+            jost: ['Jost', 'system-ui', 'sans-serif'],
             sans: ['Plus Jakarta Sans', 'system-ui', 'sans-serif']
           }
         }
@@ -202,6 +204,51 @@
           </li>
         </ul>
       </div>
+    </section>
+
+    <!-- ============ FEATURES ============ -->
+    <section aria-labelledby="features-title" class="relative bg-[#0b0b0b] px-5 pb-20 pt-16 text-white">
+      <div class="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-gold-400/60 to-transparent" aria-hidden="true"></div>
+      <span class="absolute left-1/2 top-0 flex h-5 w-10 -translate-x-1/2 -translate-y-px items-start justify-center rounded-b-full bg-[#0b0b0b] text-gold-400" aria-hidden="true"><i class="fas fa-chevron-down text-[10px]"></i></span>
+      <h2 id="features-title" class="sr-only">Why travel with Highlights Morocco Tours</h2>
+
+      <ul class="mx-auto grid max-w-6xl gap-y-10 md:grid-cols-3">
+        <li class="flex gap-5 md:border-r md:border-white/10 md:pr-8">
+          <span class="flex h-14 w-14 shrink-0 items-center justify-center rounded-full border border-gold-400/50 bg-gradient-to-br from-[#2a2112] to-[#120e08] text-xl text-gold-300"><i class="fas fa-user" aria-hidden="true"></i></span>
+          <div>
+            <h3 class="font-cormorant text-lg font-bold uppercase leading-snug tracking-[0.06em] text-gold-200">Private Morocco Tours</h3>
+            <p class="mt-2 font-jost text-[15px] leading-7 text-white/60"><strong class="font-medium text-white">Tailor-made itineraries</strong> at your own pace, with your private driver.</p>
+          </div>
+        </li>
+        <li class="flex gap-5 md:border-r md:border-white/10 md:px-8">
+          <span class="flex h-14 w-14 shrink-0 items-center justify-center rounded-full border border-gold-400/50 bg-gradient-to-br from-[#2a2112] to-[#120e08] text-xl text-gold-300"><i class="fas fa-comment-dots" aria-hidden="true"></i></span>
+          <div>
+            <h3 class="font-cormorant text-lg font-bold uppercase leading-snug tracking-[0.06em] text-gold-200">English &amp; Spanish Guides</h3>
+            <p class="mt-2 font-jost text-[15px] leading-7 text-white/60"><strong class="font-medium text-white">Multilingual support</strong> before and during your Morocco trip.</p>
+          </div>
+        </li>
+        <li class="flex gap-5 md:pl-8">
+          <span class="flex h-14 w-14 shrink-0 items-center justify-center rounded-full border border-gold-400/50 bg-gradient-to-br from-[#2a2112] to-[#120e08] text-xl text-gold-300"><i class="fas fa-campground" aria-hidden="true"></i></span>
+          <div>
+            <h3 class="font-cormorant text-lg font-bold uppercase leading-snug tracking-[0.06em] text-gold-200">Luxury Riads &amp; Desert Camps</h3>
+            <p class="mt-2 font-jost text-[15px] leading-7 text-white/60">Premium stays in <strong class="font-medium text-white">Marrakech riads</strong> and <strong class="font-medium text-white">Merzouga luxury camps</strong>.</p>
+          </div>
+        </li>
+        <li class="flex gap-5 md:border-r md:border-white/10 md:pr-8">
+          <span class="flex h-14 w-14 shrink-0 items-center justify-center rounded-full border border-gold-400/50 bg-gradient-to-br from-[#2a2112] to-[#120e08] text-xl text-gold-300"><i class="fas fa-camera" aria-hidden="true"></i></span>
+          <div>
+            <h3 class="font-cormorant text-lg font-bold uppercase leading-snug tracking-[0.06em] text-gold-200">Authentic Sahara Experiences</h3>
+            <p class="mt-2 font-jost text-[15px] leading-7 text-white/60"><strong class="font-medium text-white">Camel trekking</strong>, Berber culture and nights under the stars.</p>
+          </div>
+        </li>
+        <li class="flex gap-5 md:px-8">
+          <span class="flex h-14 w-14 shrink-0 items-center justify-center rounded-full border border-gold-400/50 bg-gradient-to-br from-[#2a2112] to-[#120e08] text-xl text-gold-300"><i class="fas fa-shield-halved" aria-hidden="true"></i></span>
+          <div>
+            <h3 class="font-cormorant text-lg font-bold uppercase leading-snug tracking-[0.06em] text-gold-200">Safe Travel in Morocco</h3>
+            <p class="mt-2 font-jost text-[15px] leading-7 text-white/60"><strong class="font-medium text-white">Licensed local drivers</strong> and expert guides, 24/7 assistance.</p>
+          </div>
+        </li>
+      </ul>
     </section>
   </main>
 

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto | Highlights Morocco Tours | Agencia de viajes Marrakech</title>
+  <meta name="description" content="Contacta con Highlights Morocco Tours, agencia de viajes en Marrakech y operador de tours en Marruecos. Consulta rutas al Sahara, Marrakech, Merzouga y paquetes privados." />
+  <meta name="keywords" content="agencia de viajes Marrakech, tours Marrakech, tour operador Marruecos, viajes a Marruecos desde Marrakech, agencia de viajes en Marrakech, agencia de viajes Marruecos, Highlights Morocco Tours" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            display: ['Playfair Display', 'serif'],
+            sans: ['Inter', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+    .hero-bg {
+      background-image: linear-gradient(rgba(12, 13, 17, 0.58), rgba(12, 13, 17, 0.74)), url('public/merzouga.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+  </style>
+</head>
+<body class="bg-[#f7f4f1] font-sans text-gray-800">
+  <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-300" id="header">
+    <div class="container mx-auto px-4">
+      <div class="flex h-20 items-center justify-between">
+        <a href="index.html#inicio" aria-label="Highlights Morocco Tours, inicio" class="inline-flex min-w-[112px] flex-col items-center justify-center gap-1 py-1 text-center leading-none">
+          <i class="fas fa-sun text-2xl text-amber-300" aria-hidden="true"></i>
+          <span class="h-px w-8 bg-amber-300/80"></span>
+          <span class="font-display text-sm font-bold text-white">Highlights</span>
+          <span class="text-[10px] text-amber-200">Morocco Tours</span>
+        </a>
+
+        <nav aria-label="Navegación principal" class="hidden items-center gap-1 rounded-full border border-white/15 bg-white/10 p-1 shadow-lg backdrop-blur-md lg:flex">
+          <a href="index.html#inicio" class="rounded-full px-3.5 py-2 text-sm font-medium text-white/90 transition hover:bg-white/15 hover:text-amber-200">Inicio</a>
+          <a href="index.html#destinos" class="rounded-full px-3.5 py-2 text-sm font-medium text-white/90 transition hover:bg-white/15 hover:text-amber-200">Destinos</a>
+          <a href="Tours.html" class="rounded-full px-3.5 py-2 text-sm font-medium text-white/90 transition hover:bg-white/15 hover:text-amber-200">Tours</a>
+          <a href="index.html#como-funciona" class="rounded-full px-3.5 py-2 text-sm font-medium text-white/90 transition hover:bg-white/15 hover:text-amber-200">Cómo funciona</a>
+          <a href="index.html#galeria" class="rounded-full px-3.5 py-2 text-sm font-medium text-white/90 transition hover:bg-white/15 hover:text-amber-200">Galería</a>
+          <a href="blog.html" class="rounded-full px-3.5 py-2 text-sm font-medium text-white/90 transition hover:bg-white/15 hover:text-amber-200">Blog</a>
+          <a href="contact.html" aria-current="page" class="rounded-full bg-white/15 px-3.5 py-2 text-sm font-medium text-amber-200">Contacto</a>
+        </nav>
+
+        <div class="hidden items-center gap-4 lg:flex">
+          <a href="https://wa.me/212668561321" target="_blank" class="flex items-center gap-2 rounded-full bg-gradient-to-r from-[#f5d563] via-[#d4a62a] to-[#b98314] px-5 py-3 font-bold uppercase tracking-[0.12em] text-[#1a160d] shadow-[0_18px_35px_rgba(212,166,42,0.45)] transition duration-300 hover:-translate-y-0.5 hover:shadow-[0_22px_42px_rgba(212,166,42,0.55)]">
+            <i class="fab fa-whatsapp text-lg"></i>
+            Reserva
+          </a>
+        </div>
+
+        <button id="contact-menu-button" aria-controls="contact-mobile-menu" aria-expanded="false" aria-label="Abrir menú" class="flex h-11 w-11 items-center justify-center rounded-full border border-white/20 bg-white/10 text-white shadow-lg backdrop-blur-md transition hover:bg-white/20 lg:hidden">
+          <i class="fas fa-bars" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+
+    <nav id="contact-mobile-menu" aria-label="Navegación móvil" class="hidden border-t border-white/10 bg-gray-950/95 shadow-2xl backdrop-blur-xl lg:hidden">
+      <div class="container mx-auto grid grid-cols-2 gap-3 px-4 py-5">
+        <a href="index.html#inicio" class="rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm font-medium text-white">Inicio</a>
+        <a href="index.html#destinos" class="rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm font-medium text-white">Destinos</a>
+        <a href="Tours.html" class="rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm font-medium text-white">Tours</a>
+        <a href="index.html#como-funciona" class="rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm font-medium text-white">Cómo funciona</a>
+        <a href="index.html#galeria" class="rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm font-medium text-white">Galería</a>
+        <a href="blog.html" class="rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm font-medium text-white">Blog</a>
+        <a href="contact.html" aria-current="page" class="rounded-xl border border-amber-300/30 bg-white/10 px-4 py-3 text-sm font-medium text-amber-200">Contacto</a>
+        <a href="https://wa.me/212668561321" target="_blank" class="col-span-2 flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-[#f5d563] via-[#d4a62a] to-[#b98314] py-3.5 font-bold uppercase tracking-[0.12em] text-[#1a160d] shadow-[0_18px_35px_rgba(212,166,42,0.4)] transition duration-300 hover:-translate-y-0.5"><i class="fab fa-whatsapp" aria-hidden="true"></i>Reserva ahora</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="pt-20">
+    <section class="hero-bg min-h-[420px] flex items-center">
+      <div class="container mx-auto px-4 py-16">
+        <div class="max-w-3xl text-white">
+          <p class="mb-4 text-xs font-semibold uppercase tracking-[0.22em] text-amber-200">Contacta con nuestra agencia</p>
+          <h1 class="font-display text-4xl font-semibold leading-tight md:text-6xl">Agencia de viajes en Marrakech</h1>
+          <p class="mt-5 max-w-2xl text-lg leading-relaxed text-white/85">
+            Somos Highlights Morocco Tours, una agencia local especializada en tours privados por Marruecos, rutas al Sahara, Marrakech y experiencias auténticas diseñadas para viajeros que buscan calidad y planificación real.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-16 bg-white">
+      <div class="container mx-auto px-4">
+        <div class="grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
+          <div>
+            <p class="text-sm font-semibold uppercase tracking-[0.22em] text-[#c96d2b]">Nuestra oficina local</p>
+            <h2 class="mt-4 font-display text-4xl font-semibold text-gray-900 md:text-5xl">Contacta con Highlights Morocco Tours</h2>
+            <p class="mt-5 text-lg leading-relaxed text-gray-700">
+              Ubicada en Marrakech, nuestra agencia de viajes ofrece atención personalizada para clientes que quieren planificar un viaje a Marruecos con rutas bien pensadas, transporte fiable y experiencias auténticas.
+            </p>
+            <p class="mt-4 text-lg leading-relaxed text-gray-700">
+              Si buscas una agencia de viajes en Marrakech para organizar tu tour al desierto, una escapada cultural o un itinerario a medida, estamos aquí para ayudarte desde el primer contacto.
+            </p>
+
+            <div class="mt-8 space-y-4">
+              <div class="flex items-start gap-4 rounded-2xl border border-gray-200 bg-[#f8f5f1] p-4">
+                <div class="flex h-12 w-12 items-center justify-center rounded-full bg-[#f5dd97] text-[#8e6713]"><i class="fas fa-map-marker-alt"></i></div>
+                <div>
+                  <p class="text-xs font-semibold uppercase tracking-[0.18em] text-[#c96d2b]">Ubicación</p>
+                  <p class="mt-1 text-lg text-gray-800">Marrakech, Marruecos</p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-4 rounded-2xl border border-gray-200 bg-[#f8f5f1] p-4">
+                <div class="flex h-12 w-12 items-center justify-center rounded-full bg-[#f5dd97] text-[#8e6713]"><i class="fas fa-phone"></i></div>
+                <div>
+                  <p class="text-xs font-semibold uppercase tracking-[0.18em] text-[#c96d2b]">WhatsApp</p>
+                  <a href="https://wa.me/212668561321" class="mt-1 block text-lg text-gray-800 hover:text-[#c96d2b]">+212 668 561 321</a>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-4 rounded-2xl border border-gray-200 bg-[#f8f5f1] p-4">
+                <div class="flex h-12 w-12 items-center justify-center rounded-full bg-[#f5dd97] text-[#8e6713]"><i class="fas fa-envelope"></i></div>
+                <div>
+                  <p class="text-xs font-semibold uppercase tracking-[0.18em] text-[#c96d2b]">Email</p>
+                  <a href="mailto:info@highlightsmoroccotours.com" class="mt-1 block break-all text-lg text-gray-800 hover:text-[#c96d2b]">info@highlightsmoroccotours.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="rounded-[28px] border border-gray-200 bg-[#fffaf3] p-5 shadow-[0_20px_45px_rgba(17,24,39,0.08)]">
+            <div class="mb-4 flex items-center justify-between">
+              <p class="text-sm font-semibold uppercase tracking-[0.18em] text-[#c96d2b]">Reserva</p>
+              <span class="rounded-full bg-[#f5dd97] px-3 py-1 text-xs font-semibold text-[#8e6713]">Respuesta rápida</span>
+            </div>
+            <form action="mailto:info@highlightsmoroccotours.com" method="post" enctype="text/plain" class="space-y-4">
+              <div>
+                <label for="nombre" class="mb-2 block text-xs font-semibold uppercase tracking-[0.18em] text-gray-700">Nombre</label>
+                <input id="nombre" type="text" name="nombre" placeholder="Tu nombre" class="h-12 w-full rounded-xl border border-[#e2d8c7] bg-white px-4 text-gray-800 outline-none transition focus:border-[#d4a62a] focus:ring-4 focus:ring-[#f4df9f]" />
+              </div>
+              <div>
+                <label for="email" class="mb-2 block text-xs font-semibold uppercase tracking-[0.18em] text-gray-700">Correo</label>
+                <input id="email" type="email" name="email" placeholder="Tu correo" class="h-12 w-full rounded-xl border border-[#e2d8c7] bg-white px-4 text-gray-800 outline-none transition focus:border-[#d4a62a] focus:ring-4 focus:ring-[#f4df9f]" />
+              </div>
+              <div>
+                <label for="mensaje" class="mb-2 block text-xs font-semibold uppercase tracking-[0.18em] text-gray-700">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntanos tu viaje ideal..." class="w-full resize-none rounded-xl border border-[#e2d8c7] bg-white px-4 py-3 text-gray-800 outline-none transition focus:border-[#d4a62a] focus:ring-4 focus:ring-[#f4df9f]"></textarea>
+              </div>
+              <button type="submit" class="inline-flex w-full items-center justify-center gap-3 rounded-full bg-gradient-to-r from-[#f5d563] via-[#d4a62a] to-[#b98314] px-5 py-3.5 font-bold uppercase tracking-[0.12em] text-[#1a160d] shadow-[0_18px_35px_rgba(212,166,42,0.45)] transition duration-300 hover:-translate-y-0.5">
+                <i class="fas fa-paper-plane"></i>
+                Enviar
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-[#f2eee9] py-16">
+      <div class="container mx-auto px-4">
+        <div class="grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
+          <div class="overflow-hidden rounded-[28px] border border-gray-200 bg-white shadow-[0_20px_45px_rgba(17,24,39,0.06)]">
+            <iframe
+              title="Mapa de Marrakech - Highlights Morocco Tours"
+              src="https://www.google.com/maps?q=Marrakech%20Morocco&z=12&output=embed"
+              class="h-[420px] w-full border-0"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen>
+            </iframe>
+          </div>
+
+          <div>
+            <p class="text-sm font-semibold uppercase tracking-[0.22em] text-[#c96d2b]">SEO local</p>
+            <h2 class="mt-4 font-display text-4xl font-semibold text-gray-900">Agencia de viajes Marrakech y Marruecos</h2>
+            <p class="mt-5 text-lg leading-relaxed text-gray-700">
+              Como <strong>agencia de viajes Marrakech</strong>, ayudamos a viajeros a planificar tours por Marruecos, rutas por el Sahara, excursiones desde Marrakech, circuitos privados y escapadas de lujo con un enfoque claro, cómodo y auténtico.
+            </p>
+            <p class="mt-4 text-lg leading-relaxed text-gray-700">
+              Nuestro enfoque se centra en <strong>tours Marrakech</strong>, <strong>viajes a Marruecos desde Marrakech</strong>, <strong>tour operador Marruecos</strong>, <strong>vacaciones en Marruecos</strong> y experiencias de desierto adaptadas a cada tipo de visitante.
+            </p>
+            <p class="mt-4 text-lg leading-relaxed text-gray-700">
+              Si buscas un <strong>tour operator Marruecos</strong> con experiencia local, atención personalizada y rutas pensadas para disfrutar del país sin estrés, Highlights Morocco Tours es tu punto de partida.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="relative overflow-hidden border-t border-amber-400/30 bg-gray-950 text-white pt-14 pb-8">
+    <div class="container mx-auto px-4">
+      <div class="mb-12 flex flex-col gap-6 border-b border-white/10 pb-10 md:flex-row md:items-end md:justify-between">
+        <div>
+          <p class="mb-3 text-xs font-semibold uppercase tracking-[0.18em] text-amber-300">Tu viaje, a tu manera</p>
+          <h2 class="font-display text-3xl font-semibold text-white md:text-4xl">Marruecos te espera.</h2>
+        </div>
+        <a href="https://wa.me/212668561321?text=Hola,%20quiero%20planear%20un%20viaje%20a%20Marruecos" target="_blank" class="inline-flex items-center justify-center gap-2 rounded-full bg-amber-500 px-6 py-3 font-semibold text-white shadow-lg shadow-amber-950/30 transition hover:bg-amber-400">
+          <i class="fab fa-whatsapp text-lg" aria-hidden="true"></i>
+          Planear mi viaje
+        </a>
+      </div>
+
+      <div class="grid grid-cols-1 gap-10 border-b border-white/10 pb-12 md:grid-cols-4 md:gap-8">
+        <div class="md:col-span-1">
+          <a href="index.html#inicio" aria-label="Highlights Morocco Tours, inicio" class="mb-5 inline-flex flex-col items-center gap-1 text-center leading-none">
+            <i class="fas fa-sun text-2xl text-amber-400" aria-hidden="true"></i>
+            <span class="h-px w-8 bg-amber-400/80"></span>
+            <span class="font-display text-sm font-bold text-white">Highlights</span>
+            <span class="text-[10px] text-amber-300">Morocco Tours</span>
+          </a>
+          <p class="text-sm leading-relaxed text-gray-400">Tours privados auténticos por Marruecos. Marrakech, Merzouga y más allá.</p>
+        </div>
+
+        <div>
+          <h4 class="mb-4 text-xs font-semibold uppercase tracking-widest text-amber-300">Enlaces</h4>
+          <ul class="space-y-2.5 text-sm text-gray-400">
+            <li><a href="index.html#inicio" class="transition hover:text-amber-400">Inicio</a></li>
+            <li><a href="Tours.html" class="transition hover:text-amber-400">Tours</a></li>
+            <li><a href="index.html#destinos" class="transition hover:text-amber-400">Destinos</a></li>
+            <li><a href="index.html#galeria" class="transition hover:text-amber-400">Galería</a></li>
+            <li><a href="blog.html" class="transition hover:text-amber-400">Blog</a></li>
+            <li><a href="contact.html" class="transition hover:text-amber-400">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="mb-4 text-xs font-semibold uppercase tracking-widest text-amber-300">Tours populares</h4>
+          <ul class="space-y-2.5 text-sm text-gray-400">
+            <li><a href="Tours.html" class="transition hover:text-amber-400">3 días Merzouga</a></li>
+            <li><a href="Tours.html" class="transition hover:text-amber-400">4 días Sahara</a></li>
+            <li><a href="Tours.html" class="transition hover:text-amber-400">7 días Imperial + Desierto</a></li>
+            <li><a href="Tours.html" class="transition hover:text-amber-400">Day trips Marrakech</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="mb-4 text-xs font-semibold uppercase tracking-widest text-amber-300">Contacto</h4>
+          <ul class="space-y-3 text-sm text-gray-400">
+            <li class="flex items-center gap-2"><i class="fab fa-whatsapp text-green-400" aria-hidden="true"></i><a href="https://wa.me/212668561321" class="transition hover:text-amber-400">+212 668 561 321</a></li>
+            <li class="flex items-center gap-2"><i class="fas fa-envelope text-blue-400" aria-hidden="true"></i><a href="mailto:info@highlightsmoroccotours.com" class="break-all transition hover:text-amber-400">info@highlightsmoroccotours.com</a></li>
+            <li class="flex items-center gap-2"><i class="fas fa-map-marker-alt text-amber-400" aria-hidden="true"></i>Marrakech &amp; Merzouga</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="flex flex-col items-center justify-between gap-4 pt-6 md:flex-row">
+        <p class="text-sm text-gray-500">© 2026 Highlights Morocco Tours. Todos los derechos reservados.</p>
+        <div class="flex gap-4">
+          <a href="#" aria-label="Instagram" class="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 text-gray-300 transition hover:border-amber-400/50 hover:bg-amber-500 hover:text-white"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+          <a href="#" aria-label="Facebook" class="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 text-gray-300 transition hover:border-amber-400/50 hover:bg-amber-500 hover:text-white"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+          <a href="https://wa.me/212668561321" aria-label="WhatsApp" class="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 text-gray-300 transition hover:border-amber-400/50 hover:bg-[#d4a62a] hover:text-[#1a160d]"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/212668561321?text=Hola!%20Quiero%20información%20sobre%20los%20tours" target="_blank" class="fixed bottom-6 right-6 z-50 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-r from-[#f5d563] via-[#d4a62a] to-[#b98314] text-[#1a160d] shadow-[0_18px_35px_rgba(212,166,42,0.45)] transition hover:scale-110" aria-label="Escribir por WhatsApp"><i class="fab fa-whatsapp text-3xl" aria-hidden="true"></i></a>
+
+  <script>
+    const menuButton = document.getElementById('contact-menu-button');
+    const menu = document.getElementById('contact-mobile-menu');
+
+    menuButton.addEventListener('click', () => {
+      const willOpen = menu.classList.contains('hidden');
+      menu.classList.toggle('hidden');
+      menuButton.setAttribute('aria-expanded', String(willOpen));
+    });
+  </script>
+</body>
+</html>

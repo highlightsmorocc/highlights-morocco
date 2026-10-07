@@ -1,1006 +1,558 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tours por Marruecos desde Marrakech | Highlights Morocco Tours</title>
-  <meta name="description" content="Descubre tours privados por Marruecos desde Marrakech: Merzouga, el Sahara, Zagora, Ait Ben Haddou y ciudades imperiales. Rutas a medida con atención local." />
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "TravelAgency",
-        "@id": "#travel-agency",
-        "name": "Highlights Morocco Tours",
-        "description": "Tours privados por Marruecos desde Marrakech, con rutas a Merzouga, Zagora, Ait Ben Haddou y las ciudades imperiales.",
-        "telephone": "+212668561321",
-        "email": "info@highlightsmoroccotours.com",
-        "areaServed": {
-          "@type": "Country",
-          "name": "Morocco"
-        },
-        "knowsLanguage": ["Spanish", "English"],
-        "hasOfferCatalog": {
-          "@type": "OfferCatalog",
-          "name": "Tours privados por Marruecos",
-          "itemListElement": [
-            {
-              "@type": "Offer",
-              "name": "Tour de 3 días de Marrakech a Merzouga",
-              "price": "290",
-              "priceCurrency": "EUR",
-              "description": "Desde 290 EUR por persona. 3 días y 2 noches.",
-              "itemOffered": {
-                "@type": "TouristTrip",
-                "name": "Tour de 3 días de Marrakech a Merzouga",
-                "description": "Ruta por el Alto Atlas, Ait Ben Haddou y las Gargantas del Todra hasta el desierto de Merzouga."
-              }
-            },
-            {
-              "@type": "Offer",
-              "name": "Tour de 4 días de Marrakech a Merzouga",
-              "price": "380",
-              "priceCurrency": "EUR",
-              "description": "Desde 380 EUR por persona. 4 días y 3 noches.",
-              "itemOffered": {
-                "@type": "TouristTrip",
-                "name": "Tour de 4 días de Marrakech a Merzouga",
-                "description": "Ruta de varios días al Sahara, con paseo en camello al atardecer y visita a las dunas de Erg Chebbi."
-              }
-            },
-            {
-              "@type": "Offer",
-              "name": "Ciudades imperiales y Sahara, 7 días",
-              "price": "790",
-              "priceCurrency": "EUR",
-              "description": "Desde 790 EUR por persona. 7 días y 6 noches.",
-              "itemOffered": {
-                "@type": "TouristTrip",
-                "name": "Ciudades imperiales y Sahara, 7 días",
-                "description": "Circuito por Marrakech, Fez, Meknes, Volubilis y el desierto de Merzouga."
-              }
-            },
-            {
-              "@type": "Offer",
-              "name": "Excursión de 2 días de Marrakech a Zagora",
-              "price": "180",
-              "priceCurrency": "EUR",
-              "description": "Desde 180 EUR por persona. 2 días y 1 noche.",
-              "itemOffered": {
-                "@type": "TouristTrip",
-                "name": "Excursión de 2 días de Marrakech a Zagora",
-                "description": "Ruta desde Marrakech hacia el valle del Draa y el desierto de Zagora."
-              }
-            },
-            {
-              "@type": "Offer",
-              "name": "Excursión de un día desde Marrakech",
-              "price": "70",
-              "priceCurrency": "EUR",
-              "description": "Desde 70 EUR por persona. Consultar ruta y disponibilidad.",
-              "itemOffered": {
-                "@type": "TouristTrip",
-                "name": "Excursión de un día desde Marrakech",
-                "description": "Opciones de excursión al valle de Ourika, sus cascadas o Ait Ben Haddou, según ruta y disponibilidad."
-              }
-            }
-          ]
-        }
-      }
-    ]
-  }
-  </script>
-  
-  <!-- Tailwind CSS -->
+  <title>Luxury Morocco Tours from Marrakech | Highlights Morocco Tours</title>
+  <meta name="description" content="Luxury private tours in Morocco from Marrakech. Explore Merzouga, Zagora, Ait Ben Haddou, Fez and the Sahara with a premium local experience." />
   <script src="https://cdn.tailwindcss.com"></script>
-  
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  
-  <!-- Font Awesome -->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-  
   <script>
     tailwind.config = {
       theme: {
         extend: {
           colors: {
-            primary: {
-              50: '#f0f9ff',
-              100: '#e0f2fe',
-              200: '#bae6fd',
-              300: '#7dd3fc',
-              400: '#38bdf8',
-              500: '#0ea5e9',
-              600: '#0284c7',
-              700: '#0369a1',
-              800: '#075985',
-              900: '#0c4a6e',
-            },
-            accent: {
-              400: '#fbbf24',
-              500: '#f59e0b',
-              600: '#d97706',
-            },
-            morocco: {
-              sand: '#e8c39e',
-              terracotta: '#c2410c',
-              deep: '#7c2d12',
-            }
+            gold: { 100: '#fef4ce', 200: '#f9e09a', 300: '#f1d06a', 400: '#e0b95e', 500: '#c99a3d', 600: '#b07b22' },
+            sand: '#efe1c6',
+            ink: '#0f172a',
+            mocha: '#241812'
           },
           fontFamily: {
-            display: ['Playfair Display', 'serif'],
-            sans: ['Inter', 'sans-serif'],
+            display: ['Cormorant Garamond', 'serif'],
+            sans: ['Inter', 'sans-serif']
+          },
+          boxShadow: {
+            luxe: '0 30px 80px rgba(15, 23, 42, 0.25)'
           }
         }
       }
     }
   </script>
-  
   <style>
     html { scroll-behavior: smooth; }
+    body { background: #f7f2ea; }
     .hero-bg {
-      background-image: linear-gradient(to bottom, rgba(0,0,0,0.35), rgba(0,0,0,0.55)), 
-                        url('public/ait-ben-haddo.jpg');
-      background-size: cover;
-      background-position: center;
-    }
-    .why-us-bg {
-      background-image: linear-gradient(90deg, rgba(8,15,24,0.92), rgba(8,15,24,0.75) 55%, rgba(8,15,24,0.3)),
-                        url('public/camle%20triking.jpg');
-      background-size: cover;
-      background-position: center;
+      background:
+        linear-gradient(118deg, rgba(16, 16, 16, 0.78), rgba(16, 16, 16, 0.42)),
+        url('https://images.unsplash.com/photo-1531048468035-8305c2a7fe73?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
     }
     .glass {
-      background: rgba(255, 255, 255, 0.85);
+      background: rgba(255,255,255,0.12);
       backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+    }
+    .section-title {
+      font-family: 'Cormorant Garamond', serif;
+      letter-spacing: -0.03em;
     }
   </style>
 </head>
-<body class="font-sans text-gray-800 bg-white">
+<body class="font-sans text-slate-800">
+  <div class="fixed right-5 top-5 z-50 flex items-center gap-2 rounded-full border border-white/20 bg-slate-950/75 px-3 py-2 text-xs font-semibold text-white shadow-lg backdrop-blur-md">
+    <a href="index.html" class="rounded-full px-2 py-1 text-white/80 transition hover:bg-white/10 hover:text-gold-300">ES</a>
+    <span class="text-white/40">|</span>
+    <a href="index-en.html" class="rounded-full bg-gold-400/20 px-2 py-1 text-gold-300 ring-1 ring-gold-300/40">EN</a>
+  </div>
 
-  <!-- ========== HEADER ========== -->
-  <header class="fixed top-0 left-0 right-0 z-50 transition-all duration-300" id="header">
+  <header class="fixed inset-x-0 top-0 z-50 transition-all duration-300" id="header">
     <div class="container mx-auto px-4">
-      <div class="flex items-center justify-between h-20">
-        <!-- Logo -->
-        <a href="#inicio" aria-label="Highlights Morocco Tours, inicio" class="inline-flex min-w-[112px] flex-col items-center justify-center gap-1 py-1 text-center leading-none">
-          <i class="fas fa-sun text-2xl text-amber-300" aria-hidden="true"></i>
-          <span class="h-px w-8 bg-amber-300/80"></span>
-          <span class="font-display text-sm font-bold text-white">Highlights</span>
-          <span class="text-[10px] text-amber-200">Morocco Tours</span>
+      <div class="flex h-20 items-center justify-between">
+        <a href="#inicio" class="flex flex-col items-center justify-center gap-1 leading-none text-center">
+          <i class="fas fa-sun text-2xl text-gold-300"></i>
+          <span class="h-px w-8 bg-gold-300/80"></span>
+          <span class="font-display text-sm font-bold tracking-wide text-white">Highlights</span>
+          <span class="text-[10px] uppercase tracking-[0.18em] text-gold-200">Morocco Tours</span>
         </a>
 
-        <!-- Desktop Nav -->
-        <nav aria-label="Navegación principal" class="hidden lg:flex items-center gap-1 rounded-full border border-white/15 bg-white/10 p-1 shadow-lg backdrop-blur-md">
-          <a href="#inicio" class="rounded-full px-3.5 py-2 text-sm text-white/90 hover:bg-white/15 hover:text-amber-200 font-medium transition">Inicio</a>
-          <a href="#destinos" class="rounded-full px-3.5 py-2 text-sm text-white/90 hover:bg-white/15 hover:text-amber-200 font-medium transition">Destinos</a>
-          <a href="Tours.html" class="rounded-full px-3.5 py-2 text-sm text-white/90 hover:bg-white/15 hover:text-amber-200 font-medium transition">Tours</a>
-          <a href="#como-funciona" class="rounded-full px-3.5 py-2 text-sm text-white/90 hover:bg-white/15 hover:text-amber-200 font-medium transition">Cómo funciona</a>
-          <a href="#galeria" class="rounded-full px-3.5 py-2 text-sm text-white/90 hover:bg-white/15 hover:text-amber-200 font-medium transition">Galería</a>
-          <a href="blog.html" class="rounded-full px-3.5 py-2 text-sm text-white/90 hover:bg-white/15 hover:text-amber-200 font-medium transition">Blog</a>
-          <a href="#informacion" class="rounded-full px-3.5 py-2 text-sm text-white/90 hover:bg-white/15 hover:text-amber-200 font-medium transition">Información</a>
-          <a href="contact.html" class="rounded-full px-3.5 py-2 text-sm text-white/90 hover:bg-white/15 hover:text-amber-200 font-medium transition">Contacto</a>
+        <nav class="hidden items-center gap-1 rounded-full border border-white/15 bg-white/10 p-1 shadow-lg backdrop-blur-md lg:flex">
+          <a href="#inicio" class="rounded-full px-3.5 py-2 text-sm text-white/90 transition hover:bg-white/15 hover:text-gold-200">Home</a>
+          <a href="#destinos" class="rounded-full px-3.5 py-2 text-sm text-white/90 transition hover:bg-white/15 hover:text-gold-200">Destinations</a>
+          <a href="Tours-en.html" class="rounded-full px-3.5 py-2 text-sm text-white/90 transition hover:bg-white/15 hover:text-gold-200">Tours</a>
+          <a href="#como-funciona" class="rounded-full px-3.5 py-2 text-sm text-white/90 transition hover:bg-white/15 hover:text-gold-200">How it works</a>
+          <a href="#galeria" class="rounded-full px-3.5 py-2 text-sm text-white/90 transition hover:bg-white/15 hover:text-gold-200">Gallery</a>
+          <a href="blog-en.html" class="rounded-full px-3.5 py-2 text-sm text-white/90 transition hover:bg-white/15 hover:text-gold-200">Blog</a>
+          <a href="#informacion" class="rounded-full px-3.5 py-2 text-sm text-white/90 transition hover:bg-white/15 hover:text-gold-200">Info</a>
+          <a href="contact-en.html" class="rounded-full px-3.5 py-2 text-sm text-white/90 transition hover:bg-white/15 hover:text-gold-200">Contact</a>
         </nav>
 
-        <!-- CTA -->
-        <div class="hidden lg:flex items-center gap-4">
-          <a href="https://wa.me/212668561321" target="_blank" class="flex items-center gap-2 rounded-full bg-gradient-to-r from-[#f5d563] via-[#d4a62a] to-[#b98314] px-5 py-3 font-bold uppercase tracking-[0.12em] text-[#1a160d] shadow-[0_18px_35px_rgba(212,166,42,0.45)] transition duration-300 hover:-translate-y-0.5 hover:shadow-[0_22px_42px_rgba(212,166,42,0.55)]">
-            <i class="fab fa-whatsapp text-lg"></i>
-            Reserva
+        <div class="hidden items-center gap-4 lg:flex">
+          <a href="https://wa.me/212668561321" target="_blank" class="flex items-center gap-2 rounded-full bg-gradient-to-r from-gold-300 via-gold-400 to-gold-500 px-5 py-3 text-sm font-bold uppercase tracking-[0.18em] text-slate-900 shadow-lg shadow-gold-400/30">
+            <i class="fab fa-whatsapp"></i>
+            Book now
           </a>
         </div>
 
-        <!-- Mobile menu button -->
-        <button id="mobile-menu-btn" aria-controls="mobile-menu" aria-expanded="false" aria-label="Abrir menú" class="lg:hidden flex h-11 w-11 items-center justify-center rounded-full border border-white/20 bg-white/10 text-white shadow-lg backdrop-blur-md transition hover:bg-white/20">
-          <i class="fas fa-bars" aria-hidden="true"></i>
+        <button id="mobile-menu-btn" aria-controls="mobile-menu" aria-expanded="false" aria-label="Open menu" class="flex h-11 w-11 items-center justify-center rounded-full border border-white/20 bg-white/10 text-white lg:hidden">
+          <i class="fas fa-bars"></i>
         </button>
       </div>
     </div>
 
-    <!-- Mobile Menu -->
-    <div id="mobile-menu" class="hidden lg:hidden border-t border-white/10 bg-gray-950/95 shadow-2xl backdrop-blur-xl">
+    <div id="mobile-menu" class="hidden border-t border-white/10 bg-slate-950/95 shadow-2xl backdrop-blur-xl lg:hidden">
       <div class="container mx-auto grid grid-cols-2 gap-3 px-4 py-5">
-        <a href="#inicio" class="flex items-center justify-between gap-2 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm font-medium text-white transition hover:border-amber-300/40 hover:bg-white/10">
-          <span class="flex items-center gap-3"><i class="fas fa-house text-amber-300" aria-hidden="true"></i>Inicio</span><i class="fas fa-chevron-right text-xs text-white/40" aria-hidden="true"></i>
-        </a>
-        <a href="#destinos" class="flex items-center justify-between gap-2 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm font-medium text-white transition hover:border-amber-300/40 hover:bg-white/10">
-          <span class="flex items-center gap-3"><i class="fas fa-map-location-dot text-amber-300" aria-hidden="true"></i>Destinos</span><i class="fas fa-chevron-right text-xs text-white/40" aria-hidden="true"></i>
-        </a>
-        <a href="Tours.html" class="flex items-center justify-between gap-2 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm font-medium text-white transition hover:border-amber-300/40 hover:bg-white/10">
-          <span class="flex items-center gap-3"><i class="fas fa-suitcase-rolling text-amber-300" aria-hidden="true"></i>Tours</span><i class="fas fa-chevron-right text-xs text-white/40" aria-hidden="true"></i>
-        </a>
-        <a href="#como-funciona" class="flex items-center justify-between gap-2 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm font-medium text-white transition hover:border-amber-300/40 hover:bg-white/10">
-          <span class="flex items-center gap-3"><i class="fas fa-circle-info text-amber-300" aria-hidden="true"></i>Cómo funciona</span><i class="fas fa-chevron-right text-xs text-white/40" aria-hidden="true"></i>
-        </a>
-        <a href="#galeria" class="flex items-center justify-between gap-2 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm font-medium text-white transition hover:border-amber-300/40 hover:bg-white/10">
-          <span class="flex items-center gap-3"><i class="fas fa-images text-amber-300" aria-hidden="true"></i>Galería</span><i class="fas fa-chevron-right text-xs text-white/40" aria-hidden="true"></i>
-        </a>
-        <a href="blog.html" class="flex items-center justify-between gap-2 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm font-medium text-white transition hover:border-amber-300/40 hover:bg-white/10">
-          <span class="flex items-center gap-3"><i class="fas fa-book-open text-amber-300" aria-hidden="true"></i>Blog</span><i class="fas fa-chevron-right text-xs text-white/40" aria-hidden="true"></i>
-        </a>
-        <a href="#informacion" class="flex items-center justify-between gap-2 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm font-medium text-white transition hover:border-amber-300/40 hover:bg-white/10">
-          <span class="flex items-center gap-3"><i class="fas fa-circle-info text-amber-300" aria-hidden="true"></i>Información</span><i class="fas fa-chevron-right text-xs text-white/40" aria-hidden="true"></i>
-        </a>
-        <a href="contact.html" class="flex items-center justify-between gap-2 rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm font-medium text-white transition hover:border-amber-300/40 hover:bg-white/10">
-          <span class="flex items-center gap-3"><i class="fas fa-envelope text-amber-300" aria-hidden="true"></i>Contacto</span><i class="fas fa-chevron-right text-xs text-white/40" aria-hidden="true"></i>
-        </a>
-        <a href="https://wa.me/212668561321" target="_blank" class="col-span-2 flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-[#f5d563] via-[#d4a62a] to-[#b98314] py-3.5 font-bold uppercase tracking-[0.12em] text-[#1a160d] shadow-[0_18px_35px_rgba(212,166,42,0.4)] transition duration-300 hover:-translate-y-0.5">
-          <i class="fab fa-whatsapp text-lg" aria-hidden="true"></i>Reserva ahora
-        </a>
+        <a href="#inicio" class="rounded-xl border border-white/10 bg-white/5 px-3 py-3 text-sm text-white">Home</a>
+        <a href="#destinos" class="rounded-xl border border-white/10 bg-white/5 px-3 py-3 text-sm text-white">Destinations</a>
+        <a href="Tours-en.html" class="rounded-xl border border-white/10 bg-white/5 px-3 py-3 text-sm text-white">Tours</a>
+        <a href="#como-funciona" class="rounded-xl border border-white/10 bg-white/5 px-3 py-3 text-sm text-white">How it works</a>
+        <a href="#galeria" class="rounded-xl border border-white/10 bg-white/5 px-3 py-3 text-sm text-white">Gallery</a>
+        <a href="blog-en.html" class="rounded-xl border border-white/10 bg-white/5 px-3 py-3 text-sm text-white">Blog</a>
+        <a href="#informacion" class="rounded-xl border border-white/10 bg-white/5 px-3 py-3 text-sm text-white">Info</a>
+        <a href="contact-en.html" class="rounded-xl border border-white/10 bg-white/5 px-3 py-3 text-sm text-white">Contact</a>
+        <div class="col-span-2 flex items-center justify-between rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-sm text-white">
+          <span>Language</span>
+          <div class="flex items-center gap-2">
+            <a href="index.html" class="rounded-full border border-white/10 px-2 py-1 text-white/80">ES</a>
+            <a href="index-en.html" class="rounded-full bg-gold-400/20 px-2 py-1 text-gold-300 ring-1 ring-gold-300/40">EN</a>
+          </div>
+        </div>
+        <a href="https://wa.me/212668561321" target="_blank" class="col-span-2 flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-gold-300 via-gold-400 to-gold-500 py-3.5 text-sm font-bold text-slate-900">Book now</a>
       </div>
     </div>
   </header>
 
-  <!-- ========== HERO ========== -->
-  <section id="inicio" class="hero-bg min-h-screen flex items-center relative pt-20">
-    <div class="container mx-auto px-4 py-20">
-      <div class="max-w-3xl">
-        <p class="text-amber-300 font-medium tracking-widest uppercase mb-4 text-sm">Tours privados por Marruecos desde Marrakech</p>
-        <h1 class="font-display text-5xl md:text-7xl font-bold text-white leading-tight mb-6">
-          Tours por<br>
-          <span class="text-amber-400">Marruecos</span>
-        </h1>
-        <p class="text-white/90 text-lg md:text-xl mb-10 max-w-xl leading-relaxed">
-          Explora Marrakech, visita Ait Ben Haddou y continúa hacia las dunas de Merzouga o Zagora. Elige un circuito privado y descubre Marruecos a tu ritmo.
-        </p>
-        
-        <div class="flex flex-wrap gap-4">
-          <a href="#tours" class="bg-amber-500 hover:bg-amber-600 text-white px-8 py-4 rounded-full font-semibold text-lg transition shadow-xl">
-            Ver circuitos
-          </a>
-          <a href="contact.html" class="bg-white/10 hover:bg-white/20 backdrop-blur text-white border border-white/30 px-8 py-4 rounded-full font-semibold text-lg transition">
-            Pedir información
-          </a>
+  <main>
+    <section id="inicio" class="hero-bg relative min-h-screen overflow-hidden">
+      <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(233,195,100,0.25),transparent_35%)]"></div>
+      <div class="container relative mx-auto px-4 pb-24 pt-40 md:pt-44">
+        <div class="max-w-3xl pt-8 md:pt-16">
+          <p class="mb-5 text-sm font-medium uppercase tracking-[0.45em] text-gold-300">Luxury Morocco escapes</p>
+          <h1 class="section-title text-6xl leading-none text-white md:text-8xl">Discover<br>Morocco</h1>
+          <p class="mt-6 max-w-xl text-lg leading-relaxed text-white/80 md:text-xl">
+            Private journeys from Marrakech to the Sahara, kasbahs, imperial cities and unforgettable desert nights.
+          </p>
+
+          <div class="mt-10 flex flex-wrap gap-4">
+            <a href="#destinos" class="rounded-full bg-gold-400 px-8 py-4 text-base font-semibold text-slate-900 shadow-lg shadow-gold-400/30 transition hover:bg-gold-300">Explore tours</a>
+            <a href="contact-en.html" class="rounded-full border border-white/30 bg-white/5 px-8 py-4 text-base font-semibold text-white backdrop-blur transition hover:bg-white/10">Request a quote</a>
+          </div>
+
+          <div class="mt-10 flex flex-wrap items-center gap-6 text-sm text-white/80">
+            <span class="flex items-center gap-2"><i class="fas fa-star text-gold-300"></i> 5-star experiences</span>
+            <span class="flex items-center gap-2"><i class="fas fa-shield-alt text-gold-300"></i> Fully guided</span>
+            <span class="flex items-center gap-2"><i class="fas fa-heart text-gold-300"></i> Tailor-made</span>
+          </div>
         </div>
       </div>
-    </div>
 
-    <!-- Search Box -->
-    <div class="absolute bottom-0 left-0 right-0 translate-y-1/2">
-      <div class="container mx-auto px-4">
-        <div class="glass relative overflow-hidden rounded-2xl border border-white/80 shadow-[0_24px_70px_rgba(15,23,42,0.22)] p-5 md:p-7 max-w-5xl mx-auto">
-          <div class="absolute inset-x-8 top-0 h-1 rounded-b-full bg-gradient-to-r from-amber-400 via-orange-400 to-amber-500"></div>
-          <div class="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-5 items-end">
+      <div class="container relative mx-auto -mt-8 px-4 pb-8 md:-mt-14">
+        <div class="glass relative mx-auto max-w-6xl overflow-hidden rounded-[28px] border border-white/15 p-5 shadow-luxe md:p-7">
+          <div class="absolute inset-x-10 top-0 h-1 rounded-b-full bg-gradient-to-r from-gold-300 via-gold-400 to-gold-500"></div>
+          <div class="grid gap-4 md:grid-cols-4">
             <div>
-              <label class="flex items-center gap-2 text-xs font-semibold uppercase text-gray-500 mb-2.5"><i class="fas fa-location-dot text-amber-600"></i>Destino</label>
-              <select class="h-12 w-full border border-gray-200 rounded-xl bg-white/90 px-4 text-sm font-medium text-gray-800 shadow-sm transition hover:border-gray-300 focus:ring-4 focus:ring-amber-100 focus:border-amber-500 outline-none">
-                <option>Marrakech</option>
-                <option>Merzouga / Sahara</option>
-                <option>Fes</option>
-                <option>Tour Combinado</option>
+              <label class="mb-2.5 flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-white/70"><i class="fas fa-location-dot text-gold-300"></i>Destination</label>
+              <select class="h-12 w-full rounded-xl border border-white/10 bg-white/10 px-4 text-sm text-white outline-none">
+                <option class="text-slate-900">Marrakech</option>
+                <option class="text-slate-900">Merzouga / Sahara</option>
+                <option class="text-slate-900">Fez</option>
+                <option class="text-slate-900">Combined tour</option>
               </select>
             </div>
             <div>
-              <label class="flex items-center gap-2 text-xs font-semibold uppercase text-gray-500 mb-2.5"><i class="fas fa-calendar-days text-amber-600"></i>Fecha</label>
-              <input type="date" class="h-12 w-full border border-gray-200 rounded-xl bg-white/90 px-4 text-sm font-medium text-gray-800 shadow-sm transition hover:border-gray-300 focus:ring-4 focus:ring-amber-100 focus:border-amber-500 outline-none">
+              <label class="mb-2.5 flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-white/70"><i class="fas fa-calendar-day text-gold-300"></i>Date</label>
+              <input type="date" class="h-12 w-full rounded-xl border border-white/10 bg-white/10 px-4 text-sm text-white outline-none" />
             </div>
             <div>
-              <label class="flex items-center gap-2 text-xs font-semibold uppercase text-gray-500 mb-2.5"><i class="fas fa-users text-amber-600"></i>Personas</label>
-              <select class="h-12 w-full border border-gray-200 rounded-xl bg-white/90 px-4 text-sm font-medium text-gray-800 shadow-sm transition hover:border-gray-300 focus:ring-4 focus:ring-amber-100 focus:border-amber-500 outline-none">
-                <option>1 Persona</option>
-                <option>2 Personas</option>
-                <option>3-4 Personas</option>
-                <option>5+ Personas</option>
+              <label class="mb-2.5 flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-white/70"><i class="fas fa-users text-gold-300"></i>Guests</label>
+              <select class="h-12 w-full rounded-xl border border-white/10 bg-white/10 px-4 text-sm text-white outline-none">
+                <option class="text-slate-900">1 guest</option>
+                <option class="text-slate-900">2 guests</option>
+                <option class="text-slate-900">3-4 guests</option>
+                <option class="text-slate-900">5+ guests</option>
               </select>
             </div>
             <div>
-              <a href="https://wa.me/212668561321?text=Hola,%20quiero%20información%20sobre%20un%20tour" target="_blank" class="h-12 w-full bg-amber-500 hover:bg-amber-600 text-white font-semibold rounded-xl flex items-center justify-center gap-2 transition shadow-lg shadow-amber-600/20 ring-1 ring-amber-400/40">
+              <a href="https://wa.me/212668561321?text=Hello%2C%20I%20want%20information%20about%20a%20Morocco%20tour" target="_blank" class="flex h-12 w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-gold-300 to-gold-500 text-sm font-bold uppercase tracking-[0.18em] text-slate-900">
                 <i class="fas fa-search"></i>
-                Buscar
+                Search
               </a>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ========== CÓMO FUNCIONA ========== -->
-  <section id="como-funciona" class="pt-40 pb-24 bg-gray-50">
-    <div class="container mx-auto px-4">
-      <div class="text-center max-w-2xl mx-auto mb-16">
-        <p class="text-amber-600 font-medium tracking-wide uppercase text-sm mb-3">Tu viaje, en tres pasos</p>
-        <h2 class="font-display text-4xl md:text-5xl font-bold text-gray-900 mb-4">Cómo reservar tu tour por Marruecos</h2>
-        <p class="text-gray-600 text-lg">Cuéntanos cuándo viajas y qué lugares quieres conocer. Te ayudaremos a elegir una ruta desde Marrakech.</p>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <!-- Step 1 -->
-        <div class="group relative min-h-[230px] overflow-hidden rounded-2xl border-t-2 border-amber-400 bg-white p-8 shadow-[0_12px_36px_rgba(15,23,42,0.08)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_18px_42px_rgba(15,23,42,0.14)]">
-          <div class="absolute right-6 top-4 font-display text-5xl font-semibold text-amber-100 transition group-hover:text-amber-200">01</div>
-          <div class="mb-6 flex h-14 w-14 items-center justify-center rounded-xl border border-amber-100 bg-amber-50">
-            <i class="fas fa-map-marked-alt text-xl text-amber-700"></i>
-          </div>
-          <h3 class="mb-3 font-display text-2xl font-semibold text-gray-900">Elige tu ruta</h3>
-          <p class="max-w-xs leading-relaxed text-gray-600">Explora nuestros tours desde Marrakech o dinos qué ciudades, kasbahs y paisajes quieres incluir.</p>
+    <section id="como-funciona" class="bg-[#f8f3ed] py-24">
+      <div class="container mx-auto px-4">
+        <div class="mx-auto mb-16 max-w-3xl text-center">
+          <p class="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-gold-600">Your journey</p>
+          <h2 class="section-title text-5xl text-slate-900 md:text-6xl">How it works</h2>
+          <p class="mt-5 text-lg text-slate-600">We design a bespoke route around your travel style, pace and preferences.</p>
         </div>
 
-        <!-- Step 2 -->
-        <div class="group relative min-h-[230px] overflow-hidden rounded-2xl border-t-2 border-amber-400 bg-white p-8 shadow-[0_12px_36px_rgba(15,23,42,0.08)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_18px_42px_rgba(15,23,42,0.14)]">
-          <div class="absolute right-6 top-4 font-display text-5xl font-semibold text-amber-100 transition group-hover:text-amber-200">02</div>
-          <div class="mb-6 flex h-14 w-14 items-center justify-center rounded-xl border border-amber-100 bg-amber-50">
-            <i class="fas fa-credit-card text-xl text-amber-700"></i>
+        <div class="grid gap-8 md:grid-cols-3">
+          <div class="rounded-[28px] border border-gold-200 bg-white p-8 shadow-[0_15px_40px_rgba(15,23,42,0.06)]">
+            <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gold-100 text-2xl text-gold-700"><i class="fas fa-map-marked-alt"></i></div>
+            <p class="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-gold-600">01</p>
+            <h3 class="section-title text-3xl text-slate-900">Choose your route</h3>
+            <p class="mt-4 text-slate-600">Select your cities and landscapes. Marrakech, Merzouga, Fez, Zagora or Ait Ben Haddou.</p>
           </div>
-          <h3 class="mb-3 font-display text-2xl font-semibold text-gray-900">Confirma los detalles</h3>
-          <p class="max-w-xs leading-relaxed text-gray-600">Consulta disponibilidad, itinerario, duración y precio antes de confirmar tu reserva.</p>
-        </div>
-
-        <!-- Step 3 -->
-        <div class="group relative min-h-[230px] overflow-hidden rounded-2xl border-t-2 border-amber-400 bg-white p-8 shadow-[0_12px_36px_rgba(15,23,42,0.08)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_18px_42px_rgba(15,23,42,0.14)]">
-          <div class="absolute right-6 top-4 font-display text-5xl font-semibold text-amber-100 transition group-hover:text-amber-200">03</div>
-          <div class="mb-6 flex h-14 w-14 items-center justify-center rounded-xl border border-amber-100 bg-amber-50">
-            <i class="fas fa-suitcase-rolling text-xl text-amber-700"></i>
+          <div class="rounded-[28px] border border-gold-200 bg-white p-8 shadow-[0_15px_40px_rgba(15,23,42,0.06)]">
+            <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gold-100 text-2xl text-gold-700"><i class="fas fa-calendar-check"></i></div>
+            <p class="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-gold-600">02</p>
+            <h3 class="section-title text-3xl text-slate-900">Personalize details</h3>
+            <p class="mt-4 text-slate-600">We set the dates, route, rhythm and accommodation according to your preferences and budget.</p>
           </div>
-          <h3 class="mb-3 font-display text-2xl font-semibold text-gray-900">Empieza tu viaje</h3>
-          <p class="max-w-xs leading-relaxed text-gray-600">Te recogeremos según el itinerario acordado para comenzar tu recorrido por Marruecos.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========== DESTINOS ========== -->
-  <section id="destinos" class="py-24">
-    <div class="container mx-auto px-4">
-      <div class="text-center max-w-2xl mx-auto mb-16">
-        <p class="text-amber-600 font-medium tracking-wide uppercase text-sm mb-3">Rutas y lugares destacados</p>
-        <h2 class="font-display text-4xl md:text-5xl font-bold text-gray-900 mb-4">Destinos y circuitos por Marruecos</h2>
-        <p class="text-gray-600 text-lg">Descubre Marrakech, Fez, Ait Ben Haddou y las dunas del Sahara en Merzouga con tours desde Marrakech.</p>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        <!-- Marrakech -->
-        <a href="#tours" class="group relative rounded-3xl overflow-hidden h-80 shadow-lg">
-          <img src="https://images.unsplash.com/photo-1597212618440-806262de4f6b?q=80&w=800&auto=format&fit=crop" alt="Marrakech" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
-          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-          <div class="absolute bottom-0 left-0 right-0 p-6">
-            <h3 class="text-white text-2xl font-bold mb-1">Marrakech</h3>
-            <p class="text-white/80 text-sm">La ciudad roja de Marruecos</p>
-          </div>
-        </a>
-
-        <!-- Merzouga -->
-        <a href="#tours" class="group relative rounded-3xl overflow-hidden h-80 shadow-lg">
-          <img src="https://images.unsplash.com/photo-1531048468035-8305c2a7fe73?q=80&w=800&auto=format&fit=crop" alt="Dunas de arena del Sahara en Merzouga" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
-          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-          <div class="absolute bottom-0 left-0 right-0 p-6">
-            <h3 class="text-white text-2xl font-bold mb-1">Merzouga</h3>
-            <p class="text-white/80 text-sm">Desierto del Sahara</p>
-          </div>
-        </a>
-
-        <!-- Fes -->
-        <a href="#tours" class="group relative rounded-3xl overflow-hidden h-80 shadow-lg">
-          <img src="https://images.unsplash.com/photo-1582742850838-24590fb39fdc?q=80&w=800&auto=format&fit=crop" alt="Fes, vista panorámica de la medina" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
-          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-          <div class="absolute bottom-0 left-0 right-0 p-6">
-            <h3 class="text-white text-2xl font-bold mb-1">Fes</h3>
-            <p class="text-white/80 text-sm">Medina y ciudad imperial</p>
-          </div>
-        </a>
-
-        <!-- Ait Ben Haddou -->
-        <a href="#tours" class="group relative rounded-3xl overflow-hidden h-80 shadow-lg">
-          <img src="https://images.unsplash.com/photo-1527338611623-4e242563220a?q=80&w=800&auto=format&fit=crop" alt="Ait Ben Haddou" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
-          <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
-          <div class="absolute bottom-0 left-0 right-0 p-6">
-            <h3 class="text-white text-2xl font-bold mb-1">Ait Ben Haddou</h3>
-            <p class="text-white/80 text-sm">Ksar Patrimonio de la Humanidad</p>
-          </div>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <section class="bg-[#f3efe9] py-16 md:py-20">
-    <div class="container mx-auto max-w-6xl px-4">
-      <div class="mx-auto max-w-5xl text-center">
-        <h2 class="font-display text-5xl font-semibold tracking-tight text-gray-800 md:text-7xl">
-          Elige tu experiencia <span class="text-[#d4a62a]">perfecta en el desierto</span>
-        </h2>
-        <p class="mx-auto mt-6 max-w-3xl text-lg leading-relaxed text-gray-700 md:text-2xl">
-          Ofrecemos dos opciones flexibles para adaptarse a tu estilo de viaje, presupuesto y aventura. Ya sea que prefieras un recorrido privado o una experiencia en grupo compartido, estamos aquí para ayudarte.
-        </p>
-      </div>
-
-      <div class="mt-12 grid gap-8 lg:grid-cols-2">
-        <article class="rounded-[28px] border border-[#e8d9ca] bg-[#f7f3ee] p-4 shadow-[0_20px_50px_rgba(104,72,35,0.08)] md:p-6">
-          <div class="relative overflow-hidden rounded-[24px]">
-            <img src="public/merzouga.jpg" alt="Tour privado en el desierto de Marruecos" class="h-[420px] w-full object-cover" />
-            <div class="absolute bottom-5 right-5 flex h-12 w-12 items-center justify-center rounded-full border border-white/70 bg-white/80 text-xl text-amber-600 shadow-lg backdrop-blur-sm">
-              <i class="fas fa-arrow-right" aria-hidden="true"></i>
-            </div>
-          </div>
-
-          <div class="mt-8 text-center">
-            <h3 class="font-display text-4xl font-semibold uppercase tracking-tight text-gray-900">Tour privado</h3>
-            <p class="mt-3 text-2xl font-medium italic text-amber-600">Tu viaje, a tu manera</p>
-          </div>
-
-          <ul class="mt-8 space-y-5 border-t border-dashed border-[#d9c5ad] pt-6 text-left text-xl text-gray-800">
-            <li class="flex items-center gap-4"><span class="flex h-8 w-8 items-center justify-center rounded-full border-2 border-[#d4a62a] text-base text-[#d4a62a]"><i class="fas fa-check" aria-hidden="true"></i></span>Transporte 4x4 o minibus</li>
-            <li class="flex items-center gap-4"><span class="flex h-8 w-8 items-center justify-center rounded-full border-2 border-[#d4a62a] text-base text-[#d4a62a]"><i class="fas fa-check" aria-hidden="true"></i></span>Alojamiento incluido</li>
-            <li class="flex items-center gap-4"><span class="flex h-8 w-8 items-center justify-center rounded-full border-2 border-[#d4a62a] text-base text-[#d4a62a]"><i class="fas fa-check" aria-hidden="true"></i></span>Cenas y desayunos incluidos</li>
-            <li class="flex items-center gap-4"><span class="flex h-8 w-8 items-center justify-center rounded-full border-2 border-[#d4a62a] text-base text-[#d4a62a]"><i class="fas fa-check" aria-hidden="true"></i></span>Experiencia de sandboarding</li>
-            <li class="flex items-center gap-4"><span class="flex h-8 w-8 items-center justify-center rounded-full border-2 border-[#d4a62a] text-base text-[#d4a62a]"><i class="fas fa-check" aria-hidden="true"></i></span>Paseo en camello</li>
-            <li class="flex items-center gap-4"><span class="flex h-8 w-8 items-center justify-center rounded-full border-2 border-[#d4a62a] text-base text-[#d4a62a]"><i class="fas fa-check" aria-hidden="true"></i></span>Itinerario flexible</li>
-            <li class="flex items-center gap-4"><span class="flex h-8 w-8 items-center justify-center rounded-full border-2 border-[#d4a62a] text-base text-[#d4a62a]"><i class="fas fa-check" aria-hidden="true"></i></span>Experiencia personalizada</li>
-          </ul>
-
-          <a href="https://wa.me/212668561321?text=Hola,%20quiero%20reservar%20un%20tour%20privado%20por%20Marruecos" target="_blank" class="mt-8 inline-flex w-full items-center justify-center gap-3 rounded-full bg-gradient-to-r from-[#e6bd48] via-[#d4a62a] to-[#be8f1d] px-7 py-5 text-xl font-bold uppercase tracking-[0.12em] text-white shadow-[0_18px_35px_rgba(212,166,42,0.45)] transition duration-300 hover:-translate-y-0.5 hover:shadow-[0_24px_42px_rgba(212,166,42,0.6)]">
-            Ver tour privado <i class="fas fa-arrow-right" aria-hidden="true"></i>
-          </a>
-        </article>
-
-        <article class="rounded-[28px] border border-[#e8d9ca] bg-[#f7f3ee] p-4 shadow-[0_20px_50px_rgba(104,72,35,0.08)] md:p-6">
-          <div class="relative overflow-hidden rounded-[24px]">
-            <img src="https://images.unsplash.com/photo-1535191059345-c16453b851b2?auto=format&fit=crop&w=1200&q=80" alt="Grupo compartido con camellos en el desierto" class="h-[420px] w-full object-cover" />
-            <div class="absolute bottom-5 right-5 flex h-12 w-12 items-center justify-center rounded-full border border-white/70 bg-white/80 text-xl text-amber-600 shadow-lg backdrop-blur-sm">
-              <i class="fas fa-arrow-right" aria-hidden="true"></i>
-            </div>
-          </div>
-
-          <div class="mt-8 text-center">
-            <h3 class="font-display text-4xl font-semibold uppercase tracking-tight text-gray-900">Tours en grupo</h3>
-            <p class="mt-3 text-2xl font-medium italic text-amber-600">Comparte, explora y disfruta</p>
-          </div>
-
-          <ul class="mt-8 space-y-5 border-t border-dashed border-[#d9c5ad] pt-6 text-left text-xl text-gray-800">
-            <li class="flex items-center gap-4"><span class="flex h-8 w-8 items-center justify-center rounded-full border-2 border-[#d4a62a] text-base text-[#d4a62a]"><i class="fas fa-check" aria-hidden="true"></i></span>Transporte turístico cómodo</li>
-            <li class="flex items-center gap-4"><span class="flex h-8 w-8 items-center justify-center rounded-full border-2 border-[#d4a62a] text-base text-[#d4a62a]"><i class="fas fa-check" aria-hidden="true"></i></span>Alojamiento incluido</li>
-            <li class="flex items-center gap-4"><span class="flex h-8 w-8 items-center justify-center rounded-full border-2 border-[#d4a62a] text-base text-[#d4a62a]"><i class="fas fa-check" aria-hidden="true"></i></span>Cenas y desayunos incluidos</li>
-            <li class="flex items-center gap-4"><span class="flex h-8 w-8 items-center justify-center rounded-full border-2 border-[#d4a62a] text-base text-[#d4a62a]"><i class="fas fa-check" aria-hidden="true"></i></span>Experiencia de sandboarding</li>
-            <li class="flex items-center gap-4"><span class="flex h-8 w-8 items-center justify-center rounded-full border-2 border-[#d4a62a] text-base text-[#d4a62a]"><i class="fas fa-check" aria-hidden="true"></i></span>Paseo en camello</li>
-            <li class="flex items-center gap-4"><span class="flex h-8 w-8 items-center justify-center rounded-full border-2 border-[#d4a62a] text-base text-[#d4a62a]"><i class="fas fa-check" aria-hidden="true"></i></span>Fechas de salida fijas</li>
-            <li class="flex items-center gap-4"><span class="flex h-8 w-8 items-center justify-center rounded-full border-2 border-[#d4a62a] text-base text-[#d4a62a]"><i class="fas fa-check" aria-hidden="true"></i></span>Conoce viajeros de todo el mundo</li>
-          </ul>
-
-          <a href="https://wa.me/212668561321?text=Hola,%20quiero%20consultar%20un%20tour%20grupal%20compartido%20a%20Marruecos" target="_blank" class="mt-8 inline-flex w-full items-center justify-center gap-3 rounded-full bg-gradient-to-r from-[#e6bd48] via-[#d4a62a] to-[#be8f1d] px-7 py-5 text-xl font-bold uppercase tracking-[0.12em] text-white shadow-[0_18px_35px_rgba(212,166,42,0.45)] transition duration-300 hover:-translate-y-0.5 hover:shadow-[0_24px_42px_rgba(212,166,42,0.6)]">
-            Ver grupo compartido <i class="fas fa-arrow-right" aria-hidden="true"></i>
-          </a>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========== TOURS POPULARES ========== -->
-  <section id="tours" class="py-24 bg-gray-50">
-    <div class="container mx-auto px-4">
-      <div class="text-center max-w-2xl mx-auto mb-16">
-        <p class="text-amber-600 font-medium tracking-wide uppercase text-sm mb-3">Circuitos y excursiones desde Marrakech</p>
-        <h2 class="font-display text-4xl md:text-5xl font-bold text-gray-900 mb-4">Tours privados por Marruecos</h2>
-        <p class="text-gray-600 text-lg">Compara rutas de 1 a 7 días, tours al desierto de Merzouga y Zagora, y viajes a medida con transporte privado y guía local.</p>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <!-- Tour 1 -->
-        <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition group">
-          <div class="relative h-56 overflow-hidden">
-            <img src="public/merzouga.jpg" alt="Dunas de Merzouga con una caravana de camellos" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
-            <div class="absolute top-4 left-4 bg-amber-500 text-white text-sm font-semibold px-3 py-1 rounded-full">Más vendido</div>
-          </div>
-          <div class="p-6">
-            <div class="flex items-center gap-2 text-sm text-gray-500 mb-3">
-              <i class="fas fa-clock"></i> 3 días / 2 noches
-              <span class="mx-2">•</span>
-              <i class="fas fa-star text-amber-400"></i> 5.0
-            </div>
-            <h3 class="text-xl font-bold text-gray-900 mb-2">Tour de 3 días de Marrakech a Merzouga</h3>
-            <p class="text-gray-600 text-sm mb-4 line-clamp-2">Cruza el Alto Atlas, visita Ait Ben Haddou y las Gargantas del Todra, y pasa la noche en el desierto de Merzouga.</p>
-            <div class="flex items-center justify-between">
-              <div>
-                <span class="text-sm text-gray-500">Desde</span>
-                <p class="text-2xl font-bold text-amber-600">290€ <span class="text-sm font-normal text-gray-500">/ persona</span></p>
-              </div>
-              <a href="tour-merzouga-3-dias.html" class="bg-gray-900 hover:bg-amber-600 text-white px-5 py-2.5 rounded-full text-sm font-medium transition">
-                Ver tour
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Tour 2 -->
-        <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition group">
-          <div class="relative h-56 overflow-hidden">
-            <img src="https://images.unsplash.com/photo-1539020140153-e479b8c22e70?q=80&w=800&auto=format&fit=crop" alt="4 Días Merzouga" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
-          </div>
-          <div class="p-6">
-            <div class="flex items-center gap-2 text-sm text-gray-500 mb-3">
-              <i class="fas fa-clock"></i> 4 días / 3 noches
-              <span class="mx-2">•</span>
-              <i class="fas fa-star text-amber-400"></i> 5.0
-            </div>
-            <h3 class="text-xl font-bold text-gray-900 mb-2">Tour de 4 días de Marrakech a Merzouga</h3>
-            <p class="text-gray-600 text-sm mb-4 line-clamp-2">Disfruta de más tiempo en el Sahara, un paseo en camello al atardecer y una noche junto a las dunas de Erg Chebbi.</p>
-            <div class="flex items-center justify-between">
-              <div>
-                <span class="text-sm text-gray-500">Desde</span>
-                <p class="text-2xl font-bold text-amber-600">380€ <span class="text-sm font-normal text-gray-500">/ persona</span></p>
-              </div>
-              <a href="https://wa.me/212668561321?text=Hola,%20quiero%20info%20del%20tour%20de%204%20días%20a%20Merzouga" target="_blank" class="bg-gray-900 hover:bg-amber-600 text-white px-5 py-2.5 rounded-full text-sm font-medium transition">
-                Reservar
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Tour 3 -->
-        <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition group">
-          <div class="relative h-56 overflow-hidden">
-            <img src="https://images.unsplash.com/photo-1582742850838-24590fb39fdc?q=80&w=800&auto=format&fit=crop" alt="Vista panorámica de la medina de Fez" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
-            <div class="absolute top-4 left-4 bg-orange-600 text-white text-sm font-semibold px-3 py-1 rounded-full">Recomendado</div>
-          </div>
-          <div class="p-6">
-            <div class="flex items-center gap-2 text-sm text-gray-500 mb-3">
-              <i class="fas fa-clock"></i> 7 días / 6 noches
-              <span class="mx-2">•</span>
-              <i class="fas fa-star text-amber-400"></i> 5.0
-            </div>
-            <h3 class="text-xl font-bold text-gray-900 mb-2">Ciudades imperiales y Sahara (7 días)</h3>
-            <p class="text-gray-600 text-sm mb-4 line-clamp-2">Recorre Marrakech, Fez, Meknes y Volubilis antes de continuar hacia el desierto de Merzouga.</p>
-            <div class="flex items-center justify-between">
-              <div>
-                <span class="text-sm text-gray-500">Desde</span>
-                <p class="text-2xl font-bold text-amber-600">790€ <span class="text-sm font-normal text-gray-500">/ persona</span></p>
-              </div>
-              <a href="https://wa.me/212668561321?text=Hola,%20quiero%20info%20del%20tour%20de%207%20días%20Imperial%20+%20Sahara" target="_blank" class="bg-gray-900 hover:bg-amber-600 text-white px-5 py-2.5 rounded-full text-sm font-medium transition">
-                Reservar
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Tour 4 -->
-        <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition group">
-          <div class="relative h-56 overflow-hidden">
-            <img src="public/zagoura.jpg" alt="Oasis y kasbahs del desierto de Zagora" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
-          </div>
-          <div class="p-6">
-            <div class="flex items-center gap-2 text-sm text-gray-500 mb-3">
-              <i class="fas fa-clock"></i> 2 días / 1 noche
-              <span class="mx-2">•</span>
-              <i class="fas fa-star text-amber-400"></i> 4.9
-            </div>
-            <h3 class="text-xl font-bold text-gray-900 mb-2">Excursión de 2 días de Marrakech a Zagora</h3>
-            <p class="text-gray-600 text-sm mb-4 line-clamp-2">Descubre el valle del Draa y el desierto de Zagora en una ruta corta desde Marrakech.</p>
-            <div class="flex items-center justify-between">
-              <div>
-                <span class="text-sm text-gray-500">Desde</span>
-                <p class="text-2xl font-bold text-amber-600">180€ <span class="text-sm font-normal text-gray-500">/ persona</span></p>
-              </div>
-              <a href="https://wa.me/212668561321?text=Hola,%20quiero%20info%20del%20tour%20de%202%20días%20a%20Zagora" target="_blank" class="bg-gray-900 hover:bg-amber-600 text-white px-5 py-2.5 rounded-full text-sm font-medium transition">
-                Reservar
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Tour 5 -->
-        <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition group">
-          <div class="relative h-56 overflow-hidden">
-            <img src="https://images.unsplash.com/photo-1597212618440-806262de4f6b?q=80&w=800&auto=format&fit=crop" alt="Day Trip Marrakech" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
-          </div>
-          <div class="p-6">
-            <div class="flex items-center gap-2 text-sm text-gray-500 mb-3">
-              <i class="fas fa-clock"></i> 1 día
-              <span class="mx-2">•</span>
-              <i class="fas fa-star text-amber-400"></i> 5.0
-            </div>
-            <h3 class="text-xl font-bold text-gray-900 mb-2">Excursión de un día desde Marrakech</h3>
-            <p class="text-gray-600 text-sm mb-4 line-clamp-2">Elige una escapada al valle de Ourika, sus cascadas o Ait Ben Haddou, según la ruta y disponibilidad.</p>
-            <div class="flex items-center justify-between">
-              <div>
-                <span class="text-sm text-gray-500">Desde</span>
-                <p class="text-2xl font-bold text-amber-600">70€ <span class="text-sm font-normal text-gray-500">/ persona</span></p>
-              </div>
-              <a href="https://wa.me/212668561321?text=Hola,%20quiero%20info%20de%20un%20day%20trip%20desde%20Marrakech" target="_blank" class="bg-gray-900 hover:bg-amber-600 text-white px-5 py-2.5 rounded-full text-sm font-medium transition">
-                Reservar
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <!-- Tour 6 -->
-        <div class="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition group">
-          <div class="relative h-56 overflow-hidden">
-            <img src="https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?q=80&w=800&auto=format&fit=crop" alt="Tour Personalizado" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
-          </div>
-          <div class="p-6">
-            <div class="flex items-center gap-2 text-sm text-gray-500 mb-3">
-              <i class="fas fa-clock"></i> A medida
-              <span class="mx-2">•</span>
-              <i class="fas fa-star text-amber-400"></i> 5.0
-            </div>
-            <h3 class="text-xl font-bold text-gray-900 mb-2">Tour privado personalizado por Marruecos</h3>
-            <p class="text-gray-600 text-sm mb-4 line-clamp-2">Comparte tus fechas e intereses y te ayudaremos a organizar un itinerario a medida para ti, tu pareja o tu grupo.</p>
-            <div class="flex items-center justify-between">
-              <div>
-                <span class="text-sm text-gray-500">Desde</span>
-                <p class="text-2xl font-bold text-amber-600">Consultar</p>
-              </div>
-              <a href="https://wa.me/212668561321?text=Hola,%20quiero%20un%20tour%20personalizado" target="_blank" class="bg-gray-900 hover:bg-amber-600 text-white px-5 py-2.5 rounded-full text-sm font-medium transition">
-                Consultar
-              </a>
-            </div>
+          <div class="rounded-[28px] border border-gold-200 bg-white p-8 shadow-[0_15px_40px_rgba(15,23,42,0.06)]">
+            <div class="mb-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gold-100 text-2xl text-gold-700"><i class="fas fa-suitcase-rolling"></i></div>
+            <p class="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-gold-600">03</p>
+            <h3 class="section-title text-3xl text-slate-900">Enjoy the experience</h3>
+            <p class="mt-4 text-slate-600">Everything is prepared so you can travel comfortably and live the real Morocco.</p>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ========== POR QUÉ NOSOTROS ========== -->
-  <section class="why-us-bg py-24">
-    <div class="container mx-auto px-4">
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-        <div>
-          <p class="text-amber-300 font-medium tracking-wide uppercase text-sm mb-3">Por qué elegirnos</p>
-          <h2 class="font-display text-4xl md:text-5xl font-bold text-white mb-6">Tours privados por Marruecos con atención local</h2>
-          <p class="text-white/85 text-lg mb-8 leading-relaxed">
-            Somos un equipo local que organiza rutas privadas por Marruecos. Planificamos cada itinerario contigo para que descubras Marrakech, el Sahara y otros destinos a tu propio ritmo.
-          </p>
-
-          <div class="space-y-6">
-            <div class="flex gap-4">
-              <div class="w-12 h-12 bg-amber-100 rounded-xl flex items-center justify-center flex-shrink-0">
-                <i class="fas fa-user-shield text-amber-600 text-xl"></i>
-              </div>
-              <div>
-                <h4 class="font-bold text-white mb-1">Conductores licenciados</h4>
-                <p class="text-white/80 text-sm">Guías locales experimentados, seguros y amables. Habla español e inglés.</p>
-              </div>
-            </div>
-            <div class="flex gap-4">
-              <div class="w-12 h-12 bg-amber-100 rounded-xl flex items-center justify-center flex-shrink-0">
-                <i class="fas fa-campground text-amber-600 text-xl"></i>
-              </div>
-              <div>
-                <h4 class="font-bold text-white mb-1">Campamentos de calidad</h4>
-                <p class="text-white/80 text-sm">Noches mágicas en el desierto con tiendas cómodas y cena bajo las estrellas.</p>
-              </div>
-            </div>
-            <div class="flex gap-4">
-              <div class="w-12 h-12 bg-amber-100 rounded-xl flex items-center justify-center flex-shrink-0">
-                <i class="fas fa-heart text-amber-600 text-xl"></i>
-              </div>
-              <div>
-                <h4 class="font-bold text-white mb-1">100% privado</h4>
-                <p class="text-white/80 text-sm">Solo tú y tu grupo. Sin grupos grandes ni prisas. A tu ritmo.</p>
-              </div>
-            </div>
-          </div>
+    <section id="destinos" class="py-24 bg-white">
+      <div class="container mx-auto px-4">
+        <div class="mx-auto mb-16 max-w-3xl text-center">
+          <p class="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-gold-600">Signature destinations</p>
+          <h2 class="section-title text-5xl text-slate-900 md:text-6xl">Choose your Morocco</h2>
         </div>
 
-        <div class="flex items-end lg:justify-end">
-          <div class="w-full max-w-sm rounded-2xl border border-white/20 bg-gray-950/60 p-6 shadow-2xl backdrop-blur-md">
-            <div class="flex items-center gap-4">
-              <div class="text-4xl font-bold text-amber-300">5.0</div>
-              <div>
-                <div class="flex text-amber-400 text-sm mb-1">
-                  <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+        <div class="grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+          <article class="group overflow-hidden rounded-[30px] shadow-[0_20px_50px_rgba(15,23,42,0.10)]">
+            <div class="relative h-80 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1597212618440-806262de4f6b?auto=format&fit=crop&w=900&q=80" alt="Marrakech" class="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-900/10"></div>
+              <div class="absolute inset-x-0 bottom-0 p-6 text-white">
+                <h3 class="section-title text-4xl">Marrakech</h3>
+                <p class="text-sm text-white/80">Historic soul</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="group overflow-hidden rounded-[30px] shadow-[0_20px_50px_rgba(15,23,42,0.10)]">
+            <div class="relative h-80 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1531048468035-8305c2a7fe73?auto=format&fit=crop&w=900&q=80" alt="Merzouga" class="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-900/10"></div>
+              <div class="absolute inset-x-0 bottom-0 p-6 text-white">
+                <h3 class="section-title text-4xl">Merzouga</h3>
+                <p class="text-sm text-white/80">Sahara dunes</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="group overflow-hidden rounded-[30px] shadow-[0_20px_50px_rgba(15,23,42,0.10)]">
+            <div class="relative h-80 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1582742850838-24590fb39fdc?auto=format&fit=crop&w=900&q=80" alt="Fez" class="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-900/10"></div>
+              <div class="absolute inset-x-0 bottom-0 p-6 text-white">
+                <h3 class="section-title text-4xl">Fez</h3>
+                <p class="text-sm text-white/80">Ancient medina</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="group overflow-hidden rounded-[30px] shadow-[0_20px_50px_rgba(15,23,42,0.10)]">
+            <div class="relative h-80 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1527338611623-4e242563220a?auto=format&fit=crop&w=900&q=80" alt="Ait Ben Haddou" class="h-full w-full object-cover transition duration-700 group-hover:scale-105" />
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-900/10"></div>
+              <div class="absolute inset-x-0 bottom-0 p-6 text-white">
+                <h3 class="section-title text-4xl">Ait Ben Haddou</h3>
+                <p class="text-sm text-white/80">UNESCO Kasbah</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-[#efe4d0] py-24">
+      <div class="container mx-auto px-4">
+        <div class="mb-14 text-center">
+          <p class="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-gold-700">Most loved</p>
+          <h2 class="section-title text-5xl text-slate-900 md:text-6xl">Featured tours</h2>
+        </div>
+
+        <div class="grid gap-8 lg:grid-cols-3">
+          <article class="overflow-hidden rounded-[30px] border border-gold-200 bg-white shadow-[0_20px_50px_rgba(15,23,42,0.05)]">
+            <img src="public/merzouga.jpg" alt="3-day tour to Merzouga" class="h-60 w-full object-cover" />
+            <div class="p-7">
+              <div class="mb-4 flex items-center justify-between text-xs font-semibold uppercase tracking-[0.18em] text-gold-700">
+                <span>3 days</span>
+                <span class="rounded-full bg-gold-100 px-3 py-1 text-gold-700">Best seller</span>
+              </div>
+              <h3 class="section-title text-4xl text-slate-900">Marrakech to Merzouga</h3>
+              <p class="mt-4 text-slate-600">Cross the High Atlas, discover Ait Ben Haddou and spend a magical night in the Sahara dunes.</p>
+              <div class="mt-6 flex items-center justify-between">
+                <div>
+                  <p class="text-xs uppercase tracking-[0.18em] text-slate-500">From</p>
+                  <p class="text-3xl font-bold text-gold-600">290€</p>
                 </div>
-                <p class="text-sm text-white/80">Valoración de viajeros</p>
+                <a href="tour-merzouga-3-dias-en.html" class="rounded-full bg-slate-950 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-gold-600">View tour</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="overflow-hidden rounded-[30px] border border-gold-200 bg-white shadow-[0_20px_50px_rgba(15,23,42,0.05)]">
+            <img src="https://images.unsplash.com/photo-1539020140153-e479b8c22e70?auto=format&fit=crop&w=900&q=80" alt="Sahara route" class="h-60 w-full object-cover" />
+            <div class="p-7">
+              <div class="mb-4 flex items-center justify-between text-xs font-semibold uppercase tracking-[0.18em] text-gold-700">
+                <span>4 days</span>
+                <span class="rounded-full bg-gold-100 px-3 py-1 text-gold-700">Popular</span>
+              </div>
+              <h3 class="section-title text-4xl text-slate-900">Sahara route</h3>
+              <p class="mt-4 text-slate-600">Camel rides at sunset, desert camp, and unforgettable views in the dunes of Erg Chebbi.</p>
+              <div class="mt-6 flex items-center justify-between">
+                <div>
+                  <p class="text-xs uppercase tracking-[0.18em] text-slate-500">From</p>
+                  <p class="text-3xl font-bold text-gold-600">380€</p>
+                </div>
+                <a href="https://wa.me/212668561321?text=Hello%2C%20I%20want%20more%20details%20about%20the%204-day%20Sahara%20tour" target="_blank" class="rounded-full bg-slate-950 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-gold-600">Book</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="overflow-hidden rounded-[30px] border border-gold-200 bg-white shadow-[0_20px_50px_rgba(15,23,42,0.05)]">
+            <img src="https://images.unsplash.com/photo-1582742850838-24590fb39fdc?auto=format&fit=crop&w=900&q=80" alt="Imperial cities and Sahara" class="h-60 w-full object-cover" />
+            <div class="p-7">
+              <div class="mb-4 flex items-center justify-between text-xs font-semibold uppercase tracking-[0.18em] text-gold-700">
+                <span>7 days</span>
+                <span class="rounded-full bg-gold-100 px-3 py-1 text-gold-700">Recommended</span>
+              </div>
+              <h3 class="section-title text-4xl text-slate-900">Imperial cities + Sahara</h3>
+              <p class="mt-4 text-slate-600">A complete route through Marrakech, Fez, Meknes and the magic of the Merzouga desert.</p>
+              <div class="mt-6 flex items-center justify-between">
+                <div>
+                  <p class="text-xs uppercase tracking-[0.18em] text-slate-500">From</p>
+                  <p class="text-3xl font-bold text-gold-600">790€</p>
+                </div>
+                <a href="https://wa.me/212668561321?text=Hello%2C%20I%20want%20more%20details%20about%20the%207-day%20sahara%20tour" target="_blank" class="rounded-full bg-slate-950 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-gold-600">Book</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="why-us-bg py-24 text-white">
+      <div class="container mx-auto px-4">
+        <div class="grid items-center gap-12 lg:grid-cols-2">
+          <div>
+            <p class="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-gold-300">Why choose us</p>
+            <h2 class="section-title text-5xl md:text-6xl">The Morocco experience, elevated</h2>
+            <p class="mt-6 max-w-xl text-lg text-slate-200">
+              We craft private itineraries with premium comfort, local perspective and total flexibility so every journey feels personal.
+            </p>
+
+            <div class="mt-10 space-y-6">
+              <div class="flex gap-4 rounded-2xl border border-white/10 bg-white/5 p-4">
+                <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-gold-100 text-gold-700"><i class="fas fa-user-shield"></i></div>
+                <div>
+                  <h3 class="text-lg font-semibold text-white">Experienced local guidance</h3>
+                  <p class="text-slate-300">Friendly drivers and trusted guides who know Morocco deeply.</p>
+                </div>
+              </div>
+
+              <div class="flex gap-4 rounded-2xl border border-white/10 bg-white/5 p-4">
+                <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-gold-100 text-gold-700"><i class="fas fa-campground"></i></div>
+                <div>
+                  <h3 class="text-lg font-semibold text-white">Comfortable desert stays</h3>
+                  <p class="text-slate-300">Overnight camps, boutique accommodations and authentic hospitality.</p>
+                </div>
+              </div>
+
+              <div class="flex gap-4 rounded-2xl border border-white/10 bg-white/5 p-4">
+                <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-gold-100 text-gold-700"><i class="fas fa-heart"></i></div>
+                <div>
+                  <h3 class="text-lg font-semibold text-white">Fully private journeys</h3>
+                  <p class="text-slate-300">No crowded tours. Your route, your pace, your own unforgettable moment.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="rounded-[30px] border border-white/10 bg-slate-950/35 p-8 shadow-luxe backdrop-blur-md">
+            <div class="grid gap-6 sm:grid-cols-2">
+              <div class="rounded-2xl border border-gold-400/30 bg-gold-500/10 p-6">
+                <p class="text-4xl font-bold text-gold-300">5.0</p>
+                <p class="mt-2 text-sm uppercase tracking-[0.2em] text-gold-200">traveler rating</p>
+              </div>
+              <div class="rounded-2xl border border-white/10 bg-white/5 p-6">
+                <p class="text-4xl font-bold text-white">300+</p>
+                <p class="mt-2 text-sm uppercase tracking-[0.2em] text-slate-300">happy travelers</p>
+              </div>
+              <div class="rounded-2xl border border-white/10 bg-white/5 p-6">
+                <p class="text-4xl font-bold text-white">12+</p>
+                <p class="mt-2 text-sm uppercase tracking-[0.2em] text-slate-300">years experience</p>
+              </div>
+              <div class="rounded-2xl border border-white/10 bg-white/5 p-6">
+                <p class="text-4xl font-bold text-white">7/7</p>
+                <p class="mt-2 text-sm uppercase tracking-[0.2em] text-slate-300">support</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ========== GALERÍA ========== -->
-  <section id="galeria" class="py-24 bg-gray-50">
+    <section id="galeria" class="bg-[#f7f2ea] py-24">
+      <div class="container mx-auto px-4">
+        <div class="mx-auto mb-14 max-w-3xl text-center">
+          <p class="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-gold-700">Gallery</p>
+          <h2 class="section-title text-5xl text-slate-900 md:text-6xl">Moments worth keeping</h2>
+        </div>
+
+        <div class="grid gap-4 md:grid-cols-4">
+          <img src="https://images.unsplash.com/photo-1509316785289-025f5b846b35?auto=format&fit=crop&w=900&q=80" alt="Desert" class="h-72 w-full rounded-[24px] object-cover shadow-lg" />
+          <img src="https://images.unsplash.com/photo-1539020140153-e479b8c22e70?auto=format&fit=crop&w=900&q=80" alt="Tour" class="h-72 w-full rounded-[24px] object-cover shadow-lg md:mt-10" />
+          <img src="https://images.unsplash.com/photo-1597212618440-806262de4f6b?auto=format&fit=crop&w=900&q=80" alt="Marrakech" class="h-72 w-full rounded-[24px] object-cover shadow-lg" />
+          <img src="https://images.unsplash.com/photo-1527338611623-4e242563220a?auto=format&fit=crop&w=900&q=80" alt="Kasbah" class="h-72 w-full rounded-[24px] object-cover shadow-lg md:mt-10" />
+        </div>
+      </div>
+    </section>
+
+    <section id="informacion" class="bg-slate-950 py-24 text-white">
+      <div class="container mx-auto px-4">
+        <div class="mx-auto mb-14 max-w-3xl text-center">
+          <p class="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-gold-300">Practical info</p>
+          <h2 class="section-title text-5xl md:text-6xl">Before you travel</h2>
+        </div>
+
+        <div class="grid gap-6 sm:grid-cols-2 xl:grid-cols-5">
+          <div class="rounded-[24px] border border-white/10 bg-white/5 p-6">
+            <div class="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-gold-100 text-xl text-gold-700"><i class="fas fa-passport"></i></div>
+            <h3 class="section-title text-3xl text-white">Visa</h3>
+            <p class="mt-3 text-sm text-slate-300">Confirm your entry requirements based on nationality and duration of stay.</p>
+          </div>
+          <div class="rounded-[24px] border border-white/10 bg-white/5 p-6">
+            <div class="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-gold-100 text-xl text-gold-700"><i class="fas fa-money-bill-wave"></i></div>
+            <h3 class="section-title text-3xl text-white">Currency</h3>
+            <p class="mt-3 text-sm text-slate-300">The local currency is the Moroccan dirham (MAD), so keep cash available.</p>
+          </div>
+          <div class="rounded-[24px] border border-white/10 bg-white/5 p-6">
+            <div class="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-gold-100 text-xl text-gold-700"><i class="fas fa-wifi"></i></div>
+            <h3 class="section-title text-3xl text-white">Internet</h3>
+            <p class="mt-3 text-sm text-slate-300">SIMs and eSIMs are easy to find, and mobile data is widely available.</p>
+          </div>
+          <div class="rounded-[24px] border border-white/10 bg-white/5 p-6">
+            <div class="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-gold-100 text-xl text-gold-700"><i class="fas fa-suitcase"></i></div>
+            <h3 class="section-title text-3xl text-white">What to bring</h3>
+            <p class="mt-3 text-sm text-slate-300">Comfortable shoes, sunscreen, layers and light clothes for warm nights.</p>
+          </div>
+          <div class="rounded-[24px] border border-white/10 bg-white/5 p-6">
+            <div class="mb-5 flex h-14 w-14 items-center justify-center rounded-2xl bg-gold-100 text-xl text-gold-700"><i class="fas fa-language"></i></div>
+            <h3 class="section-title text-3xl text-white">Languages</h3>
+            <p class="mt-3 text-sm text-slate-300">Arabic and Amazigh are official, while French and English are common in travel areas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="bg-[#f8f4ef] py-24">
+      <div class="container mx-auto max-w-5xl px-4">
+        <div class="mb-10">
+          <p class="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-gold-700">Let's talk</p>
+          <h2 class="section-title text-5xl text-slate-900 md:text-6xl">Plan your private itinerary</h2>
+        </div>
+
+        <div class="grid gap-8 rounded-[32px] border border-gold-200 bg-white p-6 shadow-[0_25px_60px_rgba(15,23,42,0.05)] md:p-10 lg:grid-cols-[1.1fr_1.4fr]">
+          <div class="space-y-5">
+            <div class="flex items-start gap-4 rounded-2xl bg-gold-50 p-4">
+              <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-gold-100 text-gold-700"><i class="fab fa-whatsapp"></i></div>
+              <div>
+                <p class="text-xs font-semibold uppercase tracking-[0.18em] text-gold-700">WhatsApp</p>
+                <a href="https://wa.me/212668561321" class="mt-1 block text-lg font-medium text-slate-900">+212 668 561 321</a>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4 rounded-2xl bg-gold-50 p-4">
+              <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-gold-100 text-gold-700"><i class="fas fa-envelope"></i></div>
+              <div>
+                <p class="text-xs font-semibold uppercase tracking-[0.18em] text-gold-700">Email</p>
+                <a href="mailto:info@highlightsmoroccotours.com" class="mt-1 block text-lg font-medium text-slate-900">info@highlightsmoroccotours.com</a>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4 rounded-2xl bg-gold-50 p-4">
+              <div class="flex h-12 w-12 items-center justify-center rounded-xl bg-gold-100 text-gold-700"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <p class="text-xs font-semibold uppercase tracking-[0.18em] text-gold-700">Base</p>
+                <p class="mt-1 text-lg font-medium text-slate-900">Marrakech & Merzouga, Morocco</p>
+              </div>
+            </div>
+          </div>
+
+          <form action="mailto:info@highlightsmoroccotours.com" method="post" enctype="text/plain" class="space-y-5">
+            <div class="grid gap-5 md:grid-cols-2">
+              <div>
+                <label class="mb-2 block text-xs font-semibold uppercase tracking-[0.18em] text-slate-600">Full name</label>
+                <input type="text" name="full-name" class="h-14 w-full rounded-xl border border-slate-200 bg-slate-50 px-4 text-slate-900 outline-none transition focus:border-gold-400 focus:ring-2 focus:ring-gold-200" placeholder="Your name" required />
+              </div>
+              <div>
+                <label class="mb-2 block text-xs font-semibold uppercase tracking-[0.18em] text-slate-600">Email</label>
+                <input type="email" name="email" class="h-14 w-full rounded-xl border border-slate-200 bg-slate-50 px-4 text-slate-900 outline-none transition focus:border-gold-400 focus:ring-2 focus:ring-gold-200" placeholder="you@example.com" required />
+              </div>
+            </div>
+            <div>
+              <label class="mb-2 block text-xs font-semibold uppercase tracking-[0.18em] text-slate-600">WhatsApp</label>
+              <input type="tel" name="whatsapp" class="h-14 w-full rounded-xl border border-slate-200 bg-slate-50 px-4 text-slate-900 outline-none transition focus:border-gold-400 focus:ring-2 focus:ring-gold-200" placeholder="Optional" />
+            </div>
+            <div>
+              <label class="mb-2 block text-xs font-semibold uppercase tracking-[0.18em] text-slate-600">Message</label>
+              <textarea name="message" rows="5" class="w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-slate-900 outline-none transition focus:border-gold-400 focus:ring-2 focus:ring-gold-200" placeholder="Tell us about your dream trip..." required></textarea>
+            </div>
+            <button type="submit" class="flex w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-gold-300 via-gold-400 to-gold-500 px-6 py-4 font-bold uppercase tracking-[0.18em] text-slate-900 shadow-lg shadow-gold-400/30">
+              <i class="fas fa-paper-plane"></i>
+              Send message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-slate-200 bg-slate-950 py-12 text-white">
     <div class="container mx-auto px-4">
-      <div class="text-center max-w-2xl mx-auto mb-16">
-        <p class="text-amber-600 font-medium tracking-wide uppercase text-sm mb-3">Momentos inolvidables</p>
-        <h2 class="font-display text-4xl md:text-5xl font-bold text-gray-900 mb-4">Galería</h2>
-      </div>
-
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
-        <div class="rounded-2xl overflow-hidden h-48 md:h-64">
-          <img src="https://images.unsplash.com/photo-1509316785289-025f5b846b35?q=80&w=600&auto=format&fit=crop" class="w-full h-full object-cover hover:scale-110 transition duration-500" alt="Dunas">
-        </div>
-        <div class="rounded-2xl overflow-hidden h-48 md:h-64">
-          <img src="https://images.unsplash.com/photo-1539020140153-e479b8c22e70?q=80&w=600&auto=format&fit=crop" class="w-full h-full object-cover hover:scale-110 transition duration-500" alt="Montañas Atlas">
-        </div>
-        <div class="rounded-2xl overflow-hidden h-48 md:h-64">
-          <img src="https://images.unsplash.com/photo-1597212618440-806262de4f6b?q=80&w=600&auto=format&fit=crop" class="w-full h-full object-cover hover:scale-110 transition duration-500" alt="Marrakech">
-        </div>
-        <div class="rounded-2xl overflow-hidden h-48 md:h-64">
-          <img src="https://images.unsplash.com/photo-1527338611623-4e242563220a?q=80&w=600&auto=format&fit=crop" class="w-full h-full object-cover hover:scale-110 transition duration-500" alt="Ait Ben Haddou">
-        </div>
-        <div class="rounded-2xl overflow-hidden h-48 md:h-64">
-          <img src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?q=80&w=600&auto=format&fit=crop" class="w-full h-full object-cover hover:scale-110 transition duration-500" alt="Camello">
-        </div>
-        <div class="rounded-2xl overflow-hidden h-48 md:h-64">
-          <img src="https://images.unsplash.com/photo-1582742850838-24590fb39fdc?q=80&w=600&auto=format&fit=crop" class="w-full h-full object-cover hover:scale-110 transition duration-500" alt="Vista panorámica de la medina de Fez">
-        </div>
-        <div class="rounded-2xl overflow-hidden h-48 md:h-64">
-          <img src="https://images.unsplash.com/photo-1489749798305-4fea3ae63d43?q=80&w=600&auto=format&fit=crop" class="w-full h-full object-cover hover:scale-110 transition duration-500" alt="Desierto">
-        </div>
-        <div class="rounded-2xl overflow-hidden h-48 md:h-64">
-          <img src="https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?q=80&w=600&auto=format&fit=crop" class="w-full h-full object-cover hover:scale-110 transition duration-500" alt="Atardecer Sahara">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========== BLOG ========== -->
-  <section id="blog" class="py-24 bg-white" aria-labelledby="blog-title">
-    <div class="container mx-auto px-4">
-      <div class="max-w-2xl mb-12">
-        <p class="text-amber-600 font-medium tracking-wide uppercase text-sm mb-3">Blog de viajes</p>
-        <h2 id="blog-title" class="font-display text-4xl md:text-5xl font-bold text-gray-900 mb-4">Guías para descubrir Marruecos</h2>
-        <p class="text-gray-600 text-lg">Consejos para comparar rutas, elegir destinos y planificar tu viaje desde Marrakech.</p>
-      </div>
-
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <article class="overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition hover:shadow-lg">
-          <img src="public/merzouga.jpg" alt="Caravana de camellos en las dunas de Merzouga" class="h-48 w-full object-cover">
-          <div class="p-6">
-            <p class="text-xs font-semibold uppercase tracking-wide text-amber-700 mb-3">Moha</p>
-            <h3 class="font-display text-2xl font-semibold text-gray-900 mb-3">Merzouga o Zagora: cómo elegir tu ruta</h3>
-            <p class="text-sm leading-relaxed text-gray-600">Compara la duración y las paradas de cada circuito desde Marrakech para elegir entre las dunas de Merzouga y el desierto de Zagora.</p>
-          </div>
-        </article>
-
-        <article class="overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition hover:shadow-lg">
-          <img src="public/ait-ben-haddo.jpg" alt="Ksar de Ait Ben Haddou en Marruecos" class="h-48 w-full object-cover">
-          <div class="p-6">
-            <p class="text-xs font-semibold uppercase tracking-wide text-amber-700 mb-3">Moha</p>
-            <h3 class="font-display text-2xl font-semibold text-gray-900 mb-3">Ait Ben Haddou: una parada en la ruta al Sahara</h3>
-            <p class="text-sm leading-relaxed text-gray-600">Conoce este ksar histórico y descubre cómo incluirlo en un recorrido entre Marrakech, Ouarzazate y el desierto.</p>
-          </div>
-        </article>
-
-        <article class="overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition hover:shadow-lg">
-          <img src="public/zagoura.jpg" alt="Oasis y kasbahs en la ruta de Zagora" class="h-48 w-full object-cover">
-          <div class="p-6">
-            <p class="text-xs font-semibold uppercase tracking-wide text-amber-700 mb-3">Moha</p>
-            <h3 class="font-display text-2xl font-semibold text-gray-900 mb-3">Qué revisar antes de reservar un tour al desierto</h3>
-            <p class="text-sm leading-relaxed text-gray-600">Comprueba la duración, el itinerario, las noches incluidas y las paradas del viaje. Escríbenos para consultar los detalles de cada ruta.</p>
-          </div>
-        </article>
-      </div>
-      <div class="mt-10 text-center">
-        <a href="blog.html" class="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-[#d4a62a] via-[#e2b944] to-[#f6d77a] px-6 py-3.5 text-sm font-bold uppercase tracking-[0.18em] text-white shadow-[0_18px_35px_rgba(212,166,42,0.35)] transition duration-300 hover:-translate-y-0.5 hover:shadow-[0_22px_42px_rgba(212,166,42,0.45)]">
-          Explorar todas las guías <i class="fas fa-arrow-right text-xs" aria-hidden="true"></i>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========== INFORMACIÓN PRÁCTICA ========== -->
-  <section id="informacion" class="bg-gray-50 py-24" aria-labelledby="informacion-title">
-    <div class="container mx-auto px-4">
-      <div class="mx-auto mb-14 max-w-3xl text-center">
-        <p class="mb-3 text-sm font-medium uppercase tracking-widest text-amber-600">Antes de viajar</p>
-        <h2 id="informacion-title" class="mb-4 font-display text-4xl font-bold text-gray-900 md:text-5xl">Información práctica para tu viaje a Marruecos</h2>
-        <p class="text-lg leading-relaxed text-gray-600">Consulta estos consejos generales para preparar tu tour por Marrakech, el Sahara y otros destinos de Marruecos.</p>
-      </div>
-
-      <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-5">
-        <article class="group h-full rounded-2xl border border-gray-200 bg-white p-6 text-center shadow-sm transition duration-300 hover:-translate-y-1 hover:border-amber-200 hover:shadow-lg">
-          <div class="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-full border border-amber-100 bg-amber-50 text-amber-700">
-            <i class="fas fa-passport text-xl" aria-hidden="true"></i>
-          </div>
-          <h3 class="mb-3 font-display text-xl font-semibold text-gray-900">Visado</h3>
-          <p class="text-sm leading-relaxed text-gray-600">Los requisitos de entrada dependen de tu nacionalidad y de la duración del viaje. Confirma las condiciones vigentes con la embajada o el consulado de Marruecos.</p>
-        </article>
-
-        <article class="group h-full rounded-2xl border border-gray-200 bg-white p-6 text-center shadow-sm transition duration-300 hover:-translate-y-1 hover:border-amber-200 hover:shadow-lg">
-          <div class="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-full border border-amber-100 bg-amber-50 text-amber-700">
-            <i class="fas fa-coins text-xl" aria-hidden="true"></i>
-          </div>
-          <h3 class="mb-3 font-display text-xl font-semibold text-gray-900">Moneda</h3>
-          <p class="text-sm leading-relaxed text-gray-600">La moneda local es el dirham marroquí (MAD). La aceptación de tarjetas puede variar, así que conviene disponer también de algo de efectivo.</p>
-        </article>
-
-        <article class="group h-full rounded-2xl border border-gray-200 bg-white p-6 text-center shadow-sm transition duration-300 hover:-translate-y-1 hover:border-amber-200 hover:shadow-lg">
-          <div class="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-full border border-amber-100 bg-amber-50 text-amber-700">
-            <i class="fas fa-wifi text-xl" aria-hidden="true"></i>
-          </div>
-          <h3 class="mb-3 font-display text-xl font-semibold text-gray-900">Internet y SIM</h3>
-          <p class="text-sm leading-relaxed text-gray-600">Puedes consultar opciones de SIM local o eSIM. Comprueba antes del viaje que tu teléfono sea compatible y revisa las tarifas de tu operador.</p>
-        </article>
-
-        <article class="group h-full rounded-2xl border border-gray-200 bg-white p-6 text-center shadow-sm transition duration-300 hover:-translate-y-1 hover:border-amber-200 hover:shadow-lg">
-          <div class="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-full border border-amber-100 bg-amber-50 text-amber-700">
-            <i class="fas fa-suitcase-rolling text-xl" aria-hidden="true"></i>
-          </div>
-          <h3 class="mb-3 font-display text-xl font-semibold text-gray-900">Qué llevar</h3>
-          <p class="text-sm leading-relaxed text-gray-600">Incluye calzado cómodo, protección solar y una capa ligera para las noches frescas. Adapta la ropa a la temporada y a los lugares que visitarás.</p>
-        </article>
-
-        <article class="group h-full rounded-2xl border border-gray-200 bg-white p-6 text-center shadow-sm transition duration-300 hover:-translate-y-1 hover:border-amber-200 hover:shadow-lg">
-          <div class="mx-auto mb-5 flex h-14 w-14 items-center justify-center rounded-full border border-amber-100 bg-amber-50 text-amber-700">
-            <i class="fas fa-language text-xl" aria-hidden="true"></i>
-          </div>
-          <h3 class="mb-3 font-display text-xl font-semibold text-gray-900">Idiomas</h3>
-          <p class="text-sm leading-relaxed text-gray-600">El árabe y el amazigh son idiomas oficiales. También se habla francés y, en algunas zonas turísticas, español e inglés.</p>
-        </article>
-      </div>
-    </div>
-  </section>
-
-  <!-- ========== CONTACTO ========== -->
-  <section id="contacto" class="bg-[#f5f1ec] py-24">
-    <div class="container mx-auto max-w-5xl px-4">
-      <div class="mb-10">
-        <div class="mb-5 flex items-center gap-3 text-[11px] font-semibold uppercase tracking-[0.25em] text-[#c96d2b]">
-          <span class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-[#f8e7c7] text-[#c96d2b]">
-            <i class="fas fa-paper-plane text-[10px]" aria-hidden="true"></i>
-          </span>
-          Envíanos un mensaje
-        </div>
-        <h2 class="font-display text-5xl font-bold leading-none tracking-tight text-[#1a1d23] md:text-7xl">
-          Estamos aquí para ayudarte
-        </h2>
-      </div>
-
-      <form class="space-y-7" action="mailto:info@highlightsmoroccotours.com" method="post" enctype="text/plain">
-        <div class="grid gap-8 md:grid-cols-2">
-          <div>
-            <label for="full-name" class="mb-3 block text-[11px] font-semibold uppercase tracking-[0.18em] text-[#1f2937]">Nombre completo</label>
-            <input id="full-name" type="text" name="full-name" placeholder="Tu nombre completo" class="h-[68px] w-full rounded-xl border border-[#d9d1c6] bg-[#f7f4f1] px-5 text-lg text-[#1f2937] outline-none transition placeholder:text-[#7a756c] focus:border-[#c96d2b] focus:bg-white focus:ring-4 focus:ring-[#f6ddbd]" />
-          </div>
-
-          <div>
-            <label for="email" class="mb-3 block text-[11px] font-semibold uppercase tracking-[0.18em] text-[#1f2937]">Correo electrónico</label>
-            <input id="email" type="email" name="email" placeholder="Tu correo electrónico" class="h-[68px] w-full rounded-xl border border-[#d9d1c6] bg-[#f7f4f1] px-5 text-lg text-[#1f2937] outline-none transition placeholder:text-[#7a756c] focus:border-[#c96d2b] focus:bg-white focus:ring-4 focus:ring-[#f6ddbd]" />
-          </div>
-        </div>
-
+      <div class="flex flex-col gap-8 md:flex-row md:items-end md:justify-between">
         <div>
-          <label for="whatsapp" class="mb-3 block text-[11px] font-semibold uppercase tracking-[0.18em] text-[#1f2937]">WhatsApp (opcional)</label>
-          <input id="whatsapp" type="tel" name="whatsapp" placeholder="Tu número de WhatsApp" class="h-[68px] w-full rounded-xl border border-[#d9d1c6] bg-[#f7f4f1] px-5 text-lg text-[#1f2937] outline-none transition placeholder:text-[#7a756c] focus:border-[#c96d2b] focus:bg-white focus:ring-4 focus:ring-[#f6ddbd]" />
+          <div class="flex items-center gap-3 text-gold-300">
+            <i class="fas fa-sun text-2xl"></i>
+            <span class="font-display text-2xl font-semibold">Highlights Morocco</span>
+          </div>
+          <p class="mt-3 text-slate-400">Private Morocco tours from Marrakech with local care and premium comfort.</p>
         </div>
 
-        <div>
-          <label for="message" class="mb-3 block text-[11px] font-semibold uppercase tracking-[0.18em] text-[#1f2937]">Mensaje</label>
-          <textarea id="message" name="message" rows="6" placeholder="Cuéntanos sobre tu viaje, intereses o preguntas..." class="w-full resize-none rounded-xl border border-[#d9d1c6] bg-[#f7f4f1] px-5 py-5 text-lg text-[#1f2937] outline-none transition placeholder:text-[#7a756c] focus:border-[#c96d2b] focus:bg-white focus:ring-4 focus:ring-[#f6ddbd]"></textarea>
-        </div>
-
-        <button type="submit" class="inline-flex w-full items-center justify-center gap-3 rounded-xl bg-gradient-to-r from-[#f0c75e] via-[#e0b13d] to-[#c7921f] px-6 py-5 text-2xl font-semibold text-white shadow-[0_20px_35px_rgba(224,177,61,0.38)] transition duration-200 hover:-translate-y-0.5 hover:shadow-[0_24px_40px_rgba(224,177,61,0.48)]">
-          <i class="fas fa-paper-plane" aria-hidden="true"></i>
-          Enviar mensaje
-        </button>
-      </form>
-    </div>
-  </section>
-
-  <!-- ========== FOOTER ========== -->
-  <footer class="relative overflow-hidden border-t border-amber-400/30 bg-gray-950 text-white pt-14 pb-8">
-    <div class="container mx-auto px-4">
-      <div class="mb-12 flex flex-col gap-6 border-b border-white/10 pb-10 md:flex-row md:items-end md:justify-between">
-        <div>
-          <p class="mb-3 text-xs font-semibold uppercase tracking-[0.18em] text-amber-300">Tu viaje, a tu manera</p>
-          <h2 class="font-display text-3xl font-semibold text-white md:text-4xl">Marruecos te espera.</h2>
-        </div>
-        <a href="https://wa.me/212668561321?text=Hola,%20quiero%20planear%20un%20viaje%20a%20Marruecos" target="_blank" class="inline-flex items-center justify-center gap-2 rounded-full bg-amber-500 px-6 py-3 font-semibold text-white shadow-lg shadow-amber-950/30 transition hover:bg-amber-400">
-          <i class="fab fa-whatsapp text-lg" aria-hidden="true"></i>
-          Planear mi viaje
-        </a>
-      </div>
-
-      <div class="grid grid-cols-1 gap-10 border-b border-white/10 pb-12 md:grid-cols-4 md:gap-8">
-        <!-- Brand -->
-        <div class="md:col-span-1">
-          <a href="#inicio" aria-label="Highlights Morocco Tours, inicio" class="mb-5 inline-flex flex-col items-center gap-1 text-center leading-none">
-            <i class="fas fa-sun text-2xl text-amber-400" aria-hidden="true"></i>
-            <span class="h-px w-8 bg-amber-400/80"></span>
-            <span class="font-display text-sm font-bold text-white">Highlights</span>
-            <span class="text-[10px] text-amber-300">Morocco Tours</span>
-          </a>
-          <p class="text-gray-400 text-sm leading-relaxed">
-            Tours privados auténticos por Marruecos. Marrakech, Merzouga y más allá.
-          </p>
-        </div>
-
-        <!-- Links -->
-        <div>
-          <h4 class="mb-4 text-xs font-semibold uppercase tracking-widest text-amber-300">Enlaces</h4>
-          <ul class="space-y-2.5 text-sm text-gray-400">
-            <li><a href="#inicio" class="hover:text-amber-400 transition">Inicio</a></li>
-            <li><a href="Tours.html" class="hover:text-amber-400 transition">Tours</a></li>
-            <li><a href="#destinos" class="hover:text-amber-400 transition">Destinos</a></li>
-            <li><a href="#galeria" class="hover:text-amber-400 transition">Galería</a></li>
-            <li><a href="blog.html" class="hover:text-amber-400 transition">Blog</a></li>
-            <li><a href="#informacion" class="hover:text-amber-400 transition">Información</a></li>
-            <li><a href="contact.html" class="hover:text-amber-400 transition">Contacto</a></li>
-          </ul>
-        </div>
-
-        <!-- Popular Tours -->
-        <div>
-          <h4 class="mb-4 text-xs font-semibold uppercase tracking-widest text-amber-300">Tours populares</h4>
-          <ul class="space-y-2.5 text-sm text-gray-400">
-            <li><a href="Tours.html" class="hover:text-amber-400 transition">3 días Merzouga</a></li>
-            <li><a href="Tours.html" class="hover:text-amber-400 transition">4 días Sahara</a></li>
-            <li><a href="Tours.html" class="hover:text-amber-400 transition">7 días Imperial + Desierto</a></li>
-            <li><a href="Tours.html" class="hover:text-amber-400 transition">Day trips Marrakech</a></li>
-          </ul>
-        </div>
-
-        <!-- Contact -->
-        <div>
-          <h4 class="mb-4 text-xs font-semibold uppercase tracking-widest text-amber-300">Contacto</h4>
-          <ul class="space-y-3 text-sm text-gray-400">
-            <li class="flex items-center gap-2">
-              <i class="fab fa-whatsapp text-green-400"></i>
-              <a href="https://wa.me/212668561321" class="hover:text-amber-400">+212 668 561 321</a>
-            </li>
-            <li class="flex items-center gap-2">
-              <i class="fas fa-envelope text-blue-400"></i>
-              <a href="mailto:info@highlightsmoroccotours.com" class="break-all hover:text-amber-400">info@highlightsmoroccotours.com</a>
-            </li>
-            <li class="flex items-center gap-2">
-              <i class="fas fa-map-marker-alt text-amber-400"></i>
-              Marrakech & Merzouga
-            </li>
-          </ul>
+        <div class="flex flex-wrap gap-5 text-sm text-slate-300">
+          <a href="index-en.html" class="hover:text-gold-300">Home</a>
+          <a href="Tours-en.html" class="hover:text-gold-300">Tours</a>
+          <a href="blog-en.html" class="hover:text-gold-300">Blog</a>
+          <a href="contact-en.html" class="hover:text-gold-300">Contact</a>
         </div>
       </div>
 
-      <div class="pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
-        <p class="text-gray-500 text-sm">© 2026 Highlights Morocco Tours. Todos los derechos reservados.</p>
-        <div class="flex gap-4">
-          <a href="#" aria-label="Instagram" class="w-10 h-10 rounded-full border border-white/10 bg-white/5 flex items-center justify-center text-gray-300 hover:border-amber-400/50 hover:bg-amber-500 hover:text-white transition">
-            <i class="fab fa-instagram"></i>
-          </a>
-          <a href="#" aria-label="Facebook" class="w-10 h-10 rounded-full border border-white/10 bg-white/5 flex items-center justify-center text-gray-300 hover:border-amber-400/50 hover:bg-amber-500 hover:text-white transition">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-          <a href="https://wa.me/212668561321" aria-label="WhatsApp" class="w-10 h-10 rounded-full border border-white/10 bg-white/5 flex items-center justify-center text-gray-300 transition hover:border-amber-400/50 hover:bg-[#d4a62a] hover:text-[#1a160d]">
-            <i class="fab fa-whatsapp"></i>
-          </a>
+      <div class="mt-8 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-6 text-sm text-slate-400 md:flex-row">
+        <span>© 2026 Highlights Morocco Tours</span>
+        <div class="flex items-center gap-4">
+          <a href="https://wa.me/212668561321" class="hover:text-gold-300"><i class="fab fa-whatsapp"></i></a>
+          <a href="mailto:info@highlightsmoroccotours.com" class="hover:text-gold-300"><i class="fas fa-envelope"></i></a>
         </div>
       </div>
     </div>
   </footer>
 
-  <!-- WhatsApp Floating Button -->
-  <a href="https://wa.me/212668561321?text=Hola!%20Quiero%20información%20sobre%20los%20tours" target="_blank" 
-     class="fixed bottom-6 right-6 z-50 flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-r from-[#f5d563] via-[#d4a62a] to-[#b98314] text-[#1a160d] shadow-[0_18px_35px_rgba(212,166,42,0.45)] transition hover:scale-110">
-    <i class="fab fa-whatsapp text-3xl"></i>
-  </a>
-
-  <!-- Scripts -->
   <script>
-    // Mobile menu toggle
     const mobileBtn = document.getElementById('mobile-menu-btn');
     const mobileMenu = document.getElementById('mobile-menu');
-    const mobileMenuIcon = mobileBtn.querySelector('i');
-    
+    const mobileIcon = mobileBtn.querySelector('i');
+
     mobileBtn.addEventListener('click', () => {
       const isOpening = mobileMenu.classList.contains('hidden');
       mobileMenu.classList.toggle('hidden');
       mobileBtn.setAttribute('aria-expanded', String(isOpening));
-      mobileBtn.setAttribute('aria-label', isOpening ? 'Cerrar menú' : 'Abrir menú');
-      mobileMenuIcon.classList.toggle('fa-bars', !isOpening);
-      mobileMenuIcon.classList.toggle('fa-xmark', isOpening);
+      mobileIcon.classList.toggle('fa-bars', !isOpening);
+      mobileIcon.classList.toggle('fa-xmark', isOpening);
     });
 
-    // Close mobile menu when clicking a link
-    mobileMenu.querySelectorAll('a').forEach(link => {
-      link.addEventListener('click', () => {
-        mobileMenu.classList.add('hidden');
-        mobileBtn.setAttribute('aria-expanded', 'false');
-        mobileBtn.setAttribute('aria-label', 'Abrir menú');
-        mobileMenuIcon.classList.add('fa-bars');
-        mobileMenuIcon.classList.remove('fa-xmark');
-      });
-    });
-
-    // Header background on scroll
     const header = document.getElementById('header');
     window.addEventListener('scroll', () => {
-      if (window.scrollY > 50) {
-        header.classList.add('bg-gray-950/90', 'backdrop-blur-xl', 'shadow-lg', 'border-b', 'border-white/10');
+      if (window.scrollY > 24) {
+        header.classList.add('bg-slate-950/70', 'backdrop-blur-md', 'shadow-lg');
       } else {
-        header.classList.remove('bg-gray-950/90', 'backdrop-blur-xl', 'shadow-lg', 'border-b', 'border-white/10');
+        header.classList.remove('bg-slate-950/70', 'backdrop-blur-md', 'shadow-lg');
       }
     });
   </script>

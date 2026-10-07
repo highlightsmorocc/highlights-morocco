@@ -147,6 +147,8 @@
     .dest-bg { background: #0b0b0b; }
     .dest-top { background: #0b0b0b; }
     .dest-card:hover .icon-ring { transform: translateY(-2px) scale(1.05); }
+    .search-input { color-scheme: dark; }
+    .search-input::-webkit-calendar-picker-indicator { filter: invert(78%) sepia(40%) saturate(600%) hue-rotate(5deg); cursor: pointer; }
     .menu-panel {
       visibility: hidden; opacity: 0; transform: translateY(8px);
       transition: opacity .2s ease, transform .2s ease, visibility .2s;
@@ -288,8 +290,44 @@
       </div>
     </section>
 
+
+    <!-- ============ SEARCH ============ -->
+    <section aria-label="Find your tour" class="relative z-10 bg-[#0b0b0b] px-5">
+      <form id="search-form" class="search-card relative mx-auto -mt-16 max-w-6xl rounded-3xl border border-gold-400/40 bg-[#14110b]/95 p-6 shadow-2xl shadow-black/50 backdrop-blur-md sm:p-8 lg:-mt-20">
+        <div class="absolute inset-x-12 top-0 h-px bg-gradient-to-r from-transparent via-gold-300 to-transparent" aria-hidden="true"></div>
+        <div class="mb-6 flex flex-wrap items-end justify-between gap-3">
+          <div>
+            <p class="text-[11px] font-semibold uppercase tracking-[0.35em] text-gold-300">Plan your trip</p>
+            <h2 class="mt-2 font-display text-2xl font-semibold text-white sm:text-3xl">Find your <span class="gold-text italic">perfect tour</span></h2>
+          </div>
+          <p class="font-jost text-sm text-white/55">Free quote, no obligation.</p>
+        </div>
+        <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-[1.1fr_1.1fr_0.9fr_1.1fr_auto] lg:items-end">
+            <div class="search-field">
+              <label for="s-destination" class="mb-2 flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.22em] text-gold-300"><svg viewBox="0 0 24 24" class="h-4 w-4 fill-none stroke-current" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11.5A7 7 0 0 0 5 9.5C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.6"/></svg>Destination</label>
+              <div class="relative"><select id="s-destination" name="s-destination" class="search-input w-full appearance-none rounded-xl border border-white/15 bg-white/5 px-4 py-3.5 font-jost text-[15px] text-white outline-none transition focus:border-gold-400 focus:bg-white/10"><option class="text-[#14100a]" value="">Any destination</option><option class="text-[#14100a]" value="Marrakech">Marrakech</option><option class="text-[#14100a]" value="Casablanca">Casablanca</option><option class="text-[#14100a]" value="Fes">Fes</option><option class="text-[#14100a]" value="Rabat">Rabat</option><option class="text-[#14100a]" value="Tangier">Tangier</option><option class="text-[#14100a]" value="Errachidia">Errachidia</option><option class="text-[#14100a]" value="Ouarzazate">Ouarzazate</option><option class="text-[#14100a]" value="Merzouga">Merzouga</option></select><svg viewBox="0 0 24 24" class="pointer-events-none absolute right-4 top-1/2 h-4 w-4 -translate-y-1/2 fill-none stroke-gold-300" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></div>
+            </div>
+            <div class="search-field">
+              <label for="s-type" class="mb-2 flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.22em] text-gold-300"><svg viewBox="0 0 24 24" class="h-4 w-4 fill-none stroke-current" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></svg>Tour type</label>
+              <div class="relative"><select id="s-type" name="s-type" class="search-input w-full appearance-none rounded-xl border border-white/15 bg-white/5 px-4 py-3.5 font-jost text-[15px] text-white outline-none transition focus:border-gold-400 focus:bg-white/10"><option class="text-[#14100a]" value="">Any tour type</option><option class="text-[#14100a]" value="Multi-day tour">Multi-day tour</option><option class="text-[#14100a]" value="Day trip">Day trip</option><option class="text-[#14100a]" value="Sahara desert tour">Sahara desert tour</option><option class="text-[#14100a]" value="Tailor-made trip">Tailor-made trip</option></select><svg viewBox="0 0 24 24" class="pointer-events-none absolute right-4 top-1/2 h-4 w-4 -translate-y-1/2 fill-none stroke-gold-300" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></div>
+            </div>
+            <div class="search-field">
+              <label for="s-date" class="mb-2 flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.22em] text-gold-300"><svg viewBox="0 0 24 24" class="h-4 w-4 fill-none stroke-current" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M8 3v4M16 3v4M3.5 10h17"/></svg>Date</label>
+              <input id="s-date" name="s-date" type="date" class="search-input w-full appearance-none rounded-xl border border-white/15 bg-white/5 px-4 py-3.5 font-jost text-[15px] text-white outline-none transition focus:border-gold-400 focus:bg-white/10" />
+            </div>
+            <div class="search-field">
+              <label for="s-guests" class="mb-2 flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.22em] text-gold-300"><svg viewBox="0 0 24 24" class="h-4 w-4 fill-none stroke-current" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c0-3.6 2.9-6 6.5-6s6.5 2.4 6.5 6M16 4.8a3.5 3.5 0 0 1 0 6.4M18 14.3c2.2.7 3.5 2.6 3.5 5.7"/></svg>Travellers</label>
+              <div class="relative"><select id="s-guests" name="s-guests" class="search-input w-full appearance-none rounded-xl border border-white/15 bg-white/5 px-4 py-3.5 font-jost text-[15px] text-white outline-none transition focus:border-gold-400 focus:bg-white/10"><option class="text-[#14100a]" value="">How many travellers?</option><option class="text-[#14100a]" value="1 traveller">1 traveller</option><option class="text-[#14100a]" value="2 travellers">2 travellers</option><option class="text-[#14100a]" value="3-4 travellers">3-4 travellers</option><option class="text-[#14100a]" value="5-8 travellers">5-8 travellers</option><option class="text-[#14100a]" value="9 or more travellers">9 or more travellers</option></select><svg viewBox="0 0 24 24" class="pointer-events-none absolute right-4 top-1/2 h-4 w-4 -translate-y-1/2 fill-none stroke-gold-300" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></div>
+            </div>
+          <button type="submit" class="gold-btn inline-flex h-[3.1rem] items-center justify-center gap-2.5 rounded-xl px-8 text-[13px] font-bold uppercase tracking-[0.16em] text-[#1a1305] shadow-lg shadow-gold-500/25 transition duration-300 hover:-translate-y-0.5 hover:brightness-110 sm:col-span-2 lg:col-span-1">
+            <svg viewBox="0 0 24 24" class="h-4 w-4 fill-none stroke-current" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4.5 4.5"/></svg>Search
+          </button>
+        </div>
+      </form>
+    </section>
+
     <!-- ============ FEATURES ============ -->
-    <section aria-labelledby="features-title" class="features relative px-5 pb-20 pt-16 text-white">
+    <section aria-labelledby="features-title" class="features relative px-5 pb-20 pt-20 text-white">
       <div class="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-gold-400/60 to-transparent" aria-hidden="true"></div>
       <span class="absolute left-1/2 top-0 flex h-5 w-10 -translate-x-1/2 -translate-y-px items-start justify-center rounded-b-full bg-[#0b0b0b] text-gold-400" aria-hidden="true"><i class="fas fa-chevron-down text-[10px]"></i></span>
       <h2 id="features-title" class="sr-only">Why travel with Highlights Morocco Tours</h2>
@@ -798,6 +836,25 @@
       icon.classList.toggle('fa-bars', !opening);
       icon.classList.toggle('fa-xmark', opening);
     });
+
+    // Buscador: abre WhatsApp con la consulta ya escrita.
+    (() => {
+      const form = document.getElementById('search-form');
+      const date = document.getElementById('s-date');
+      const t = new Date(); date.min = t.getFullYear() + '-' + String(t.getMonth() + 1).padStart(2, '0') + '-' + String(t.getDate()).padStart(2, '0');
+      form.addEventListener('submit', e => {
+        e.preventDefault();
+        const v = id => document.getElementById(id).value;
+        const parts = [];
+        if (v('s-type')) parts.push('a ' + v('s-type').toLowerCase());
+        if (v('s-destination')) parts.push('from ' + v('s-destination'));
+        let msg = 'Hello, I would like a quote for ' + (parts.length ? parts.join(' ') : 'a tour in Morocco');
+        if (v('s-guests')) msg += ' for ' + v('s-guests');
+        if (v('s-date')) { const [y, m, d] = v('s-date').split('-'); msg += ', starting on ' + d + '/' + m + '/' + y; }
+        msg += '.';
+        window.open('https://wa.me/212668561321?text=' + encodeURIComponent(msg), '_blank', 'noopener');
+      });
+    })();
   </script>
 </body>
 </html>

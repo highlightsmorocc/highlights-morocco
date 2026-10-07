@@ -1,32 +1,33 @@
 # Highlights Morocco Tours
 
-Sitio web moderno para **Highlights Morocco Tours** — Tours privados en Marruecos (Marrakech & Merzouga).
+Sitio web estático en español de **Highlights Morocco Tours**: tours privados por Marruecos desde Marrakech (Merzouga, Zagora, ciudades imperiales).
 
-## Características
+Dominio: https://www.highlightsmoroccotours.com (ver `CNAME`).
 
-- Diseño inspirado en el template Travlla (estilo moderno con Tailwind CSS)
-- Totalmente responsive (móvil + escritorio)
-- Secciones: Hero, Cómo funciona, Destinos, Tours populares, Por qué nosotros, Galería, Contacto + Mapa
-- Botones de WhatsApp integrados
-- Contacto:
-  - Teléfono / WhatsApp: **+212 668 561 321**
-  - Email: **info@highlightsmoroccotours.com**
+## Estructura
 
-## Cómo usar
+| Archivo | Contenido |
+| --- | --- |
+| `index.html` | Inicio |
+| `Tours.html` | Catálogo de tours con filtros |
+| `tour-merzouga-3-dias.html` | Ficha del tour de 3 días a Merzouga |
+| `blog.html` | Listado de guías |
+| `merzouga-o-zagora.html` | Guía: Merzouga o Zagora |
+| `contact.html` | Contacto y formulario |
+| `*-en.html` | Redirecciones a la página equivalente en español (el sitio ya no tiene versión en inglés; se mantienen para no romper enlaces antiguos) |
+| `robots.txt`, `sitemap.xml` | SEO |
 
-1. Sube este repositorio a GitHub
-2. Activa **GitHub Pages** (Settings → Pages → Source: main branch)
-3. Tu web estará disponible en: `https://tu-usuario.github.io/nombre-del-repo`
+## SEO
 
-O súbelo a cualquier hosting (Netlify, Vercel, cPanel, etc.).
+- Cada página tiene `title`, `description`, URL canónica, Open Graph y datos estructurados (`TravelAgency`, `TouristTrip`, `BlogPosting`, `FAQPage`, `BreadcrumbList`).
+- Al añadir una página nueva, inclúyela en `sitemap.xml`.
+- Tras publicar, envía `https://www.highlightsmoroccotours.com/sitemap.xml` a Google Search Console.
 
-## Personalización
+## Publicación
 
-- Cambia textos, precios y tours en `index.html`
-- Sustituye las imágenes de Unsplash por tus fotos propias
-- Añade tu logo real si lo tienes
+Se despliega con GitHub Pages desde la rama `main` (Settings → Pages). Funciona también en cualquier hosting estático.
 
-## Contacto del proyecto
+## Contacto
 
 - WhatsApp: +212 668 561 321
 - Email: info@highlightsmoroccotours.com

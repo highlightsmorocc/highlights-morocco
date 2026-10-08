@@ -1,123 +1,843 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.highlightsmoroccotours.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/"/>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.highlightsmoroccotours.com/about/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.highlightsmoroccotours.com/tours/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.highlightsmoroccotours.com/tours/from-marrakech/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.highlightsmoroccotours.com/tours/from-casablanca/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.highlightsmoroccotours.com/tours/from-fes/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.highlightsmoroccotours.com/tours/from-rabat/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.highlightsmoroccotours.com/tours/from-tangier/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.highlightsmoroccotours.com/tours/from-errachidia/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.highlightsmoroccotours.com/day-trips/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.highlightsmoroccotours.com/day-trips/from-marrakech/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.highlightsmoroccotours.com/day-trips/from-fes/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.highlightsmoroccotours.com/day-trips/from-ouarzazate/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.highlightsmoroccotours.com/day-trips/from-merzouga/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://www.highlightsmoroccotours.com/blog/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.highlightsmoroccotours.com/blog/merzouga-or-zagora/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.highlightsmoroccotours.com/blog/ait-ben-haddou/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.highlightsmoroccotours.com/blog/what-to-check-before-booking-a-sahara-tour/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.highlightsmoroccotours.com/blog/ourika-ouzoud-or-ait-ben-haddou-day-trips/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.highlightsmoroccotours.com/offer/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.highlightsmoroccotours.com/contact/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.highlightsmoroccotours.com/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.highlightsmoroccotours.com/pt/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.highlightsmoroccotours.com/it/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/"/>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/about/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/about/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/about/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/about/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/about/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/es/about/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/about/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/about/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/about/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/about/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/pt/about/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/about/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/about/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/about/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/about/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/it/about/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/about/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/about/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/about/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/about/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/about/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/blog/ait-ben-haddou/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/blog/ait-ben-haddou/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/blog/ait-ben-haddou/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/blog/ait-ben-haddou/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/blog/ait-ben-haddou/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/blog/ait-ben-haddou/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/es/blog/ait-ben-haddou/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/blog/ait-ben-haddou/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/blog/ait-ben-haddou/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/blog/ait-ben-haddou/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/blog/ait-ben-haddou/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/blog/ait-ben-haddou/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/pt/blog/ait-ben-haddou/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/blog/ait-ben-haddou/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/blog/ait-ben-haddou/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/blog/ait-ben-haddou/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/blog/ait-ben-haddou/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/blog/ait-ben-haddou/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/it/blog/ait-ben-haddou/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/blog/ait-ben-haddou/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/blog/ait-ben-haddou/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/blog/ait-ben-haddou/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/blog/ait-ben-haddou/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/blog/ait-ben-haddou/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/blog/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/blog/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/blog/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/blog/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/es/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/blog/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/blog/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/blog/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/blog/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/pt/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/blog/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/blog/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/blog/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/blog/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/it/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/blog/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/blog/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/blog/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/blog/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/blog/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/blog/merzouga-or-zagora/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/blog/merzouga-or-zagora/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/blog/merzouga-or-zagora/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/blog/merzouga-or-zagora/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/blog/merzouga-or-zagora/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/blog/merzouga-or-zagora/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/es/blog/merzouga-or-zagora/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/blog/merzouga-or-zagora/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/blog/merzouga-or-zagora/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/blog/merzouga-or-zagora/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/blog/merzouga-or-zagora/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/blog/merzouga-or-zagora/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/pt/blog/merzouga-or-zagora/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/blog/merzouga-or-zagora/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/blog/merzouga-or-zagora/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/blog/merzouga-or-zagora/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/blog/merzouga-or-zagora/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/blog/merzouga-or-zagora/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/it/blog/merzouga-or-zagora/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/blog/merzouga-or-zagora/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/blog/merzouga-or-zagora/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/blog/merzouga-or-zagora/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/blog/merzouga-or-zagora/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/blog/merzouga-or-zagora/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/blog/ourika-ouzoud-or-ait-ben-haddou-day-trips/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/blog/ourika-ouzoud-or-ait-ben-haddou-day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/blog/ourika-ouzoud-or-ait-ben-haddou-day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/blog/ourika-ouzoud-or-ait-ben-haddou-day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/blog/ourika-ouzoud-or-ait-ben-haddou-day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/blog/ourika-ouzoud-or-ait-ben-haddou-day-trips/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/es/blog/ourika-ouzoud-or-ait-ben-haddou-day-trips/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/blog/ourika-ouzoud-or-ait-ben-haddou-day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/blog/ourika-ouzoud-or-ait-ben-haddou-day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/blog/ourika-ouzoud-or-ait-ben-haddou-day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/blog/ourika-ouzoud-or-ait-ben-haddou-day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/blog/ourika-ouzoud-or-ait-ben-haddou-day-trips/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/pt/blog/ourika-ouzoud-or-ait-ben-haddou-day-trips/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/blog/ourika-ouzoud-or-ait-ben-haddou-day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/blog/ourika-ouzoud-or-ait-ben-haddou-day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/blog/ourika-ouzoud-or-ait-ben-haddou-day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/blog/ourika-ouzoud-or-ait-ben-haddou-day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/blog/ourika-ouzoud-or-ait-ben-haddou-day-trips/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/it/blog/ourika-ouzoud-or-ait-ben-haddou-day-trips/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/blog/ourika-ouzoud-or-ait-ben-haddou-day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/blog/ourika-ouzoud-or-ait-ben-haddou-day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/blog/ourika-ouzoud-or-ait-ben-haddou-day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/blog/ourika-ouzoud-or-ait-ben-haddou-day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/blog/ourika-ouzoud-or-ait-ben-haddou-day-trips/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/blog/what-to-check-before-booking-a-sahara-tour/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/blog/what-to-check-before-booking-a-sahara-tour/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/blog/what-to-check-before-booking-a-sahara-tour/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/blog/what-to-check-before-booking-a-sahara-tour/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/blog/what-to-check-before-booking-a-sahara-tour/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/blog/what-to-check-before-booking-a-sahara-tour/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/es/blog/what-to-check-before-booking-a-sahara-tour/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/blog/what-to-check-before-booking-a-sahara-tour/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/blog/what-to-check-before-booking-a-sahara-tour/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/blog/what-to-check-before-booking-a-sahara-tour/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/blog/what-to-check-before-booking-a-sahara-tour/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/blog/what-to-check-before-booking-a-sahara-tour/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/pt/blog/what-to-check-before-booking-a-sahara-tour/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/blog/what-to-check-before-booking-a-sahara-tour/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/blog/what-to-check-before-booking-a-sahara-tour/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/blog/what-to-check-before-booking-a-sahara-tour/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/blog/what-to-check-before-booking-a-sahara-tour/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/blog/what-to-check-before-booking-a-sahara-tour/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/it/blog/what-to-check-before-booking-a-sahara-tour/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/blog/what-to-check-before-booking-a-sahara-tour/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/blog/what-to-check-before-booking-a-sahara-tour/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/blog/what-to-check-before-booking-a-sahara-tour/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/blog/what-to-check-before-booking-a-sahara-tour/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/blog/what-to-check-before-booking-a-sahara-tour/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/contact/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/contact/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/contact/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/es/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/contact/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/contact/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/contact/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/pt/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/contact/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/contact/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/contact/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/it/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/contact/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/contact/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/contact/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/contact/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/contact/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/day-trips/from-fes/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/day-trips/from-fes/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/day-trips/from-fes/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/day-trips/from-fes/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/day-trips/from-fes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/day-trips/from-fes/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/es/day-trips/from-fes/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/day-trips/from-fes/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/day-trips/from-fes/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/day-trips/from-fes/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/day-trips/from-fes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/day-trips/from-fes/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/pt/day-trips/from-fes/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/day-trips/from-fes/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/day-trips/from-fes/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/day-trips/from-fes/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/day-trips/from-fes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/day-trips/from-fes/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/it/day-trips/from-fes/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/day-trips/from-fes/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/day-trips/from-fes/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/day-trips/from-fes/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/day-trips/from-fes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/day-trips/from-fes/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/day-trips/from-marrakech/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/day-trips/from-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/day-trips/from-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/day-trips/from-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/day-trips/from-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/day-trips/from-marrakech/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/es/day-trips/from-marrakech/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/day-trips/from-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/day-trips/from-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/day-trips/from-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/day-trips/from-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/day-trips/from-marrakech/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/pt/day-trips/from-marrakech/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/day-trips/from-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/day-trips/from-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/day-trips/from-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/day-trips/from-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/day-trips/from-marrakech/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/it/day-trips/from-marrakech/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/day-trips/from-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/day-trips/from-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/day-trips/from-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/day-trips/from-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/day-trips/from-marrakech/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/day-trips/from-merzouga/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/day-trips/from-merzouga/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/day-trips/from-merzouga/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/day-trips/from-merzouga/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/day-trips/from-merzouga/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/day-trips/from-merzouga/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/es/day-trips/from-merzouga/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/day-trips/from-merzouga/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/day-trips/from-merzouga/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/day-trips/from-merzouga/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/day-trips/from-merzouga/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/day-trips/from-merzouga/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/pt/day-trips/from-merzouga/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/day-trips/from-merzouga/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/day-trips/from-merzouga/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/day-trips/from-merzouga/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/day-trips/from-merzouga/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/day-trips/from-merzouga/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/it/day-trips/from-merzouga/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/day-trips/from-merzouga/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/day-trips/from-merzouga/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/day-trips/from-merzouga/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/day-trips/from-merzouga/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/day-trips/from-merzouga/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/day-trips/from-ouarzazate/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/day-trips/from-ouarzazate/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/day-trips/from-ouarzazate/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/day-trips/from-ouarzazate/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/day-trips/from-ouarzazate/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/day-trips/from-ouarzazate/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/es/day-trips/from-ouarzazate/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/day-trips/from-ouarzazate/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/day-trips/from-ouarzazate/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/day-trips/from-ouarzazate/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/day-trips/from-ouarzazate/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/day-trips/from-ouarzazate/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/pt/day-trips/from-ouarzazate/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/day-trips/from-ouarzazate/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/day-trips/from-ouarzazate/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/day-trips/from-ouarzazate/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/day-trips/from-ouarzazate/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/day-trips/from-ouarzazate/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/it/day-trips/from-ouarzazate/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/day-trips/from-ouarzazate/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/day-trips/from-ouarzazate/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/day-trips/from-ouarzazate/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/day-trips/from-ouarzazate/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/day-trips/from-ouarzazate/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/day-trips/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/day-trips/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/es/day-trips/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/day-trips/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/pt/day-trips/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/day-trips/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/it/day-trips/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/day-trips/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/day-trips/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/offer/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/offer/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/offer/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/offer/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/offer/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/offer/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/es/offer/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/offer/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/offer/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/offer/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/offer/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/offer/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/pt/offer/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/offer/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/offer/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/offer/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/offer/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/offer/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/it/offer/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/offer/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/offer/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/offer/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/offer/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/offer/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/tours/from-casablanca/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/tours/from-casablanca/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/tours/from-casablanca/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/tours/from-casablanca/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/tours/from-casablanca/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/tours/from-casablanca/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/es/tours/from-casablanca/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/tours/from-casablanca/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/tours/from-casablanca/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/tours/from-casablanca/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/tours/from-casablanca/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/tours/from-casablanca/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/pt/tours/from-casablanca/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/tours/from-casablanca/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/tours/from-casablanca/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/tours/from-casablanca/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/tours/from-casablanca/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/tours/from-casablanca/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/it/tours/from-casablanca/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/tours/from-casablanca/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/tours/from-casablanca/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/tours/from-casablanca/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/tours/from-casablanca/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/tours/from-casablanca/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/tours/from-errachidia/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/tours/from-errachidia/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/tours/from-errachidia/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/tours/from-errachidia/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/tours/from-errachidia/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/tours/from-errachidia/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/es/tours/from-errachidia/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/tours/from-errachidia/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/tours/from-errachidia/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/tours/from-errachidia/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/tours/from-errachidia/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/tours/from-errachidia/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/pt/tours/from-errachidia/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/tours/from-errachidia/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/tours/from-errachidia/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/tours/from-errachidia/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/tours/from-errachidia/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/tours/from-errachidia/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/it/tours/from-errachidia/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/tours/from-errachidia/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/tours/from-errachidia/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/tours/from-errachidia/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/tours/from-errachidia/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/tours/from-errachidia/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/tours/from-fes/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/tours/from-fes/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/tours/from-fes/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/tours/from-fes/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/tours/from-fes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/tours/from-fes/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/es/tours/from-fes/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/tours/from-fes/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/tours/from-fes/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/tours/from-fes/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/tours/from-fes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/tours/from-fes/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/pt/tours/from-fes/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/tours/from-fes/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/tours/from-fes/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/tours/from-fes/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/tours/from-fes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/tours/from-fes/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/it/tours/from-fes/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/tours/from-fes/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/tours/from-fes/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/tours/from-fes/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/tours/from-fes/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/tours/from-fes/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/tours/from-marrakech/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/tours/from-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/tours/from-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/tours/from-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/tours/from-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/tours/from-marrakech/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/es/tours/from-marrakech/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/tours/from-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/tours/from-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/tours/from-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/tours/from-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/tours/from-marrakech/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/pt/tours/from-marrakech/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/tours/from-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/tours/from-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/tours/from-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/tours/from-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/tours/from-marrakech/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/it/tours/from-marrakech/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/tours/from-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/tours/from-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/tours/from-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/tours/from-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/tours/from-marrakech/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/tours/from-rabat/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/tours/from-rabat/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/tours/from-rabat/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/tours/from-rabat/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/tours/from-rabat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/tours/from-rabat/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/es/tours/from-rabat/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/tours/from-rabat/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/tours/from-rabat/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/tours/from-rabat/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/tours/from-rabat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/tours/from-rabat/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/pt/tours/from-rabat/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/tours/from-rabat/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/tours/from-rabat/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/tours/from-rabat/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/tours/from-rabat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/tours/from-rabat/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/it/tours/from-rabat/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/tours/from-rabat/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/tours/from-rabat/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/tours/from-rabat/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/tours/from-rabat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/tours/from-rabat/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/tours/from-tangier/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/tours/from-tangier/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/tours/from-tangier/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/tours/from-tangier/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/tours/from-tangier/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/tours/from-tangier/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/es/tours/from-tangier/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/tours/from-tangier/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/tours/from-tangier/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/tours/from-tangier/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/tours/from-tangier/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/tours/from-tangier/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/pt/tours/from-tangier/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/tours/from-tangier/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/tours/from-tangier/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/tours/from-tangier/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/tours/from-tangier/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/tours/from-tangier/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/it/tours/from-tangier/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/tours/from-tangier/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/tours/from-tangier/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/tours/from-tangier/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/tours/from-tangier/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/tours/from-tangier/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/tours/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/tours/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/tours/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/tours/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/tours/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/tours/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/es/tours/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/tours/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/tours/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/tours/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/tours/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/tours/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/pt/tours/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/tours/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/tours/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/tours/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/tours/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/tours/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/it/tours/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/tours/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/tours/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/tours/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/tours/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/tours/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>

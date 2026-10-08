@@ -369,6 +369,8 @@
             <div class="sm:col-span-2"><label for="c-message" class="mb-2 block text-[11px] font-semibold uppercase tracking-[0.22em] text-gold-600">Your message</label><textarea id="c-message" name="message" rows="4" required placeholder="Tell us what you would like to see and do..." class="contact-input w-full rounded-xl border border-[#14100a]/15 bg-[#faf6ee] px-4 py-3 font-jost text-[15px] text-[#14100a] outline-none transition placeholder:text-gray-400 focus:border-gold-500 focus:bg-white"></textarea></div>
           </div>
           <button type="submit" class="gold-btn mt-7 flex w-full items-center justify-center gap-2.5 rounded-full px-8 py-4 text-[13px] font-bold uppercase tracking-[0.16em] text-[#1a1305] shadow-xl shadow-gold-500/25 transition duration-300 hover:-translate-y-0.5 hover:brightness-110">Send Request</button>
+          <input type="text" name="_honey" tabindex="-1" autocomplete="off" class="hidden" aria-hidden="true" />
+          <p id="contact-status" role="status" aria-live="polite" class="hidden"></p>
           <p class="mt-4 text-center font-jost text-sm text-gray-500">Free quote &middot; No obligation &middot; We reply as soon as possible</p>
         </form>
       </div>
@@ -423,21 +425,42 @@
       icon.classList.toggle('fa-xmark', opening);
     });
 
-    // Contacto: abre el cliente de correo con el mensaje ya redactado.
+    // Contacto: envía el formulario al correo de la empresa (FormSubmit). Si falla, ofrece WhatsApp y correo.
     (() => {
       const f = document.getElementById('contact-form');
-      const d = f.elements.date; const t = new Date();
-      d.min = t.getFullYear() + '-' + String(t.getMonth() + 1).padStart(2, '0') + '-' + String(t.getDate()).padStart(2, '0');
-      f.addEventListener('submit', e => {
+      if (!f) return;
+      const t = new Date();
+      f.elements.date.min = t.getFullYear() + '-' + String(t.getMonth() + 1).padStart(2, '0') + '-' + String(t.getDate()).padStart(2, '0');
+      const btn = f.querySelector('button[type="submit"]');
+      const status = document.getElementById('contact-status');
+      const label = btn.textContent;
+      const show = (ok, html) => {
+        status.className = 'mt-5 rounded-xl border px-5 py-4 text-center font-jost text-[15px] leading-7 ' + (ok ? 'border-green-600/40 bg-green-50 text-green-900' : 'border-red-600/30 bg-red-50 text-red-900');
+        status.innerHTML = html;
+      };
+      f.addEventListener('submit', async e => {
         e.preventDefault();
+        if (f.elements._honey && f.elements._honey.value) return;
         const v = n => f.elements[n].value.trim();
-        const lines = ['Name: ' + v('name'), 'Email: ' + v('email')];
-        if (v('phone')) lines.push('WhatsApp: ' + v('phone'));
-        if (v('dest')) lines.push('Destination: ' + v('dest'));
-        if (v('date')) { const [y, m, dd] = v('date').split('-'); lines.push('Travel date: ' + dd + '/' + m + '/' + y); }
-        if (v('guests')) lines.push('Travellers: ' + v('guests'));
-        lines.push('', v('message'));
-        window.location.href = 'mailto:info@highlightsmoroccotours.com?subject=' + encodeURIComponent('Quote request from ' + v('name')) + '&body=' + encodeURIComponent(lines.join('\n'));
+        const data = {
+          name: v('name'), email: v('email'), whatsapp: v('phone'), destination: v('dest'), travel_date: v('date'), travellers: v('guests'), message: v('message'),
+          _subject: 'Quote request from ' + v('name'), _replyto: v('email'), _template: 'table', _captcha: 'false'
+        };
+        btn.disabled = true; btn.textContent = 'Sending...';
+        try {
+          const r = await fetch('https://formsubmit.co/ajax/info@highlightsmoroccotours.com', {
+            method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(data)
+          });
+          const j = await r.json().catch(() => ({}));
+          if (!r.ok || j.success === false || j.success === 'false') throw new Error('send failed');
+          show(true, '<strong>Thank you!</strong> Your request has been sent. We will reply as soon as possible.');
+          f.reset();
+        } catch (err) {
+          const wa = 'https://wa.me/212668561321?text=' + encodeURIComponent('Hello, I would like a quote. ' + v('message'));
+          show(false, 'We could not send your message. Please write to us on <a class="font-semibold underline" href="' + wa + '" target="_blank" rel="noopener">WhatsApp</a> or at <a class="font-semibold underline" href="mailto:info@highlightsmoroccotours.com">info@highlightsmoroccotours.com</a>.');
+        } finally {
+          btn.disabled = false; btn.textContent = label;
+        }
       });
     })();
   </script>

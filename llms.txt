@@ -6,7 +6,7 @@ Website: https://www.highlightsmoroccotours.com/
 Email: info@highlightsmoroccotours.com
 Phone / WhatsApp: +212 668 561 321
 Base: Marrakech, Morocco
-Languages: English, Spanish
+Languages: guides speak English and Spanish. The website is available in English, Spanish (https://www.highlightsmoroccotours.com/es/), Portuguese (https://www.highlightsmoroccotours.com/pt/) and Italian (https://www.highlightsmoroccotours.com/it/); every page has the same path under each language prefix.
 Full content for AI assistants: https://www.highlightsmoroccotours.com/llms-full.txt
 
 ## Key facts
@@ -23,6 +23,7 @@ Full content for AI assistants: https://www.highlightsmoroccotours.com/llms-full
 - https://www.highlightsmoroccotours.com/about/
 - https://www.highlightsmoroccotours.com/tours/
 - https://www.highlightsmoroccotours.com/tours/from-marrakech/
+- https://www.highlightsmoroccotours.com/tours/2-day-marrakech-to-merzouga-desert-tour/
 - https://www.highlightsmoroccotours.com/tours/from-casablanca/
 - https://www.highlightsmoroccotours.com/tours/from-fes/
 - https://www.highlightsmoroccotours.com/tours/from-rabat/

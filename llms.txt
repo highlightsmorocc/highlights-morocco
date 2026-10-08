@@ -1,28 +1,21 @@
 # Highlights Morocco Tours
 
-> Highlights Morocco Tours is a private tour operator based in Morocco. It organises tailor-made multi-day tours and day trips across the country, with private drivers, expert local guides, Sahara desert camps and Marrakech riads. Guides speak English and Spanish.
+> Highlights Morocco Tours is a private tour operator based in Marrakech, Morocco. It organises tailor-made private tours and day trips across the country with a private driver and a local guide who speaks English or Spanish. Specialities: Merzouga desert tours from Marrakech (2, 3 and 4 days), Sahara camel trekking and desert camps, imperial cities, and day trips from Marrakech, Fes, Ouarzazate and Merzouga. Quotes are free and without obligation.
 
 Website: https://www.highlightsmoroccotours.com/
 Email: info@highlightsmoroccotours.com
 Phone / WhatsApp: +212 668 561 321
 Base: Marrakech, Morocco
+Languages: English, Spanish
+Full content for AI assistants: https://www.highlightsmoroccotours.com/llms-full.txt
 
-## About
+## Key facts
 
-Meet Moha, from the Moroccan desert. Highlights Morocco Tours is based in Marrakech and builds every trip around the travellers' dates, pace and interests, with a private driver and a local guide who speaks English or Spanish, plus 24/7 assistance while in Morocco.
-
-## What we offer
-
-- Private Morocco tours: tailor-made itineraries at your own pace, with a private driver.
-- Day trips in Morocco.
-- Authentic Sahara experiences: camel trekking, Berber culture and nights under the stars.
-- Stays in Marrakech riads and Merzouga luxury desert camps.
-- Safe travel: licensed local drivers, expert guides and 24/7 assistance.
-
-## Departure cities
-
-- Tours from: Marrakech, Casablanca, Fes, Rabat, Tangier, Errachidia.
-- Day trips from: Marrakech, Fes, Ouarzazate, Merzouga.
+- Tours are private, not shared: a private driver and a local guide, planned around the traveller's dates and pace.
+- Multi-day tours start from Marrakech, Casablanca, Fes, Rabat, Tangier and Errachidia.
+- Day trips start from Marrakech, Fes, Ouarzazate and Merzouga.
+- Merzouga desert tours from Marrakech last 2, 3 or 4 days and include a night in a Sahara desert camp.
+- Prices are not published: every trip is quoted on request through the contact form, email or WhatsApp.
 
 ## Pages
 
@@ -50,4 +43,4 @@ Meet Moha, from the Moroccan desert. Highlights Morocco Tours is based in Marrak
 
 ## How to book
 
-Request a free quote through the website or by email or WhatsApp. Prices and itineraries are confirmed in the quote.
+Request a free quote through the website contact form, by email or on WhatsApp. Itineraries and prices are confirmed in the quote.

@@ -9,6 +9,11 @@ Base: Marrakech, Morocco
 Languages: guides speak English and Spanish. The website is available in English, Spanish (https://www.highlightsmoroccotours.com/es/), Portuguese (https://www.highlightsmoroccotours.com/pt/) and Italian (https://www.highlightsmoroccotours.com/it/); every page has the same path under each language prefix.
 Full content for AI assistants: https://www.highlightsmoroccotours.com/llms-full.txt
 
+## About
+
+- About us: https://www.highlightsmoroccotours.com/about/ (who Highlights Morocco Tours is, how we work, contact details)
+- About Morocco tours: https://www.highlightsmoroccotours.com/about-morocco-tours/ (guide to private Morocco tours, Sahara desert trips, best time to go, how many days, tips and FAQ)
+
 ## Key facts
 
 - Tours are private, not shared: a private driver and a local guide, planned around the traveller's dates and pace.
@@ -21,6 +26,7 @@ Full content for AI assistants: https://www.highlightsmoroccotours.com/llms-full
 
 - https://www.highlightsmoroccotours.com/
 - https://www.highlightsmoroccotours.com/about/
+- https://www.highlightsmoroccotours.com/about-morocco-tours/
 - https://www.highlightsmoroccotours.com/tours/
 - https://www.highlightsmoroccotours.com/tours/from-marrakech/
 - https://www.highlightsmoroccotours.com/tours/2-day-marrakech-to-merzouga-desert-tour/

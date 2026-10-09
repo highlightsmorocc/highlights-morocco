@@ -515,7 +515,10 @@
       <!-- Desktop menu -->
       <nav aria-label="Navigazione principale" class="hidden items-center lg:flex">
         <a href="/it/" aria-current="page" class="nav-link px-3 py-2 text-[13px] font-semibold uppercase tracking-[0.14em] text-gold-300">Home</a>
-        <a href="/it/about/" class="nav-link px-3 py-2 text-[13px] font-semibold uppercase tracking-[0.14em] text-white/85 transition hover:text-gold-300">Chi siamo</a>
+        <div class="menu-item relative">
+          <a href="/it/about/" aria-haspopup="true" class="nav-link flex items-center gap-2 px-3 py-2 text-[13px] font-semibold uppercase tracking-[0.14em] text-white/85 transition hover:text-gold-300">Chi siamo <i class="fas fa-chevron-down text-[9px]" aria-hidden="true"></i></a>
+          <div class="menu-panel absolute left-0 top-full z-50 pt-3"><ul class="w-64 overflow-hidden rounded-xl border border-white/10 border-t-2 border-t-gold-400 bg-[#141414] py-2 shadow-2xl shadow-black/60"><li><a href="/it/about/" class="block px-5 py-2.5 text-sm text-white/85 transition hover:bg-white/5 hover:pl-6 hover:text-gold-300">Chi siamo</a></li><li><a href="/it/about-morocco-tours/" class="block px-5 py-2.5 text-sm text-white/85 transition hover:bg-white/5 hover:pl-6 hover:text-gold-300">I tour in Marocco</a></li></ul></div>
+        </div>
 
         <div class="menu-item relative">
           <a href="/it/tours/" aria-haspopup="true" class="nav-link flex items-center gap-2 px-3 py-2 text-[13px] font-semibold uppercase tracking-[0.14em] text-white/85 transition hover:text-gold-300">Tour <i class="fas fa-chevron-down text-[9px]" aria-hidden="true"></i></a>
@@ -568,7 +571,15 @@
     <nav id="mobile-menu" aria-label="Navigazione mobile" class="hidden max-h-[calc(100vh-5rem)] overflow-y-auto border-t border-white/10 bg-[#0b0b0b] lg:hidden">
       <ul class="mx-auto max-w-7xl px-5 py-3 text-sm font-semibold uppercase tracking-[0.12em]">
         <li><a href="/it/" class="block border-b border-white/10 py-4 text-gold-300">Home</a></li>
-        <li><a href="/it/about/" class="block border-b border-white/10 py-4">Chi siamo</a></li>
+        <li class="border-b border-white/10">
+          <details>
+            <summary class="flex cursor-pointer list-none items-center justify-between py-4">Chi siamo <i class="fas fa-chevron-down text-[10px] text-gold-300" aria-hidden="true"></i></summary>
+            <ul class="pb-3 pl-4 text-sm font-medium normal-case tracking-normal text-white/80">
+              <li><a href="/it/about/" class="block py-2.5">Chi siamo</a></li>
+              <li><a href="/it/about-morocco-tours/" class="block py-2.5">I tour in Marocco</a></li>
+            </ul>
+          </details>
+        </li>
         <li class="border-b border-white/10">
           <details>
             <summary class="flex cursor-pointer list-none items-center justify-between py-4">Tour <i class="fas fa-chevron-down text-[10px] text-gold-300" aria-hidden="true"></i></summary>
@@ -1434,7 +1445,7 @@
         </nav>
         <nav aria-label="Azienda">
           <h2 class="font-cormorant text-lg font-bold uppercase tracking-[0.14em] text-gold-300">Esplora</h2>
-          <ul class="mt-5 space-y-3 font-jost text-[15px] text-white/70"><li><a href="/it/about/" class="transition hover:text-gold-300">Chi siamo</a></li><li><a href="/it/day-trips/" class="transition hover:text-gold-300">Escursioni</a></li><li><a href="/it/blog/" class="transition hover:text-gold-300">Blog</a></li><li><a href="/it/offer/" class="transition hover:text-gold-300">Offerta</a></li><li><a href="/it/contact/" class="transition hover:text-gold-300">Contatti</a></li></ul>
+          <ul class="mt-5 space-y-3 font-jost text-[15px] text-white/70"><li><a href="/it/about/" class="transition hover:text-gold-300">Chi siamo</a></li><li><a href="/it/about-morocco-tours/" class="transition hover:text-gold-300">I tour in Marocco</a></li><li><a href="/it/day-trips/" class="transition hover:text-gold-300">Escursioni</a></li><li><a href="/it/blog/" class="transition hover:text-gold-300">Blog</a></li><li><a href="/it/offer/" class="transition hover:text-gold-300">Offerta</a></li><li><a href="/it/contact/" class="transition hover:text-gold-300">Contatti</a></li></ul>
         </nav>
         <div>
           <h2 class="font-cormorant text-lg font-bold uppercase tracking-[0.14em] text-gold-300">Contatti</h2>

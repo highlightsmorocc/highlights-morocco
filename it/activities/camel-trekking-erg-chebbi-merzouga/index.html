@@ -457,7 +457,7 @@
     <!-- ============ CONTACT ============ -->
     <section id="contact" aria-labelledby="contact-title" class="features relative px-5 py-20 text-white sm:py-24">
       <div class="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-gold-400/60 to-transparent" aria-hidden="true"></div>
-      <div class="mx-auto max-w-3xl">
+      <div class="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[0.9fr_1.1fr] lg:gap-16">
         <div>
           <p class="mb-5 flex items-center gap-4 text-xs font-semibold uppercase tracking-[0.35em] text-gold-300 sm:text-[13px]"><span class="h-px w-12 bg-gold-400" aria-hidden="true"></span>Contatti</p>
           <h2 id="contact-title" class="font-display text-4xl font-semibold leading-tight text-white sm:text-5xl">Pianifica il tuo <span class="gold-text italic">viaggio privato in Marocco</span></h2>
@@ -482,7 +482,23 @@
           </ul>
         </div>
 
-        
+        <form id="contact-form" class="relative rounded-3xl border border-gold-500/40 bg-white p-7 shadow-2xl shadow-black/40 sm:p-10">
+          <div class="absolute inset-x-10 top-0 h-px bg-gradient-to-r from-transparent via-gold-500 to-transparent" aria-hidden="true"></div>
+          <h3 class="font-display text-2xl font-semibold text-[#14100a]">Richiedi un preventivo gratuito</h3>
+          <div class="mt-6 grid gap-5 sm:grid-cols-2">
+            <div><label for="c-name" class="mb-2 block text-[11px] font-semibold uppercase tracking-[0.22em] text-gold-600">Nome e cognome</label><input id="c-name" name="name" type="text" autocomplete="name" required placeholder="Il tuo nome" class="contact-input h-12 w-full rounded-xl border border-[#14100a]/15 bg-[#faf6ee] px-4 font-jost text-[15px] text-[#14100a] outline-none transition placeholder:text-gray-400 focus:border-gold-500 focus:bg-white" /></div>
+            <div><label for="c-email" class="mb-2 block text-[11px] font-semibold uppercase tracking-[0.22em] text-gold-600">Email</label><input id="c-email" name="email" type="email" autocomplete="email" required placeholder="nome@esempio.it" class="contact-input h-12 w-full rounded-xl border border-[#14100a]/15 bg-[#faf6ee] px-4 font-jost text-[15px] text-[#14100a] outline-none transition placeholder:text-gray-400 focus:border-gold-500 focus:bg-white" /></div>
+            <div><label for="c-phone" class="mb-2 block text-[11px] font-semibold uppercase tracking-[0.22em] text-gold-600">WhatsApp (facoltativo)</label><input id="c-phone" name="phone" type="tel" autocomplete="tel" placeholder="+1 555 000 000" class="contact-input h-12 w-full rounded-xl border border-[#14100a]/15 bg-[#faf6ee] px-4 font-jost text-[15px] text-[#14100a] outline-none transition placeholder:text-gray-400 focus:border-gold-500 focus:bg-white" /></div>
+            <div><label for="c-dest" class="mb-2 block text-[11px] font-semibold uppercase tracking-[0.22em] text-gold-600">Destinazione</label><select id="c-dest" name="dest" class="contact-input h-12 w-full rounded-xl border border-[#14100a]/15 bg-[#faf6ee] px-4 font-jost text-[15px] text-[#14100a] outline-none transition placeholder:text-gray-400 focus:border-gold-500 focus:bg-white"><option value="">Qualsiasi destinazione</option><option>Marrakech</option><option>Casablanca</option><option>Fès</option><option>Rabat</option><option>Tangeri</option><option>Errachidia</option><option>Ouarzazate</option><option>Merzouga</option></select></div>
+            <div><label for="c-date" class="mb-2 block text-[11px] font-semibold uppercase tracking-[0.22em] text-gold-600">Data di viaggio</label><input id="c-date" name="date" type="date" class="contact-input h-12 w-full rounded-xl border border-[#14100a]/15 bg-[#faf6ee] px-4 font-jost text-[15px] text-[#14100a] outline-none transition placeholder:text-gray-400 focus:border-gold-500 focus:bg-white" /></div>
+            <div><label for="c-guests" class="mb-2 block text-[11px] font-semibold uppercase tracking-[0.22em] text-gold-600">Viaggiatori</label><select id="c-guests" name="guests" class="contact-input h-12 w-full rounded-xl border border-[#14100a]/15 bg-[#faf6ee] px-4 font-jost text-[15px] text-[#14100a] outline-none transition placeholder:text-gray-400 focus:border-gold-500 focus:bg-white"><option value="">Quanti viaggiatori?</option><option>1 viaggiatore</option><option>2 viaggiatori</option><option>3-4 viaggiatori</option><option>5-8 viaggiatori</option><option>9 o più viaggiatori</option></select></div>
+            <div class="sm:col-span-2"><label for="c-message" class="mb-2 block text-[11px] font-semibold uppercase tracking-[0.22em] text-gold-600">Il tuo messaggio</label><textarea id="c-message" name="message" rows="4" required placeholder="Raccontaci cosa ti piacerebbe vedere e fare..." class="contact-input w-full rounded-xl border border-[#14100a]/15 bg-[#faf6ee] px-4 py-3 font-jost text-[15px] text-[#14100a] outline-none transition placeholder:text-gray-400 focus:border-gold-500 focus:bg-white"></textarea></div>
+          </div>
+          <button type="submit" class="gold-btn mt-7 flex w-full items-center justify-center gap-2.5 rounded-full px-8 py-4 text-[13px] font-bold uppercase tracking-[0.16em] text-[#1a1305] shadow-xl shadow-gold-500/25 transition duration-300 hover:-translate-y-0.5 hover:brightness-110">Invia richiesta</button>
+          <input type="text" name="_honey" tabindex="-1" autocomplete="off" class="hidden" aria-hidden="true" />
+          <p id="contact-status" role="status" aria-live="polite" class="hidden"></p>
+          <p class="mt-4 text-center font-jost text-sm text-gray-500">Preventivo gratuito &middot; Senza impegno &middot; Rispondiamo il prima possibile</p>
+        </form>
       </div>
     </section>
   </main>

@@ -292,14 +292,14 @@
 
       <!-- Desktop menu -->
       <nav aria-label="Main navigation" class="hidden items-center lg:flex">
-        <a href="/" class="nav-link px-3 py-2 text-[13px] font-semibold uppercase tracking-[0.14em] text-white/85 transition hover:text-gold-300">Home</a>
+        <a href="/" class="nav-link px-2 py-2 xl:px-3 text-[13px] font-semibold uppercase tracking-[0.14em] text-white/85 transition hover:text-gold-300">Home</a>
         <div class="menu-item relative">
-          <a href="/about/" aria-haspopup="true" class="nav-link flex items-center gap-2 px-3 py-2 text-[13px] font-semibold uppercase tracking-[0.14em] text-white/85 transition hover:text-gold-300">About <i class="fas fa-chevron-down text-[9px]" aria-hidden="true"></i></a>
+          <a href="/about/" aria-haspopup="true" class="nav-link flex items-center gap-1.5 px-2 py-2 xl:gap-2 xl:px-3 text-[13px] font-semibold uppercase tracking-[0.14em] text-white/85 transition hover:text-gold-300">About <i class="fas fa-chevron-down text-[9px]" aria-hidden="true"></i></a>
           <div class="menu-panel absolute left-0 top-full z-50 pt-3"><ul class="w-64 overflow-hidden rounded-xl border border-white/10 border-t-2 border-t-gold-400 bg-[#141414] py-2 shadow-2xl shadow-black/60"><li><a href="/about/" class="block px-5 py-2.5 text-sm text-white/85 transition hover:bg-white/5 hover:pl-6 hover:text-gold-300">About Us</a></li><li><a href="/about-morocco-tours/" class="block px-5 py-2.5 text-sm text-white/85 transition hover:bg-white/5 hover:pl-6 hover:text-gold-300">About Morocco Tours</a></li></ul></div>
         </div>
 
         <div class="menu-item relative">
-          <a href="/tours/" aria-haspopup="true" aria-current="page" class="nav-link flex items-center gap-2 px-3 py-2 text-[13px] font-semibold uppercase tracking-[0.14em] text-gold-300">Tours <i class="fas fa-chevron-down text-[9px]" aria-hidden="true"></i></a>
+          <a href="/tours/" aria-haspopup="true" aria-current="page" class="nav-link flex items-center gap-1.5 px-2 py-2 xl:gap-2 xl:px-3 text-[13px] font-semibold uppercase tracking-[0.14em] text-gold-300">Tours <i class="fas fa-chevron-down text-[9px]" aria-hidden="true"></i></a>
           <div class="menu-panel absolute left-0 top-full z-50 pt-3">
             <ul class="w-60 overflow-hidden rounded-xl border border-white/10 border-t-2 border-t-gold-400 bg-[#141414] py-2 shadow-2xl shadow-black/60">
               <li><a href="/tours/from-marrakech/" class="block px-5 py-2.5 text-sm text-white/85 transition hover:bg-white/5 hover:pl-6 hover:text-gold-300">From Marrakech</a></li>
@@ -314,7 +314,7 @@
         </div>
 
         <div class="menu-item relative">
-          <a href="/day-trips/" aria-haspopup="true" class="nav-link flex items-center gap-2 px-3 py-2 text-[13px] font-semibold uppercase tracking-[0.14em] text-white/85 transition hover:text-gold-300">Day Trips <i class="fas fa-chevron-down text-[9px]" aria-hidden="true"></i></a>
+          <a href="/day-trips/" aria-haspopup="true" class="nav-link flex items-center gap-1.5 px-2 py-2 xl:gap-2 xl:px-3 text-[13px] font-semibold uppercase tracking-[0.14em] text-white/85 transition hover:text-gold-300">Day Trips <i class="fas fa-chevron-down text-[9px]" aria-hidden="true"></i></a>
           <div class="menu-panel absolute left-0 top-full z-50 pt-3">
             <ul class="w-60 overflow-hidden rounded-xl border border-white/10 border-t-2 border-t-gold-400 bg-[#141414] py-2 shadow-2xl shadow-black/60">
               <li><a href="/day-trips/from-marrakech/" class="block px-5 py-2.5 text-sm text-white/85 transition hover:bg-white/5 hover:pl-6 hover:text-gold-300">From Marrakech</a></li>
@@ -325,9 +325,20 @@
           </div>
         </div>
 
-        <a href="/blog/" class="nav-link px-3 py-2 text-[13px] font-semibold uppercase tracking-[0.14em] text-white/85 transition hover:text-gold-300">Blog</a>
-        <a href="/contact/" class="nav-link px-3 py-2 text-[13px] font-semibold uppercase tracking-[0.14em] text-white/85 transition hover:text-gold-300">Contact Us</a>
-        <a href="/offer/" class="nav-link px-3 py-2 text-[13px] font-semibold uppercase tracking-[0.14em] text-gold-300 transition hover:text-gold-200">Offer</a>
+        <div class="menu-item relative" data-menu="activities">
+          <a href="/day-trips/from-merzouga/#merzouga-activities" aria-haspopup="true" class="nav-link flex items-center gap-1.5 px-2 py-2 xl:gap-2 xl:px-3 text-[13px] font-semibold uppercase tracking-[0.14em] text-white/85 transition hover:text-gold-300">Activities <i class="fas fa-chevron-down text-[9px]" aria-hidden="true"></i></a>
+          <div class="menu-panel absolute left-0 top-full z-50 pt-3">
+            <ul class="w-64 overflow-hidden rounded-xl border border-white/10 border-t-2 border-t-gold-400 bg-[#141414] py-2 shadow-2xl shadow-black/60">
+              <li class="px-5 pb-1 pt-2 text-[11px] font-semibold uppercase tracking-[0.25em] text-gold-300">Merzouga</li>
+              <li><a href="/activities/camel-trekking-erg-chebbi-merzouga/" class="block px-5 py-2.5 text-sm text-white/85 transition hover:bg-white/5 hover:pl-6 hover:text-gold-300">Camel Trekking</a></li><li><a href="/activities/quad-and-buggy-erg-chebbi-merzouga/" class="block px-5 py-2.5 text-sm text-white/85 transition hover:bg-white/5 hover:pl-6 hover:text-gold-300">Quad & Buggy</a></li><li><a href="/activities/4x4-excursion-with-nomads-merzouga/" class="block px-5 py-2.5 text-sm text-white/85 transition hover:bg-white/5 hover:pl-6 hover:text-gold-300">4x4 with the Nomads</a></li>
+              <li class="mt-1 border-t border-white/10 pt-1"><a href="/day-trips/from-merzouga/#merzouga-activities" class="flex items-center justify-between px-5 py-2.5 text-sm font-semibold text-gold-300 transition hover:bg-white/5">All Merzouga activities <i class="fas fa-arrow-right text-[10px]" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <a href="/blog/" class="nav-link px-2 py-2 xl:px-3 text-[13px] font-semibold uppercase tracking-[0.14em] text-white/85 transition hover:text-gold-300">Blog</a>
+        <a href="/contact/" class="nav-link px-2 py-2 xl:px-3 text-[13px] font-semibold uppercase tracking-[0.14em] text-white/85 transition hover:text-gold-300">Contact Us</a>
+        <a href="/offer/" class="nav-link px-2 py-2 xl:px-3 text-[13px] font-semibold uppercase tracking-[0.14em] text-gold-300 transition hover:text-gold-200">Offer</a>
       </nav>
 
       <div class="flex items-center gap-3">
@@ -335,7 +346,7 @@
           <button type="button" aria-haspopup="true" aria-label="Language" class="flex items-center gap-2 rounded-full border border-white/15 px-3.5 py-2.5 text-[12px] font-semibold uppercase tracking-[0.14em] text-white/85 transition hover:border-gold-400/60 hover:text-gold-300"><i class="fas fa-globe text-[12px] text-gold-300" aria-hidden="true"></i> EN <i class="fas fa-chevron-down text-[9px]" aria-hidden="true"></i></button>
           <div class="menu-panel absolute right-0 top-full z-50 pt-3"><ul class="w-48 overflow-hidden rounded-xl border border-white/10 border-t-2 border-t-gold-400 bg-[#141414] py-2 shadow-2xl shadow-black/60"><li><a href="/tours/from-marrakech/" hreflang="en" lang="en" aria-current="true" class="flex items-center justify-between px-5 py-2.5 text-sm text-gold-300 transition hover:bg-white/5 hover:text-gold-300">English<span class="text-[10px] tracking-[0.14em] text-white/40">EN</span></a></li><li><a href="/es/tours/from-marrakech/" hreflang="es" lang="es" class="flex items-center justify-between px-5 py-2.5 text-sm text-white/85 transition hover:bg-white/5 hover:text-gold-300">Español<span class="text-[10px] tracking-[0.14em] text-white/40">ES</span></a></li><li><a href="/pt/tours/from-marrakech/" hreflang="pt" lang="pt" class="flex items-center justify-between px-5 py-2.5 text-sm text-white/85 transition hover:bg-white/5 hover:text-gold-300">Português<span class="text-[10px] tracking-[0.14em] text-white/40">PT</span></a></li><li><a href="/it/tours/from-marrakech/" hreflang="it" lang="it" class="flex items-center justify-between px-5 py-2.5 text-sm text-white/85 transition hover:bg-white/5 hover:text-gold-300">Italiano<span class="text-[10px] tracking-[0.14em] text-white/40">IT</span></a></li></ul></div>
         </div>
-        <a href="/contact/" class="gold-btn hidden items-center gap-2.5 rounded-full px-6 py-3 text-[13px] font-bold uppercase tracking-[0.12em] text-[#1a1305] shadow-lg shadow-gold-500/20 transition hover:brightness-110 sm:inline-flex">
+        <a href="/contact/" class="gold-btn hidden items-center gap-2.5 whitespace-nowrap rounded-full px-5 py-3 text-[13px] xl:px-6 font-bold uppercase tracking-[0.12em] text-[#1a1305] shadow-lg shadow-gold-500/20 transition hover:brightness-110 sm:inline-flex">
           Get a Free Quote <i class="fas fa-arrow-right text-[11px]" aria-hidden="true"></i>
         </a>
         <button id="menu-btn" type="button" aria-controls="mobile-menu" aria-expanded="false" aria-label="Open menu" class="flex h-11 w-11 items-center justify-center rounded-full border border-gold-400/40 text-gold-300 lg:hidden">
@@ -380,6 +391,16 @@
               <li><a href="/day-trips/from-fes/" class="block py-2.5">From Fes</a></li>
               <li><a href="/day-trips/from-ouarzazate/" class="block py-2.5">From Ouarzazate</a></li>
               <li><a href="/day-trips/from-merzouga/" class="block py-2.5">From Merzouga</a></li>
+            </ul>
+          </details>
+        </li>
+        <li class="border-b border-white/10">
+          <details>
+            <summary class="flex cursor-pointer list-none items-center justify-between py-4">Activities <i class="fas fa-chevron-down text-[10px] text-gold-300" aria-hidden="true"></i></summary>
+            <ul class="pb-3 pl-4 text-sm font-medium normal-case tracking-normal text-white/80">
+              <li class="pt-1 text-[11px] font-semibold uppercase tracking-[0.25em] text-gold-300">Merzouga</li>
+              <li><a href="/activities/camel-trekking-erg-chebbi-merzouga/" class="block py-2.5">Camel Trekking</a></li><li><a href="/activities/quad-and-buggy-erg-chebbi-merzouga/" class="block py-2.5">Quad & Buggy</a></li><li><a href="/activities/4x4-excursion-with-nomads-merzouga/" class="block py-2.5">4x4 with the Nomads</a></li>
+              <li><a href="/day-trips/from-merzouga/#merzouga-activities" class="block py-2.5 font-semibold text-gold-300">All Merzouga activities</a></li>
             </ul>
           </details>
         </li>

@@ -513,12 +513,13 @@
             method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(data)
           });
           const j = await r.json().catch(() => ({}));
-          if (!r.ok || j.success === false || j.success === 'false') throw new Error('send failed');
+          if (!r.ok || j.success === false || j.success === 'false') throw new Error((j && j.message) ? String(j.message) : ('HTTP ' + r.status));
           show(true, '<strong>Thank you!</strong> Your request has been sent. We will reply as soon as possible.');
           f.reset();
         } catch (err) {
           const wa = 'https://wa.me/212668561321?text=' + encodeURIComponent('Hello, I would like a quote. ' + v('message'));
           show(false, 'We could not send your message. Please write to us on <a class="font-semibold underline" href="' + wa + '" target="_blank" rel="noopener">WhatsApp</a> or at <a class="font-semibold underline" href="mailto:info@highlightsmoroccotours.com">info@highlightsmoroccotours.com</a>.');
+          status.insertAdjacentHTML('beforeend', '<br><span class="err-detail text-xs opacity-70">(' + String(err && err.message || err).replace(/</g, '&lt;') + ')</span>');
         } finally {
           btn.disabled = false; btn.textContent = label;
         }

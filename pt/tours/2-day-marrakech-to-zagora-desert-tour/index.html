@@ -971,7 +971,7 @@
         };
         btn.disabled = true; btn.textContent = 'A enviar...';
         try {
-          const r = await fetch('https://formsubmit.co/ajax/info@highlightsmoroccotours.com', {
+          const r = await fetch('https://formsubmit.co/ajax/walugo', {
             method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(data)
           });
           const j = await r.json().catch(() => ({}));
@@ -980,7 +980,7 @@
           f.reset();
         } catch (err) {
           const wa = 'https://wa.me/212668561321?text=' + encodeURIComponent('Olá, gostaria de pedir um orçamento. ' + v('message'));
-          show(false, 'Não foi possível enviar a sua mensagem. Escreva-nos por <a class="font-semibold underline" href="' + wa + '" target="_blank" rel="noopener">WhatsApp</a> ou para <a class="font-semibold underline" href="mailto:info@highlightsmoroccotours.com">info@highlightsmoroccotours.com</a>.');
+          show(false, 'Não foi possível enviar a sua mensagem. Escreva-nos por <a class="font-semibold underline" href="' + wa + '" target="_blank" rel="noopener">WhatsApp</a> ou para <a class="font-semibold underline" href="mailto:highlightsmoroccotours@gmail.com">highlightsmoroccotours@gmail.com</a>.');
           status.insertAdjacentHTML('beforeend', '<br><span class="err-detail text-xs opacity-70">(' + String(err && err.message || err).replace(/</g, '&lt;') + ')</span>');
         } finally {
           btn.disabled = false; btn.textContent = label;

@@ -24,60 +24,72 @@
   <meta property="og:image" content="https://www.highlightsmoroccotours.com/public/hero-ouzoud-waterfalls-morocco-1600.jpg" />
   <meta property="og:image:alt" content="Cascatas de Ouzoud, em Marrocos" />
   <meta name="twitter:card" content="summary_large_image" />
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {
-            "@type": "ListItem",
-            "position": 1,
-            "name": "Início",
-            "item": "https://www.highlightsmoroccotours.com/pt/"
-          },
-          {
-            "@type": "ListItem",
-            "position": 2,
-            "name": "Excursões",
-            "item": "https://www.highlightsmoroccotours.com/pt/day-trips/"
+  <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Início",
+          "item": "https://www.highlightsmoroccotours.com/pt/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Excursões",
+          "item": "https://www.highlightsmoroccotours.com/pt/day-trips/"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "inLanguage": "pt",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "De que locais partem as vossas excursões?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "As nossas excursões privadas partem de Marrakech, Fez, Ouarzazate e Merzouga."
           }
-        ]
-      },
-      {
-        "@type": "FAQPage",
-        "inLanguage": "pt",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "De que locais partem as vossas excursões?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "As nossas excursões privadas partem de Marrakech, Fez, Ouarzazate e Merzouga."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "As vossas excursões são privadas?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Sim. As nossas excursões são privadas, com transporte e guia local a pedido."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Como posso pedir um orçamento para uma excursão?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Utilize o formulário de contacto desta página ou escreva-nos por email ou WhatsApp. Os orçamentos são gratuitos e sem compromisso."
-            }
+        },
+        {
+          "@type": "Question",
+          "name": "As vossas excursões são privadas?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sim. As nossas excursões são privadas, com transporte e guia local a pedido."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "Como posso pedir um orçamento para uma excursão?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Utilize o formulário de contacto desta página ou escreva-nos por email ou WhatsApp. Os orçamentos são gratuitos e sem compromisso."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.highlightsmoroccotours.com/pt/day-trips/#webpage",
+      "url": "https://www.highlightsmoroccotours.com/pt/day-trips/",
+      "name": "Excursões desde Marrakech e Fez | Highlights Morocco Tours",
+      "inLanguage": "pt",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          "h1",
+          "#geo-intro"
         ]
       }
-    ]
-  }
-  </script>
+    }
+  ]
+}</script>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -332,7 +344,7 @@
     </section>
     <section class="bg-white px-5 py-20 sm:py-24">
       <div class="mx-auto max-w-7xl">
-        <div class="mx-auto max-w-3xl text-center"><p class="mb-5 flex items-center justify-center gap-4 text-xs font-semibold uppercase tracking-[0.35em] text-gold-600 sm:text-[13px]"><span class="h-px w-10 bg-gold-500" aria-hidden="true"></span>Pontos de partida<span class="h-px w-10 bg-gold-500" aria-hidden="true"></span></p><h2 class="font-display text-3xl font-semibold leading-tight text-[#14100a] sm:text-5xl">Excursões <span class="italic text-gold-600">desde quatro locais</span></h2><p class="mt-6 font-jost text-base leading-8 text-gray-600 sm:text-lg">Cascatas, ruínas romanas, kasbahs e dunas do Saara, tudo num só dia.</p></div>
+        <div class="mx-auto max-w-3xl text-center"><p class="mb-5 flex items-center justify-center gap-4 text-xs font-semibold uppercase tracking-[0.35em] text-gold-600 sm:text-[13px]"><span class="h-px w-10 bg-gold-500" aria-hidden="true"></span>Pontos de partida<span class="h-px w-10 bg-gold-500" aria-hidden="true"></span></p><h2 class="font-display text-3xl font-semibold leading-tight text-[#14100a] sm:text-5xl">Excursões <span class="italic text-gold-600">desde quatro locais</span></h2><p id="geo-intro" class="mt-6 font-jost text-base leading-8 text-gray-600 sm:text-lg">Cascatas, ruínas romanas, kasbahs e dunas do Saara, tudo num só dia.</p></div>
         <ul class="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           <li>
             <a href="/pt/day-trips/from-marrakech/" class="group flex h-full flex-col overflow-hidden rounded-3xl border border-gold-400/30 bg-[#0b0b0b] text-white shadow-xl shadow-black/30 transition duration-300 hover:-translate-y-2 hover:border-gold-400 hover:shadow-2xl hover:shadow-gold-500/25">

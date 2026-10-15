@@ -2371,6 +2371,16 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.highlightsmoroccotours.com/blog/moroccan-clothing-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/blog/moroccan-clothing-guide/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/blog/moroccan-clothing-guide/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/blog/moroccan-clothing-guide/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/blog/moroccan-clothing-guide/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/blog/moroccan-clothing-guide/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.highlightsmoroccotours.com/es/blog/14-day-morocco-itinerary-from-rabat/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/blog/14-day-morocco-itinerary-from-rabat/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/blog/14-day-morocco-itinerary-from-rabat/"/>

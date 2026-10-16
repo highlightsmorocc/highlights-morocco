@@ -303,7 +303,7 @@
         <a href="/" class="nav-link px-2 py-2 xl:px-3 text-[13px] font-semibold uppercase tracking-[0.14em] text-white/85 transition hover:text-gold-300">Home</a>
         <div class="menu-item relative">
           <button type="button" aria-current="page" aria-haspopup="true" class="nav-link cursor-default flex items-center gap-1.5 px-2 py-2 xl:gap-2 xl:px-3 text-[13px] font-semibold uppercase tracking-[0.14em] text-gold-300">About <i class="fas fa-chevron-down text-[9px]" aria-hidden="true"></i></button>
-          <div class="menu-panel absolute left-0 top-full z-50 pt-3"><ul class="w-64 overflow-hidden rounded-xl border border-white/10 border-t-2 border-t-gold-400 bg-[#141414] py-2 shadow-2xl shadow-black/60"><li><a href="/about/" class="block px-5 py-2.5 text-sm text-white/85 transition hover:bg-white/5 hover:pl-6 hover:text-gold-300">About Us</a></li><li><a href="/about-morocco-tours/" class="block px-5 py-2.5 text-sm text-white/85 transition hover:bg-white/5 hover:pl-6 hover:text-gold-300">About Morocco Tours</a></li></ul></div>
+          <div class="menu-panel absolute left-0 top-full z-50 pt-3"><ul class="w-64 overflow-hidden rounded-xl border border-white/10 border-t-2 border-t-gold-400 bg-[#141414] py-2 shadow-2xl shadow-black/60"><li><a href="/about/" class="block px-5 py-2.5 text-sm text-white/85 transition hover:bg-white/5 hover:pl-6 hover:text-gold-300">About Us</a></li><li><a href="/about-morocco-tours/" class="block px-5 py-2.5 text-sm text-white/85 transition hover:bg-white/5 hover:pl-6 hover:text-gold-300">About Morocco Tours</a></li><li><a href="/about-morocco/" class="block px-5 py-2.5 text-sm text-white/85 transition hover:bg-white/5 hover:pl-6 hover:text-gold-300">About Morocco</a></li></ul></div>
         </div>
 
         <div class="menu-item relative">
@@ -375,7 +375,7 @@
             <summary class="flex cursor-pointer list-none items-center justify-between py-4">About <i class="fas fa-chevron-down text-[10px] text-gold-300" aria-hidden="true"></i></summary>
             <ul class="pb-3 pl-4 text-sm font-medium normal-case tracking-normal text-white/80">
               <li><a href="/about/" class="block py-2.5">About Us</a></li>
-              <li><a href="/about-morocco-tours/" class="block py-2.5">About Morocco Tours</a></li>
+              <li><a href="/about-morocco-tours/" class="block py-2.5">About Morocco Tours</a></li><li><a href="/about-morocco/" class="block py-2.5">About Morocco</a></li>
             </ul>
           </details>
         </li>
@@ -429,12 +429,13 @@
   </header>
 
   <main id="content">
-    <section class="relative isolate flex min-h-[64vh] items-center overflow-hidden">
+    <section class="relative isolate flex min-h-[78vh] items-end overflow-hidden bg-[#0b0b0b] md:min-h-[min(72vh,680px)] md:items-center">
       <picture>
-        <source type="image/webp" srcset="/public/moroccan-mint-tea-ceremony-hero-crop-morocco-1600.webp" sizes="100vw" />
-        <img src="/public/moroccan-mint-tea-ceremony-hero-crop-morocco-1600.jpg" alt="A man in a red fez and a red cape with the Moroccan star pours mint tea in a spice shop" width="1600" height="900" fetchpriority="high" decoding="async" class="absolute inset-0 -z-20 h-full w-full object-cover" style="object-position:50% 45%" />
+        <source type="image/webp" srcset="/public/moroccan-mint-tea-ceremony-spice-shop-morocco-800.webp 800w, /public/moroccan-mint-tea-ceremony-spice-shop-morocco-1200.webp 1200w" sizes="(min-width:768px) 55vw, 100vw" />
+        <img src="/public/moroccan-mint-tea-ceremony-spice-shop-morocco-1200.jpg" alt="A man in a red fez and a red cape with the Moroccan star pours mint tea in a spice shop" width="1200" height="1800" fetchpriority="high" decoding="async" class="absolute inset-y-0 right-0 -z-20 h-full w-full object-cover object-[center_32%] md:w-[58%] md:object-[center_45%]" />
       </picture>
-      <div class="hero-overlay absolute inset-0 -z-10" aria-hidden="true"></div>
+      <div class="absolute inset-0 -z-10 bg-gradient-to-t from-black/90 via-black/55 to-black/10 md:hidden" aria-hidden="true"></div>
+      <div class="absolute inset-0 -z-10 hidden md:block" style="background:linear-gradient(90deg,#0b0b0b 0%,#0b0b0b 38%,rgba(11,11,11,.75) 52%,rgba(11,11,11,.25) 70%,rgba(11,11,11,0) 92%)" aria-hidden="true"></div>
       <div class="mx-auto w-full max-w-7xl px-5 py-20">
         <div class="max-w-3xl">
           <nav aria-label="Breadcrumb" class="mb-6 text-xs font-semibold uppercase tracking-[0.2em] text-white/75"><ol class="flex flex-wrap items-center gap-2"><li><a href="/" class="transition hover:text-gold-300">Home</a></li><li aria-hidden="true" class="text-gold-400">/</li><li><a href="/about/" class="transition hover:text-gold-300">About</a></li><li aria-hidden="true" class="text-gold-400">/</li><li class="text-gold-300" aria-current="page">About Morocco</li></ol></nav>
@@ -619,7 +620,7 @@
         </nav>
         <nav aria-label="Company">
           <h2 class="font-cormorant text-lg font-bold uppercase tracking-[0.14em] text-gold-300">Explore</h2>
-          <ul class="mt-5 space-y-3 font-jost text-[15px] text-white/70"><li><a href="/about/" class="transition hover:text-gold-300">About</a></li><li><a href="/about-morocco-tours/" class="transition hover:text-gold-300">About Morocco Tours</a></li><li><a href="/day-trips/" class="transition hover:text-gold-300">Day Trips</a></li><li><a href="/blog/" class="transition hover:text-gold-300">Blog</a></li><li><a href="/offer/" class="transition hover:text-gold-300">Offer</a></li><li><a href="/contact/" class="transition hover:text-gold-300">Contact Us</a></li></ul>
+          <ul class="mt-5 space-y-3 font-jost text-[15px] text-white/70"><li><a href="/about/" class="transition hover:text-gold-300">About</a></li><li><a href="/about-morocco-tours/" class="transition hover:text-gold-300">About Morocco Tours</a></li><li><a href="/about-morocco/" class="transition hover:text-gold-300">About Morocco</a></li><li><a href="/day-trips/" class="transition hover:text-gold-300">Day Trips</a></li><li><a href="/blog/" class="transition hover:text-gold-300">Blog</a></li><li><a href="/offer/" class="transition hover:text-gold-300">Offer</a></li><li><a href="/contact/" class="transition hover:text-gold-300">Contact Us</a></li></ul>
           <h2 class="mt-9 font-cormorant text-lg font-bold uppercase tracking-[0.14em] text-gold-300">Travel guides</h2>
           <ul class="mt-5 space-y-3 font-jost text-[15px] text-white/70"><li><a href="/blog/excursions-from-marrakech-to-the-sahara/" class="transition hover:text-gold-300">Sahara Excursions from Marrakech</a></li><li><a href="/blog/7-day-morocco-itinerary/" class="transition hover:text-gold-300">7-Day Morocco Itinerary</a></li><li><a href="/blog/10-day-morocco-itinerary/" class="transition hover:text-gold-300">10-Day Morocco Itinerary</a></li><li><a href="/blog/merzouga-or-zagora/" class="transition hover:text-gold-300">Merzouga or Zagora?</a></li><li><a href="/blog/morocco-itineraries/" class="transition hover:text-gold-300">All Morocco Itineraries</a></li></ul>
         </nav>

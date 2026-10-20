@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <script>if(window.top!==window.self){window.top.location=window.self.location}</script>
   <title>Globo aerostático en Marrakech | Vuelo al amanecer</title>
   <meta name="description" content="Paseo en globo en Marrakech al amanecer: sobrevuela palmerales y aldeas con vistas del Atlas. Según el tiempo. Pide precio por WhatsApp." />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
@@ -613,7 +616,6 @@
         } catch (err) {
           const wa = 'https://wa.me/212668561321?text=' + encodeURIComponent('Hola, me gustaría recibir un presupuesto. ' + v('message'));
           show(false, 'No hemos podido enviar tu mensaje. Escríbenos por <a class="font-semibold underline" href="' + wa + '" target="_blank" rel="noopener">WhatsApp</a> o a <a class="font-semibold underline" href="mailto:highlightsmoroccotours@gmail.com">highlightsmoroccotours@gmail.com</a>.');
-          status.insertAdjacentHTML('beforeend', '<br><span class="err-detail text-xs opacity-70">(' + String(err && err.message || err).replace(/</g, '&lt;') + ')</span>');
         } finally {
           btn.disabled = false; btn.textContent = label;
         }

@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <script>if(window.top!==window.self){window.top.location=window.self.location}</script>
   <title>Offerte speciali: gruppi e tour di 5 giorni nel deserto</title>
   <meta name="description" content="Offerte su tour privati in Marocco: offerta per gruppi di più di 18 persone e tour di 5 giorni nel deserto da Marrakech. Preventivo gratuito." />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
@@ -522,7 +525,6 @@
         } catch (err) {
           const wa = 'https://wa.me/212668561321?text=' + encodeURIComponent('Salve, vorrei un preventivo. ' + v('message'));
           show(false, 'Non è stato possibile inviare il messaggio. Scrivici su <a class="font-semibold underline" href="' + wa + '" target="_blank" rel="noopener">WhatsApp</a> oppure a <a class="font-semibold underline" href="mailto:highlightsmoroccotours@gmail.com">highlightsmoroccotours@gmail.com</a>.');
-          status.insertAdjacentHTML('beforeend', '<br><span class="err-detail text-xs opacity-70">(' + String(err && err.message || err).replace(/</g, '&lt;') + ')</span>');
         } finally {
           btn.disabled = false; btn.textContent = label;
         }

@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <script>if(window.top!==window.self){window.top.location=window.self.location}</script>
   <title>Tour di 14 giorni in Marocco da Marrakech | Sahara e Fès</title>
   <meta name="description" content="Tour privato di 14 giorni in Marocco da Marrakech: campo nel Sahara (2 notti), Fès, Chefchaouen, Rabat, Casablanca, Essaouira. Preventivo gratuito." />
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
@@ -882,7 +885,6 @@
         } catch (err) {
           const wa = 'https://wa.me/212668561321?text=' + encodeURIComponent('Salve, vorrei un preventivo. ' + v('message'));
           show(false, 'Non è stato possibile inviare il messaggio. Scrivici su <a class="font-semibold underline" href="' + wa + '" target="_blank" rel="noopener">WhatsApp</a> oppure a <a class="font-semibold underline" href="mailto:highlightsmoroccotours@gmail.com">highlightsmoroccotours@gmail.com</a>.');
-          status.insertAdjacentHTML('beforeend', '<br><span class="err-detail text-xs opacity-70">(' + String(err && err.message || err).replace(/</g, '&lt;') + ')</span>');
         } finally {
           btn.disabled = false; btn.textContent = label;
         }

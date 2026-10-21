@@ -2421,6 +2421,16 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.highlightsmoroccotours.com/blog/marrakech-travel-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/blog/marrakech-travel-guide/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/blog/marrakech-travel-guide/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/blog/marrakech-travel-guide/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/blog/marrakech-travel-guide/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/blog/marrakech-travel-guide/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.highlightsmoroccotours.com/blog/moroccan-food-guide/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/blog/moroccan-food-guide/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/blog/moroccan-food-guide/"/>

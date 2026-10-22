@@ -320,26 +320,12 @@
   ]
 }
   </script>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <!--tailwind-css-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Jost:wght@400;500;600&family=Playfair+Display:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: { gold: { 200: '#f3e2a9', 300: '#e9c96a', 400: '#d9b24c', 500: '#c99a2e', 600: '#a87a1c' } },
-          fontFamily: {
-            display: ['Playfair Display', 'Georgia', 'serif'],
-            cormorant: ['Cormorant Garamond', 'Georgia', 'serif'],
-            jost: ['Jost', 'system-ui', 'sans-serif'],
-            sans: ['Plus Jakarta Sans', 'system-ui', 'sans-serif']
-          }
-        }
-      }
-    }
-  </script>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Jost:wght@400;500;600&family=Playfair+Display:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Jost:wght@400;500;600&family=Playfair+Display:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"></noscript>
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
   <style>
     html { scroll-behavior: smooth; }
     .hero-overlay {
@@ -410,6 +396,7 @@
     .nav-link:hover::after, .nav-link[aria-current="page"]::after { transform: scaleX(1); }
     @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
     </style>
+  <link rel="stylesheet" href="/public/tailwind.css" />
 </head>
 <body class="bg-[#0b0b0b] font-sans text-gray-800 antialiased">
   <a href="#content" class="sr-only z-[60] rounded bg-white px-4 py-2 text-sm font-semibold text-gray-900 focus:not-sr-only focus:fixed focus:left-4 focus:top-4">Skip to content</a>
@@ -418,7 +405,7 @@
   <header class="sticky top-0 z-50 bg-[#0b0b0b]/95 text-white backdrop-blur-md">
     <div class="mx-auto flex h-20 max-w-7xl items-center justify-between gap-4 px-5">
       <a href="/" aria-label="Highlights Morocco Tours, home" class="shrink-0">
-        <img src="/public/logo-highlights-morocco-tours.png" alt="Highlights Morocco Tours logo" width="777" height="768" class="h-[68px] w-auto object-contain" />
+        <picture><source type="image/webp" srcset="/public/logo-highlights-morocco-tours-200.webp" /><img src="/public/logo-highlights-morocco-tours-200.png" alt="Highlights Morocco Tours logo" width="200" height="198" class="h-[68px] w-auto object-contain" /></picture>
       </a>
 
       <!-- Desktop menu -->
@@ -750,7 +737,7 @@
     <div class="mx-auto max-w-7xl">
       <div class="grid gap-12 border-b border-white/10 pb-12 md:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1.2fr]">
         <div>
-          <a href="/" aria-label="Highlights Morocco Tours, home"><img src="/public/logo-highlights-morocco-tours.png" alt="Highlights Morocco Tours logo" width="777" height="768" loading="lazy" class="h-24 w-auto object-contain" /></a>
+          <a href="/" aria-label="Highlights Morocco Tours, home"><picture><source type="image/webp" srcset="/public/logo-highlights-morocco-tours-200.webp" /><img src="/public/logo-highlights-morocco-tours-200.png" alt="Highlights Morocco Tours logo" width="200" height="198" loading="lazy" class="h-24 w-auto object-contain" /></picture></a>
           <p class="mt-6 max-w-sm font-jost text-[15px] leading-7 text-white/60"><strong class="font-semibold text-white/90">Highlights Morocco Tours</strong> is a family-run private tour company based in Marrakech. For more than 8 years we have taken travellers to the Sahara, the Atlas Mountains and the imperial cities, with a local driver and guide.</p>
           <p class="mt-3 max-w-sm font-jost text-[15px] leading-7 text-white/60">Our team are Berber brothers and friends who grew up in the desert, and between us we speak several languages. We build every trip around you and your budget, because we love sharing our country.</p>
           <div class="mt-7">

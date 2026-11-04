@@ -789,7 +789,7 @@
           f.reset();
         } catch (err) {
           const wa = 'https://wa.me/212668561321?text=' + encodeURIComponent('Hello, I would like a quote. ' + v('message'));
-          show(false, 'We could not send your message. Please write to us on <a class="font-semibold underline" href="' + wa + '" target="_blank" rel="noopener">WhatsApp</a> or at <a class="font-semibold underline" href="mailto:highlightsmoroccotours@gmail.com">highlightsmoroccotours@gmail.com</a>.');
+          show(false, '<span class="block text-xs opacity-60">['+String((err&&err.message)||err)+']</span>'+'We could not send your message. Please write to us on <a class="font-semibold underline" href="' + wa + '" target="_blank" rel="noopener">WhatsApp</a> or at <a class="font-semibold underline" href="mailto:highlightsmoroccotours@gmail.com">highlightsmoroccotours@gmail.com</a>.');
         } finally {
           btn.disabled = false; btn.textContent = label;
         }
@@ -859,7 +859,7 @@ addEventListener('keydown',function(e){if(e.key==='Escape')cl()});})();
           f.reset();
         } catch (err) {
           const wa = 'https://wa.me/212668561321?text=' + encodeURIComponent('Hello, I would like a quote. ' + v('message'));
-          show(false, 'We could not send your message. Please write to us on <a class="font-semibold underline" href="' + wa + '" target="_blank" rel="noopener">WhatsApp</a> or at <a class="font-semibold underline" href="mailto:highlightsmoroccotours@gmail.com">highlightsmoroccotours@gmail.com</a>.');
+          show(false, '<span class="block text-xs opacity-60">['+String((err&&err.message)||err)+']</span>'+'We could not send your message. Please write to us on <a class="font-semibold underline" href="' + wa + '" target="_blank" rel="noopener">WhatsApp</a> or at <a class="font-semibold underline" href="mailto:highlightsmoroccotours@gmail.com">highlightsmoroccotours@gmail.com</a>.');
         } finally {
           btn.disabled = false; btn.textContent = label;
         }

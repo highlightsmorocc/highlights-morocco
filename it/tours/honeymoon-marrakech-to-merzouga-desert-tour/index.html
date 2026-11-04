@@ -1074,7 +1074,7 @@
           f.reset();
         } catch (err) {
           const wa = 'https://wa.me/212668561321?text=' + encodeURIComponent('Salve, vorrei un preventivo. ' + v('message'));
-          show(false, 'Non è stato possibile inviare il messaggio. Scrivici su <a class="font-semibold underline" href="' + wa + '" target="_blank" rel="noopener">WhatsApp</a> oppure a <a class="font-semibold underline" href="mailto:highlightsmoroccotours@gmail.com">highlightsmoroccotours@gmail.com</a>.');
+          show(false, '<span class="block text-xs opacity-60">['+String((err&&err.message)||err)+']</span>'+'Non è stato possibile inviare il messaggio. Scrivici su <a class="font-semibold underline" href="' + wa + '" target="_blank" rel="noopener">WhatsApp</a> oppure a <a class="font-semibold underline" href="mailto:highlightsmoroccotours@gmail.com">highlightsmoroccotours@gmail.com</a>.');
         } finally {
           btn.disabled = false; btn.textContent = label;
         }
@@ -1144,7 +1144,7 @@ addEventListener('keydown',function(e){if(e.key==='Escape')cl()});})();
           f.reset();
         } catch (err) {
           const wa = 'https://wa.me/212668561321?text=' + encodeURIComponent('Salve, vorrei un preventivo. ' + v('message'));
-          show(false, 'Non è stato possibile inviare il messaggio. Scrivici su <a class="font-semibold underline" href="' + wa + '" target="_blank" rel="noopener">WhatsApp</a> oppure a <a class="font-semibold underline" href="mailto:highlightsmoroccotours@gmail.com">highlightsmoroccotours@gmail.com</a>.');
+          show(false, '<span class="block text-xs opacity-60">['+String((err&&err.message)||err)+']</span>'+'Non è stato possibile inviare il messaggio. Scrivici su <a class="font-semibold underline" href="' + wa + '" target="_blank" rel="noopener">WhatsApp</a> oppure a <a class="font-semibold underline" href="mailto:highlightsmoroccotours@gmail.com">highlightsmoroccotours@gmail.com</a>.');
         } finally {
           btn.disabled = false; btn.textContent = label;
         }

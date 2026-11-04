@@ -677,11 +677,11 @@
         const v = n => f.elements[n].value.trim();
         const data = {
           name: v('name'), email: v('email'), whatsapp: v('phone'), destination: v('dest'), travel_date: v('date'), travellers: v('guests'), message: v('message'),
-          _subject: 'Highlights Morocco Tours | New quote request from ' + v('name'), _replyto: v('email'), _template: 'table', _captcha: 'false'
+          subject: 'Highlights Morocco Tours | New quote request from ' + v('name'), replyto: v('email'), access_key: '35be4eac-ed4e-4393-a2a8-f7c763de36b9', from_name: 'Highlights Morocco Tours website'
         };
         btn.disabled = true; btn.textContent = 'Invio in corso...';
         try {
-          const r = await fetch('https://formsubmit.co/ajax/contact@highlightsmoroccotours.com', {
+          const r = await fetch('https://api.web3forms.com/submit', {
             method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(data)
           });
           const j = await r.json().catch(() => ({}));
@@ -713,7 +713,7 @@ md.addEventListener('click',function(e){if(e.target===md)cl()});md.querySelector
 addEventListener('keydown',function(e){if(e.key==='Escape')cl()});
 var f=md.querySelector('form'),g=md.querySelector('.msg');
 f.addEventListener('submit',function(e){e.preventDefault();var d=new FormData(f);g.textContent='…';
- fetch('https://formsubmit.co/ajax/contact@highlightsmoroccotours.com',{method:'POST',headers:{Accept:'application/json'},body:d}).then(function(r){return r.json()}).then(function(j){if(j.success==='true'||j.success===true){g.textContent=f.dataset.ok;f.reset()}else throw 0}).catch(function(){g.textContent=f.dataset.err})});
+ fetch('https://api.web3forms.com/submit',{method:'POST',headers:{Accept:'application/json'},body:d}).then(function(r){return r.json()}).then(function(j){if(j.success==='true'||j.success===true){g.textContent=f.dataset.ok;f.reset()}else throw 0}).catch(function(){g.textContent=f.dataset.err})});
 })();
 </script><div id="book-modal" role="dialog" aria-modal="true"><div class="bm"><button type="button" class="cl" aria-label="Chiudi">&times;</button><form id="book-form" class="relative rounded-3xl border border-gold-500/40 bg-white p-7 shadow-2xl shadow-black/40 sm:p-10">
           <div class="absolute inset-x-10 top-0 h-px bg-gradient-to-r from-transparent via-gold-500 to-transparent" aria-hidden="true"></div>
@@ -756,11 +756,11 @@ addEventListener('keydown',function(e){if(e.key==='Escape')cl()});})();
         const v = n => f.elements[n].value.trim();
         const data = {
           name: v('name'), email: v('email'), whatsapp: v('phone'), destination: v('dest'), travel_date: v('date'), travellers: v('guests'), message: v('message'),
-          _subject: 'Highlights Morocco Tours | New quote request from ' + v('name'), _replyto: v('email'), _template: 'table', _captcha: 'false'
+          subject: 'Highlights Morocco Tours | New quote request from ' + v('name'), replyto: v('email'), access_key: '35be4eac-ed4e-4393-a2a8-f7c763de36b9', from_name: 'Highlights Morocco Tours website'
         };
         btn.disabled = true; btn.textContent = 'Invio in corso...';
         try {
-          const r = await fetch('https://formsubmit.co/ajax/contact@highlightsmoroccotours.com', {
+          const r = await fetch('https://api.web3forms.com/submit', {
             method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(data)
           });
           const j = await r.json().catch(() => ({}));

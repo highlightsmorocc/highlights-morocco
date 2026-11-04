@@ -838,11 +838,11 @@
         const v = n => f.elements[n].value.trim();
         const data = {
           name: v('name'), email: v('email'), whatsapp: v('phone'), destination: v('dest'), travel_date: v('date'), travellers: v('guests'), message: v('message'),
-          _subject: 'Highlights Morocco Tours | New quote request from ' + v('name'), _replyto: v('email'), _template: 'table', _captcha: 'false'
+          subject: 'Highlights Morocco Tours | New quote request from ' + v('name'), replyto: v('email'), access_key: '35be4eac-ed4e-4393-a2a8-f7c763de36b9', from_name: 'Highlights Morocco Tours website'
         };
         btn.disabled = true; btn.textContent = 'Invio in corso...';
         try {
-          const r = await fetch('https://formsubmit.co/ajax/contact@highlightsmoroccotours.com', {
+          const r = await fetch('https://api.web3forms.com/submit', {
             method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(data)
           });
           const j = await r.json().catch(() => ({}));
@@ -908,11 +908,11 @@ addEventListener('keydown',function(e){if(e.key==='Escape')cl()});})();
         const v = n => f.elements[n].value.trim();
         const data = {
           name: v('name'), email: v('email'), whatsapp: v('phone'), destination: v('dest'), travel_date: v('date'), travellers: v('guests'), message: v('message'),
-          _subject: 'Highlights Morocco Tours | New quote request from ' + v('name'), _replyto: v('email'), _template: 'table', _captcha: 'false'
+          subject: 'Highlights Morocco Tours | New quote request from ' + v('name'), replyto: v('email'), access_key: '35be4eac-ed4e-4393-a2a8-f7c763de36b9', from_name: 'Highlights Morocco Tours website'
         };
         btn.disabled = true; btn.textContent = 'Invio in corso...';
         try {
-          const r = await fetch('https://formsubmit.co/ajax/contact@highlightsmoroccotours.com', {
+          const r = await fetch('https://api.web3forms.com/submit', {
             method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(data)
           });
           const j = await r.json().catch(() => ({}));

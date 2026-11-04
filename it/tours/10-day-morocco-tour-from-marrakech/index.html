@@ -651,16 +651,13 @@
 @media(min-width:1024px){[data-hdr2].is-solid .hdr-book2{display:inline-flex}}
 [data-hdr2] .nav-link::before{content:"";position:absolute;left:50%;top:-3px;width:6px;height:6px;margin-left:-3px;border-radius:50% 50% 50% 0;transform:rotate(-45deg) scale(0);background:radial-gradient(circle at 35% 30%,#fbeab0,#e0b13e 70%);box-shadow:0 0 8px rgba(224,177,62,.7);opacity:0;transition:transform .3s cubic-bezier(.34,1.56,.64,1),opacity .2s}
 [data-hdr2] .nav-link:hover::before,[data-hdr2] .menu-item:hover>.nav-link::before,[data-hdr2] .menu-item:focus-within>.nav-link::before,[data-hdr2] .nav-link[aria-current]::before{opacity:1;transform:rotate(-45deg) scale(1)}
-#book-modal{position:fixed;inset:0;z-index:100;display:none;align-items:center;justify-content:center;padding:16px;background:rgba(0,0,0,.65);-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px)}
+</style><style data-bk>
+#book-modal{position:fixed;inset:0;z-index:100;display:none;align-items:flex-start;justify-content:center;overflow-y:auto;padding:24px 16px;background:rgba(0,0,0,.7);-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px)}
 #book-modal.open{display:flex}
-#book-modal .bm{position:relative;width:100%;max-width:440px;border-radius:20px;border:1px solid rgba(217,178,76,.5);background:#141414;color:#fff;padding:28px;box-shadow:0 30px 80px rgba(0,0,0,.6)}
-#book-modal h2{font-family:"Playfair Display",serif;font-size:1.6rem;color:#f0cd6e;margin:0}
-#book-modal p.s{margin:.4rem 0 1rem;color:rgba(255,255,255,.7);font-size:.92rem}
-#book-modal input,#book-modal textarea{width:100%;margin-bottom:10px;border-radius:12px;border:1px solid rgba(255,255,255,.18);background:#0b0b0b;color:#fff;padding:12px 14px;font:inherit;font-size:15px;outline:none}
-#book-modal input:focus,#book-modal textarea:focus{border-color:#e0b13e}
-#book-modal button.go{width:100%;border:0;border-radius:999px;padding:13px;font-weight:700;text-transform:uppercase;letter-spacing:.12em;font-size:12px;color:#1a1305;background:linear-gradient(135deg,#f3dc92,#d9b24c 50%,#b98a22);cursor:pointer}
-#book-modal .cl{position:absolute;right:12px;top:10px;width:36px;height:36px;border-radius:50%;border:0;background:transparent;color:#fff;font-size:22px;cursor:pointer}
-#book-modal .msg{margin-top:10px;font-size:.9rem;color:#f0cd6e}
+#book-modal .bm{position:relative;width:100%;max-width:760px;margin:auto}
+#book-modal{position:fixed;inset:0;z-index:100;display:none;align-items:flex-start;justify-content:center;overflow-y:auto;padding:24px 16px;background:rgba(0,0,0,.7);-webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px)}
+#book-modal.open{display:flex}
+#book-modal .cl{position:absolute;right:14px;top:12px;z-index:5;width:38px;height:38px;border-radius:50%;border:0;background:rgba(0,0,0,.06);color:#14100a;font-size:24px;line-height:1;cursor:pointer}
 </style></head>
 <body class="bg-[#0b0b0b] font-sans text-gray-800 antialiased">
   <a href="#content" class="sr-only z-[60] rounded bg-white px-4 py-2 text-sm font-semibold text-gray-900 focus:not-sr-only focus:fixed focus:left-4 focus:top-4">Vai al contenuto</a>
@@ -1077,15 +1074,65 @@ function fit(){var was=h.classList.contains('is-solid');h.classList.remove('is-s
  if(hero){s.style.paddingTop='';s.style.paddingTop=(parseFloat(getComputedStyle(s).paddingTop)+hh)+'px'}else{m.style.paddingTop=hh+'px'}}
 function on(){h.classList.toggle('is-solid',window.scrollY>40)}
 fit();on();addEventListener('scroll',on,{passive:true});addEventListener('resize',fit);addEventListener('load',fit);
-var md=document.getElementById('book-modal');if(!md)return;
-function op(e){e&&e.preventDefault();md.classList.add('open');var i=md.querySelector('input[name=name]');setTimeout(function(){i&&i.focus()},50)}
+})();
+</script><div id="book-modal" role="dialog" aria-modal="true"><div class="bm"><button type="button" class="cl" aria-label="Chiudi">&times;</button><form id="book-form" class="relative rounded-3xl border border-gold-500/40 bg-white p-7 shadow-2xl shadow-black/40 sm:p-10">
+          <div class="absolute inset-x-10 top-0 h-px bg-gradient-to-r from-transparent via-gold-500 to-transparent" aria-hidden="true"></div>
+          <h3 class="font-display text-2xl font-semibold text-[#14100a]">Richiedi un preventivo gratuito</h3>
+          <div class="mt-6 grid gap-5 sm:grid-cols-2">
+            <div><label for="bk-name" class="mb-2 block text-[11px] font-semibold uppercase tracking-[0.22em] text-gold-600">Nome e cognome</label><input id="bk-name" name="name" type="text" autocomplete="name" required placeholder="Il tuo nome" class="contact-input h-12 w-full rounded-xl border border-[#14100a]/15 bg-[#faf6ee] px-4 font-jost text-[15px] text-[#14100a] outline-none transition placeholder:text-gray-400 focus:border-gold-500 focus:bg-white" /></div>
+            <div><label for="bk-email" class="mb-2 block text-[11px] font-semibold uppercase tracking-[0.22em] text-gold-600">Email</label><input id="bk-email" name="email" type="email" autocomplete="email" required placeholder="nome@esempio.it" class="contact-input h-12 w-full rounded-xl border border-[#14100a]/15 bg-[#faf6ee] px-4 font-jost text-[15px] text-[#14100a] outline-none transition placeholder:text-gray-400 focus:border-gold-500 focus:bg-white" /></div>
+            <div><label for="bk-phone" class="mb-2 block text-[11px] font-semibold uppercase tracking-[0.22em] text-gold-600">WhatsApp (facoltativo)</label><input id="bk-phone" name="phone" type="tel" autocomplete="tel" placeholder="+1 555 000 000" class="contact-input h-12 w-full rounded-xl border border-[#14100a]/15 bg-[#faf6ee] px-4 font-jost text-[15px] text-[#14100a] outline-none transition placeholder:text-gray-400 focus:border-gold-500 focus:bg-white" /></div>
+            <div><label for="bk-dest" class="mb-2 block text-[11px] font-semibold uppercase tracking-[0.22em] text-gold-600">Destinazione</label><select id="bk-dest" name="dest" class="contact-input h-12 w-full rounded-xl border border-[#14100a]/15 bg-[#faf6ee] px-4 font-jost text-[15px] text-[#14100a] outline-none transition placeholder:text-gray-400 focus:border-gold-500 focus:bg-white"><option value="">Qualsiasi destinazione</option><option>Marrakech</option><option>Casablanca</option><option>Fès</option><option>Rabat</option><option>Tangeri</option><option>Errachidia</option><option>Ouarzazate</option><option>Merzouga</option></select></div>
+            <div><label for="bk-date" class="mb-2 block text-[11px] font-semibold uppercase tracking-[0.22em] text-gold-600">Data di viaggio</label><input id="bk-date" name="date" type="date" class="contact-input h-12 w-full rounded-xl border border-[#14100a]/15 bg-[#faf6ee] px-4 font-jost text-[15px] text-[#14100a] outline-none transition placeholder:text-gray-400 focus:border-gold-500 focus:bg-white" /></div>
+            <div><label for="bk-guests" class="mb-2 block text-[11px] font-semibold uppercase tracking-[0.22em] text-gold-600">Viaggiatori</label><select id="bk-guests" name="guests" class="contact-input h-12 w-full rounded-xl border border-[#14100a]/15 bg-[#faf6ee] px-4 font-jost text-[15px] text-[#14100a] outline-none transition placeholder:text-gray-400 focus:border-gold-500 focus:bg-white"><option value="">Quanti viaggiatori?</option><option>1 viaggiatore</option><option>2 viaggiatori</option><option>3-4 viaggiatori</option><option>5-8 viaggiatori</option><option>9 o più viaggiatori</option></select></div>
+            <div class="sm:col-span-2"><label for="bk-message" class="mb-2 block text-[11px] font-semibold uppercase tracking-[0.22em] text-gold-600">Il tuo messaggio</label><textarea id="bk-message" name="message" rows="4" required placeholder="Raccontaci cosa ti piacerebbe vedere e fare..." class="contact-input w-full rounded-xl border border-[#14100a]/15 bg-[#faf6ee] px-4 py-3 font-jost text-[15px] text-[#14100a] outline-none transition placeholder:text-gray-400 focus:border-gold-500 focus:bg-white"></textarea></div>
+          </div>
+          <button type="submit" class="gold-btn mt-7 flex w-full items-center justify-center gap-2.5 rounded-full px-8 py-4 text-[13px] font-bold uppercase tracking-[0.16em] text-[#1a1305] shadow-xl shadow-gold-500/25 transition duration-300 hover:-translate-y-0.5 hover:brightness-110">Invia richiesta</button>
+          <input type="text" name="_honey" tabindex="-1" autocomplete="off" class="hidden" aria-hidden="true" />
+          <p id="book-status" role="status" aria-live="polite" class="hidden"></p>
+          
+        </form></div></div><script data-bk>
+(function(){var md=document.getElementById('book-modal');if(!md)return;
+function op(e){e.preventDefault();md.classList.add('open');var i=md.querySelector('input[name=name]');setTimeout(function(){i&&i.focus()},50)}
 function cl(){md.classList.remove('open')}
 document.querySelectorAll('[data-book]').forEach(function(b){b.addEventListener('click',op)});
 md.addEventListener('click',function(e){if(e.target===md)cl()});md.querySelector('.cl').addEventListener('click',cl);
-addEventListener('keydown',function(e){if(e.key==='Escape')cl()});
-var f=md.querySelector('form'),g=md.querySelector('.msg');
-f.addEventListener('submit',function(e){e.preventDefault();var d=new FormData(f);g.textContent='…';
- fetch('https://formsubmit.co/ajax/highlightsmoroccotours@gmail.com',{method:'POST',headers:{Accept:'application/json'},body:d}).then(function(r){return r.json()}).then(function(j){if(j.success==='true'||j.success===true){g.textContent=f.dataset.ok;f.reset()}else throw 0}).catch(function(){g.textContent=f.dataset.err})});
-})();
-</script></body>
+addEventListener('keydown',function(e){if(e.key==='Escape')cl()});})();
+(() => {
+      const f = document.getElementById('book-form');
+      if (!f) return;
+      const t = new Date();
+      f.elements.date.min = t.getFullYear() + '-' + String(t.getMonth() + 1).padStart(2, '0') + '-' + String(t.getDate()).padStart(2, '0');
+      const btn = f.querySelector('button[type="submit"]');
+      const status = document.getElementById('book-status');
+      const label = btn.textContent;
+      const show = (ok, html) => {
+        status.className = 'mt-5 rounded-xl border px-5 py-4 text-center font-jost text-[15px] leading-7 ' + (ok ? 'border-green-600/40 bg-green-50 text-green-900' : 'border-red-600/30 bg-red-50 text-red-900');
+        status.innerHTML = html;
+      };
+      f.addEventListener('submit', async e => {
+        e.preventDefault();
+        if (f.elements._honey && f.elements._honey.value) return;
+        const v = n => f.elements[n].value.trim();
+        const data = {
+          name: v('name'), email: v('email'), whatsapp: v('phone'), destination: v('dest'), travel_date: v('date'), travellers: v('guests'), message: v('message'),
+          _subject: 'Highlights Morocco Tours | New quote request from ' + v('name'), _replyto: v('email'), _template: 'table', _captcha: 'false'
+        };
+        btn.disabled = true; btn.textContent = 'Invio in corso...';
+        try {
+          const r = await fetch('https://formsubmit.co/ajax/highlightsmoroccotours@gmail.com', {
+            method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(data)
+          });
+          const j = await r.json().catch(() => ({}));
+          if (!r.ok || j.success === false || j.success === 'false') throw new Error((j && j.message) ? String(j.message) : ('HTTP ' + r.status));
+          show(true, '<strong>Grazie!</strong> La tua richiesta è stata inviata. Ti risponderemo il prima possibile.');
+          f.reset();
+        } catch (err) {
+          const wa = 'https://wa.me/212668561321?text=' + encodeURIComponent('Salve, vorrei un preventivo. ' + v('message'));
+          show(false, 'Non è stato possibile inviare il messaggio. Scrivici su <a class="font-semibold underline" href="' + wa + '" target="_blank" rel="noopener">WhatsApp</a> oppure a <a class="font-semibold underline" href="mailto:highlightsmoroccotours@gmail.com">highlightsmoroccotours@gmail.com</a>.');
+        } finally {
+          btn.disabled = false; btn.textContent = label;
+        }
+      });
+    })();</script></body>
 </html>

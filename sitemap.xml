@@ -2561,6 +2561,26 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.highlightsmoroccotours.com/blog/morocco-holidays-tour-packages/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/blog/morocco-holidays-tour-packages/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/blog/morocco-holidays-tour-packages/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/blog/morocco-holidays-tour-packages/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/blog/morocco-holidays-tour-packages/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/blog/morocco-holidays-tour-packages/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/blog/luxury-trip-to-morocco-7-day-itinerary/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/blog/luxury-trip-to-morocco-7-day-itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/blog/luxury-trip-to-morocco-7-day-itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/blog/luxury-trip-to-morocco-7-day-itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/blog/luxury-trip-to-morocco-7-day-itinerary/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/blog/luxury-trip-to-morocco-7-day-itinerary/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.highlightsmoroccotours.com/blog/best-day-trips-from-marrakech/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/blog/best-day-trips-from-marrakech/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/blog/best-day-trips-from-marrakech/"/>

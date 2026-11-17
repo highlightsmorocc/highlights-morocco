@@ -3770,4 +3770,14 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/privacy-policy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/privacy-policy/"/>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
 </urlset>

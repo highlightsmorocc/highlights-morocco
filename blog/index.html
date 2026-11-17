@@ -348,6 +348,11 @@
     }
     .menu-item:hover > .menu-panel,
     .menu-item:focus-within > .menu-panel { visibility: visible; opacity: 1; transform: translateY(0); }
+    /* language switcher under the header (desktop) */
+    [data-hdr2] .hdr-lang { position: absolute; left: 0; right: 0; top: 100%; pointer-events: none; }
+    [data-hdr2] .hdr-lang .menu-item { pointer-events: auto; }
+    [data-hdr2] .hdr-lang > div { max-width: none !important; padding-right: .75rem !important; }
+    [data-hdr2] .hdr-lang button { background: rgba(11,11,11,.85); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); }
     .nav-link { position: relative; }
     .nav-link::after {
       content: ''; position: absolute; left: 0.75rem; right: 0.75rem; bottom: 0.35rem; height: 1px;
@@ -383,10 +388,7 @@
   <a href="#content" class="sr-only z-[60] rounded bg-white px-4 py-2 text-sm font-semibold text-gray-900 focus:not-sr-only focus:fixed focus:left-4 focus:top-4">Skip to content</a>
 
   <!-- ============ HEADER ============ -->
-  <header data-hdr2 class="sticky top-0 z-50 text-white"><div class="hdr-top hidden lg:block"><div class="mx-auto flex max-w-7xl items-center justify-end gap-3 px-5 py-1.5"><a href="https://www.facebook.com/share/1cDBme3pjB/" target="_blank" rel="noopener" aria-label="Facebook" class="flex h-8 w-8 items-center justify-center rounded-full text-white/70 transition hover:text-gold-300"><i class="fab fa-facebook-f text-[13px]" aria-hidden="true"></i></a><a href="https://www.tripadvisor.in/Attraction_Review-g293734-d34120579-Reviews-Favorites_Morocco_Tours-Marrakech_Marrakech_Safi.html" target="_blank" rel="noopener" aria-label="Tripadvisor" class="flex h-8 w-8 items-center justify-center rounded-full text-white/70 transition hover:text-gold-300"><i class="fab fa-tripadvisor text-[15px]" aria-hidden="true"></i></a><a href="https://wa.me/212668561321" target="_blank" rel="noopener" aria-label="WhatsApp" class="flex h-8 w-8 items-center justify-center rounded-full text-white/70 transition hover:text-gold-300"><i class="fab fa-whatsapp text-[15px]" aria-hidden="true"></i></a><span class="mx-1 h-4 w-px bg-white/15" aria-hidden="true"></span><div class="menu-item relative hidden lg:block">
-          <button type="button" aria-haspopup="true" aria-label="Language" class="flex items-center gap-2 rounded-full border border-white/15 px-3 py-1.5 text-[12px] font-semibold uppercase tracking-[0.14em] text-white/85 transition hover:border-gold-400/60 hover:text-gold-300"><i class="fas fa-globe text-[12px] text-gold-300" aria-hidden="true"></i> EN <i class="fas fa-chevron-down text-[9px]" aria-hidden="true"></i></button>
-          <div class="menu-panel absolute right-0 top-full z-50 pt-3"><ul class="w-48 overflow-hidden rounded-xl border border-white/10 border-t-2 border-t-gold-400 bg-[#141414] py-2 shadow-2xl shadow-black/60"><li><a href="/blog/" hreflang="en" lang="en" aria-current="true" class="flex items-center justify-between px-5 py-2.5 text-sm text-gold-300 transition hover:bg-white/5 hover:text-gold-300">English<span class="text-[10px] tracking-[0.14em] text-white/40">EN</span></a></li><li><a href="/es/blog/" hreflang="es" lang="es" class="flex items-center justify-between px-5 py-2.5 text-sm text-white/85 transition hover:bg-white/5 hover:text-gold-300">Español<span class="text-[10px] tracking-[0.14em] text-white/40">ES</span></a></li><li><a href="/pt/blog/" hreflang="pt" lang="pt" class="flex items-center justify-between px-5 py-2.5 text-sm text-white/85 transition hover:bg-white/5 hover:text-gold-300">Português<span class="text-[10px] tracking-[0.14em] text-white/40">PT</span></a></li><li><a href="/it/blog/" hreflang="it" lang="it" class="flex items-center justify-between px-5 py-2.5 text-sm text-white/85 transition hover:bg-white/5 hover:text-gold-300">Italiano<span class="text-[10px] tracking-[0.14em] text-white/40">IT</span></a></li></ul></div>
-        </div><a href="#book" data-book aria-label="Book now: get a free quote" class="gold-btn inline-flex items-center gap-2 whitespace-nowrap rounded-full px-4 py-1.5 text-[12px] font-bold uppercase tracking-[0.12em] text-[#1a1305] shadow-md shadow-gold-500/20 transition hover:brightness-110">Book Now <i class="fas fa-arrow-right text-[10px]" aria-hidden="true"></i></a></div></div><div class="hdr-row mx-auto flex h-20 max-w-7xl items-center justify-between gap-4 px-5 lg:grid lg:h-auto lg:grid-cols-[1fr_auto_1fr] lg:gap-0 lg:py-4"><nav aria-label="Main navigation" class="hidden items-center border-b border-gold-400/40 lg:flex lg:justify-evenly"><div class="menu-item relative">
+  <header data-hdr2 class="sticky top-0 z-50 text-white"><div class="hdr-top hidden lg:block"><div class="mx-auto flex max-w-7xl items-center justify-end gap-3 px-5 py-1.5"><a href="https://www.facebook.com/share/1cDBme3pjB/" target="_blank" rel="noopener" aria-label="Facebook" class="flex h-8 w-8 items-center justify-center rounded-full text-white/70 transition hover:text-gold-300"><i class="fab fa-facebook-f text-[13px]" aria-hidden="true"></i></a><a href="https://www.tripadvisor.in/Attraction_Review-g293734-d34120579-Reviews-Favorites_Morocco_Tours-Marrakech_Marrakech_Safi.html" target="_blank" rel="noopener" aria-label="Tripadvisor" class="flex h-8 w-8 items-center justify-center rounded-full text-white/70 transition hover:text-gold-300"><i class="fab fa-tripadvisor text-[15px]" aria-hidden="true"></i></a><a href="https://wa.me/212668561321" target="_blank" rel="noopener" aria-label="WhatsApp" class="flex h-8 w-8 items-center justify-center rounded-full text-white/70 transition hover:text-gold-300"><i class="fab fa-whatsapp text-[15px]" aria-hidden="true"></i></a><a href="#book" data-book aria-label="Book now: get a free quote" class="gold-btn inline-flex items-center gap-2 whitespace-nowrap rounded-full px-4 py-1.5 text-[12px] font-bold uppercase tracking-[0.12em] text-[#1a1305] shadow-md shadow-gold-500/20 transition hover:brightness-110">Book Now <i class="fas fa-arrow-right text-[10px]" aria-hidden="true"></i></a></div></div><div class="hdr-row mx-auto flex h-20 max-w-7xl items-center justify-between gap-4 px-5 lg:grid lg:h-auto lg:grid-cols-[1fr_auto_1fr] lg:gap-0 lg:py-4"><nav aria-label="Main navigation" class="hidden items-center border-b border-gold-400/40 lg:flex lg:justify-evenly"><div class="menu-item relative">
           <button type="button" aria-haspopup="true" class="nav-link relative after:absolute after:inset-x-3 after:bottom-1 after:h-px after:origin-left after:scale-x-0 after:bg-gold-400 after:transition-transform hover:after:scale-x-100 cursor-default flex items-center gap-1.5 px-2 py-2 xl:gap-2 xl:px-3 text-[13px] font-semibold uppercase tracking-[0.14em] text-white/85 transition hover:text-gold-300">About <i class="fas fa-chevron-down text-[9px]" aria-hidden="true"></i></button>
           <div class="menu-panel absolute left-0 top-full z-50 pt-3"><ul class="w-64 overflow-hidden rounded-xl border border-white/10 border-t-2 border-t-gold-400 bg-[#141414] py-2 shadow-2xl shadow-black/60"><li><a href="/about/" class="block px-5 py-2.5 text-sm text-white/85 transition hover:bg-white/5 hover:pl-6 hover:text-gold-300">About Us</a></li><li><a href="/about-morocco-tours/" class="block px-5 py-2.5 text-sm text-white/85 transition hover:bg-white/5 hover:pl-6 hover:text-gold-300">About Morocco Tours</a></li><li><a href="/about-morocco/" class="block px-5 py-2.5 text-sm text-white/85 transition hover:bg-white/5 hover:pl-6 hover:text-gold-300">About Morocco</a></li></ul></div>
         </div><div class="menu-item relative">
@@ -427,7 +429,10 @@
           </div>
         </div><a href="/contact/" class="nav-link relative after:absolute after:inset-x-3 after:bottom-1 after:h-px after:origin-left after:scale-x-0 after:bg-gold-400 after:transition-transform hover:after:scale-x-100 px-2 py-2 xl:px-3 text-[13px] font-semibold uppercase tracking-[0.14em] text-white/85 transition hover:text-gold-300">Contact</a><a href="#book" data-book class="hdr-book2 gold-btn items-center gap-2 whitespace-nowrap rounded-full px-4 py-1.5 text-[11px] font-bold uppercase tracking-[0.12em] text-[#1a1305] transition hover:brightness-110">Book Now</a></nav><button id="menu-btn" type="button" aria-controls="mobile-menu" aria-expanded="false" aria-label="Open menu" class="flex h-11 w-11 items-center justify-center rounded-full border border-gold-400/40 text-gold-300 lg:hidden">
           <i class="fas fa-bars" aria-hidden="true"></i>
-        </button></div><div class="hdr-line h-px bg-gradient-to-r from-transparent via-gold-400/70 to-transparent"></div>
+        </button></div><div class="hdr-line h-px bg-gradient-to-r from-transparent via-gold-400/70 to-transparent"></div><div class="hdr-lang hidden lg:block"><div class="mx-auto flex max-w-7xl justify-end px-5 pt-2"><div class="menu-item relative hidden lg:block">
+          <button type="button" aria-haspopup="true" aria-label="Language" class="flex items-center gap-2 rounded-full border border-white/15 px-3 py-1.5 text-[12px] font-semibold uppercase tracking-[0.14em] text-white/85 transition hover:border-gold-400/60 hover:text-gold-300"><i class="fas fa-globe text-[12px] text-gold-300" aria-hidden="true"></i> EN <i class="fas fa-chevron-down text-[9px]" aria-hidden="true"></i></button>
+          <div class="menu-panel absolute right-0 top-full z-50 pt-3"><ul class="w-48 overflow-hidden rounded-xl border border-white/10 border-t-2 border-t-gold-400 bg-[#141414] py-2 shadow-2xl shadow-black/60"><li><a href="/blog/" hreflang="en" lang="en" aria-current="true" class="flex items-center justify-between px-5 py-2.5 text-sm text-gold-300 transition hover:bg-white/5 hover:text-gold-300">English<span class="text-[10px] tracking-[0.14em] text-white/40">EN</span></a></li><li><a href="/es/blog/" hreflang="es" lang="es" class="flex items-center justify-between px-5 py-2.5 text-sm text-white/85 transition hover:bg-white/5 hover:text-gold-300">Español<span class="text-[10px] tracking-[0.14em] text-white/40">ES</span></a></li><li><a href="/pt/blog/" hreflang="pt" lang="pt" class="flex items-center justify-between px-5 py-2.5 text-sm text-white/85 transition hover:bg-white/5 hover:text-gold-300">Português<span class="text-[10px] tracking-[0.14em] text-white/40">PT</span></a></li><li><a href="/it/blog/" hreflang="it" lang="it" class="flex items-center justify-between px-5 py-2.5 text-sm text-white/85 transition hover:bg-white/5 hover:text-gold-300">Italiano<span class="text-[10px] tracking-[0.14em] text-white/40">IT</span></a></li></ul></div>
+        </div></div></div>
 
     <!-- Mobile menu -->
     <nav id="mobile-menu" aria-label="Mobile navigation" class="hidden max-h-[calc(100vh-5rem)] overflow-y-auto border-t border-white/10 bg-[#0b0b0b] lg:hidden">
@@ -524,6 +529,314 @@
           </div>
         </div>
         <ul id="blog-grid" class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          <li>
+            <a href="/blog/capital-de-marruecos/" class="group flex h-full flex-col overflow-hidden rounded-3xl border border-gold-400/30 bg-[#0b0b0b] text-white shadow-xl shadow-black/30 transition duration-300 hover:-translate-y-2 hover:border-gold-400 hover:shadow-2xl hover:shadow-gold-500/25">
+              <div class="relative h-52 overflow-hidden">
+                <picture><source type="image/webp" srcset="/public/hassan-tower-rabat-morocco-itinerary-800.webp" /><img src="/public/hassan-tower-rabat-morocco-itinerary-800.jpg" alt="The Hassan Tower in Rabat, the capital of Morocco" width="800" height="533" loading="lazy" decoding="async" class="h-full w-full object-cover transition duration-700 group-hover:scale-105" style="object-position:center 55%" /></picture>
+                <div class="absolute inset-0 bg-gradient-to-t from-[#0b0b0b] via-black/10 to-transparent" aria-hidden="true"></div>
+              </div>
+              <div class="flex flex-1 flex-col p-7">
+                <p class="text-[11px] font-semibold uppercase tracking-[0.3em] text-gold-300">Travel guide</p>
+                <h3 class="mt-2 font-display text-2xl font-semibold text-white">Capital of Morocco: Rabat and the 4 Imperial Cities</h3>
+                <p class="mt-4 font-jost text-[15px] leading-7 text-white/65">What is the capital of Morocco? Rabat. What Casablanca is, the 4 imperial cities (Rabat, Fes, Meknes and Marrakech), what to see in each and how to visit them on a private tour.</p>
+                <span class="mt-auto flex items-center gap-2 pt-7 text-[13px] font-bold uppercase tracking-[0.16em] text-gold-300">Read Post &raquo;</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="/blog/ciudades-de-marruecos/" class="group flex h-full flex-col overflow-hidden rounded-3xl border border-gold-400/30 bg-[#0b0b0b] text-white shadow-xl shadow-black/30 transition duration-300 hover:-translate-y-2 hover:border-gold-400 hover:shadow-2xl hover:shadow-gold-500/25">
+              <div class="relative h-52 overflow-hidden">
+                <picture><source type="image/webp" srcset="/public/fes-chouara-tanneries-leather-dye-pits-morocco-800.webp" /><img src="/public/fes-chouara-tanneries-leather-dye-pits-morocco-800.jpg" alt="The leather tanneries of Fes, one of the cities of Morocco" width="800" height="533" loading="lazy" decoding="async" class="h-full w-full object-cover transition duration-700 group-hover:scale-105" style="object-position:center 55%" /></picture>
+                <div class="absolute inset-0 bg-gradient-to-t from-[#0b0b0b] via-black/10 to-transparent" aria-hidden="true"></div>
+              </div>
+              <div class="flex flex-1 flex-col p-7">
+                <p class="text-[11px] font-semibold uppercase tracking-[0.3em] text-gold-300">Travel guide</p>
+                <h3 class="mt-2 font-display text-2xl font-semibold text-white">Cities in Morocco: Map, Best Cities &amp; Where to Go</h3>
+                <p class="mt-4 font-jost text-[15px] leading-7 text-white/65">Cities in Morocco with a map: Marrakech, Fes, Rabat, Casablanca, Chefchaouen, Essaouira and more, what to see in each, how many days and how to plan your route on a private tour.</p>
+                <span class="mt-auto flex items-center gap-2 pt-7 text-[13px] font-bold uppercase tracking-[0.16em] text-gold-300">Read Post &raquo;</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="/blog/que-ver-en-marruecos/" class="group flex h-full flex-col overflow-hidden rounded-3xl border border-gold-400/30 bg-[#0b0b0b] text-white shadow-xl shadow-black/30 transition duration-300 hover:-translate-y-2 hover:border-gold-400 hover:shadow-2xl hover:shadow-gold-500/25">
+              <div class="relative h-52 overflow-hidden">
+                <picture><source type="image/webp" srcset="/public/ait-ben-haddou-ksar-card-morocco-800.webp" /><img src="/public/ait-ben-haddou-ksar-card-morocco-800.jpg" alt="The Ait Ben Haddou kasbah reflected in the water in southern Morocco" width="800" height="592" loading="lazy" decoding="async" class="h-full w-full object-cover transition duration-700 group-hover:scale-105" style="object-position:center 55%" /></picture>
+                <div class="absolute inset-0 bg-gradient-to-t from-[#0b0b0b] via-black/10 to-transparent" aria-hidden="true"></div>
+              </div>
+              <div class="flex flex-1 flex-col p-7">
+                <p class="text-[11px] font-semibold uppercase tracking-[0.3em] text-gold-300">Travel guide</p>
+                <h3 class="mt-2 font-display text-2xl font-semibold text-white">What to See in Morocco: 12 Must-See Places &amp; Routes</h3>
+                <p class="mt-4 font-jost text-[15px] leading-7 text-white/65">What to see in Morocco: the 12 must-see places (Marrakech, Fes, the Sahara, Chefchaouen, Ait Ben Haddou and more), 3, 7 and 10-day routes and how to book a private tour.</p>
+                <span class="mt-auto flex items-center gap-2 pt-7 text-[13px] font-bold uppercase tracking-[0.16em] text-gold-300">Read Post &raquo;</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="/blog/escapadas-a-marruecos/" class="group flex h-full flex-col overflow-hidden rounded-3xl border border-gold-400/30 bg-[#0b0b0b] text-white shadow-xl shadow-black/30 transition duration-300 hover:-translate-y-2 hover:border-gold-400 hover:shadow-2xl hover:shadow-gold-500/25">
+              <div class="relative h-52 overflow-hidden">
+                <picture><source type="image/webp" srcset="/public/marrakech-hot-air-balloons-dawn-sky-card-morocco-800.webp" /><img src="/public/marrakech-hot-air-balloons-dawn-sky-card-morocco-800.jpg" alt="Hot air balloons over the desert at sunrise in Morocco" width="800" height="533" loading="lazy" decoding="async" class="h-full w-full object-cover transition duration-700 group-hover:scale-105" style="object-position:center 55%" /></picture>
+                <div class="absolute inset-0 bg-gradient-to-t from-[#0b0b0b] via-black/10 to-transparent" aria-hidden="true"></div>
+              </div>
+              <div class="flex flex-1 flex-col p-7">
+                <p class="text-[11px] font-semibold uppercase tracking-[0.3em] text-gold-300">Travel guide</p>
+                <h3 class="mt-2 font-display text-2xl font-semibold text-white">Weekend Trips to Morocco: 2 to 5-Day Ideas from Europe</h3>
+                <p class="mt-4 font-jost text-[15px] leading-7 text-white/65">Weekend trips and short breaks to Morocco: 2 to 5-day ideas, a weekend in Marrakech, the desert in 3 or 4 days, how to get there, prices from 249 EUR and how to book.</p>
+                <span class="mt-auto flex items-center gap-2 pt-7 text-[13px] font-bold uppercase tracking-[0.16em] text-gold-300">Read Post &raquo;</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="/blog/viaje-alternativo-a-marruecos/" class="group flex h-full flex-col overflow-hidden rounded-3xl border border-gold-400/30 bg-[#0b0b0b] text-white shadow-xl shadow-black/30 transition duration-300 hover:-translate-y-2 hover:border-gold-400 hover:shadow-2xl hover:shadow-gold-500/25">
+              <div class="relative h-52 overflow-hidden">
+                <picture><source type="image/webp" srcset="/public/kasbah-palm-grove-ouarzazate-day-trips-morocco-800.webp" /><img src="/public/kasbah-palm-grove-ouarzazate-day-trips-morocco-800.jpg" alt="A kasbah surrounded by palm trees near Ouarzazate in southern Morocco" width="800" height="525" loading="lazy" decoding="async" class="h-full w-full object-cover transition duration-700 group-hover:scale-105" style="object-position:center 55%" /></picture>
+                <div class="absolute inset-0 bg-gradient-to-t from-[#0b0b0b] via-black/10 to-transparent" aria-hidden="true"></div>
+              </div>
+              <div class="flex flex-1 flex-col p-7">
+                <p class="text-[11px] font-semibold uppercase tracking-[0.3em] text-gold-300">Travel guide</p>
+                <h3 class="mt-2 font-display text-2xl font-semibold text-white">Alternative Trip to Morocco: Off the Beaten Path Routes</h3>
+                <p class="mt-4 font-jost text-[15px] leading-7 text-white/65">Alternative trip to Morocco: off the beaten path routes through the Draa Valley, the Atlas, the north and the coast, with an Amazigh guide and a private tour. Free quote.</p>
+                <span class="mt-auto flex items-center gap-2 pt-7 text-[13px] font-bold uppercase tracking-[0.16em] text-gold-300">Read Post &raquo;</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="/blog/todra-gorge-morocco/" class="group flex h-full flex-col overflow-hidden rounded-3xl border border-gold-400/30 bg-[#0b0b0b] text-white shadow-xl shadow-black/30 transition duration-300 hover:-translate-y-2 hover:border-gold-400 hover:shadow-2xl hover:shadow-gold-500/25">
+              <div class="relative h-52 overflow-hidden">
+                <picture><source type="image/webp" srcset="/public/donkey-rocky-gorge-southern-morocco-800.webp" /><img src="/public/donkey-rocky-gorge-southern-morocco-800.jpg" alt="A rocky gorge in southern Morocco with steep canyon walls" width="800" height="534" loading="lazy" decoding="async" class="h-full w-full object-cover transition duration-700 group-hover:scale-105" style="object-position:center 55%" /></picture>
+                <div class="absolute inset-0 bg-gradient-to-t from-[#0b0b0b] via-black/10 to-transparent" aria-hidden="true"></div>
+              </div>
+              <div class="flex flex-1 flex-col p-7">
+                <p class="text-[11px] font-semibold uppercase tracking-[0.3em] text-gold-300">Travel guide</p>
+                <h3 class="mt-2 font-display text-2xl font-semibold text-white">Todra Gorge, Morocco: How to Visit, Hike &amp; Best Time</h3>
+                <p class="mt-4 font-jost text-[15px] leading-7 text-white/65">Todra Gorge in Morocco: where it is, how to visit from Marrakech and Merzouga, the walk through the canyon, climbing, the best time and tours that include it.</p>
+                <span class="mt-auto flex items-center gap-2 pt-7 text-[13px] font-bold uppercase tracking-[0.16em] text-gold-300">Read Post &raquo;</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="/blog/marrakech-to-fes/" class="group flex h-full flex-col overflow-hidden rounded-3xl border border-gold-400/30 bg-[#0b0b0b] text-white shadow-xl shadow-black/30 transition duration-300 hover:-translate-y-2 hover:border-gold-400 hover:shadow-2xl hover:shadow-gold-500/25">
+              <div class="relative h-52 overflow-hidden">
+                <picture><source type="image/webp" srcset="/public/fes-medina-souk-card-morocco-800.webp" /><img src="/public/fes-medina-souk-card-morocco-800.jpg" alt="A busy souk in the medina of Fes with hanging goods and shoppers" width="800" height="533" loading="lazy" decoding="async" class="h-full w-full object-cover transition duration-700 group-hover:scale-105" style="object-position:center 55%" /></picture>
+                <div class="absolute inset-0 bg-gradient-to-t from-[#0b0b0b] via-black/10 to-transparent" aria-hidden="true"></div>
+              </div>
+              <div class="flex flex-1 flex-col p-7">
+                <p class="text-[11px] font-semibold uppercase tracking-[0.3em] text-gold-300">Getting around</p>
+                <h3 class="mt-2 font-display text-2xl font-semibold text-white">Marrakech to Fes: Train, Bus, Flight &amp; Private Driver</h3>
+                <p class="mt-4 font-jost text-[15px] leading-7 text-white/65">Marrakech to Fes: distance, travel time, train, bus, flight and private driver compared, plus the desert route via Merzouga and how to book a private trip.</p>
+                <span class="mt-auto flex items-center gap-2 pt-7 text-[13px] font-bold uppercase tracking-[0.16em] text-gold-300">Read Post &raquo;</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="/blog/dades-valley-morocco/" class="group flex h-full flex-col overflow-hidden rounded-3xl border border-gold-400/30 bg-[#0b0b0b] text-white shadow-xl shadow-black/30 transition duration-300 hover:-translate-y-2 hover:border-gold-400 hover:shadow-2xl hover:shadow-gold-500/25">
+              <div class="relative h-52 overflow-hidden">
+                <picture><source type="image/webp" srcset="/public/dades-gorges-winding-road-morocco-800.webp" /><img src="/public/dades-gorges-winding-road-morocco-800.jpg" alt="A winding road climbing through the Dades Gorges in Morocco" width="800" height="1067" loading="lazy" decoding="async" class="h-full w-full object-cover transition duration-700 group-hover:scale-105" style="object-position:center 55%" /></picture>
+                <div class="absolute inset-0 bg-gradient-to-t from-[#0b0b0b] via-black/10 to-transparent" aria-hidden="true"></div>
+              </div>
+              <div class="flex flex-1 flex-col p-7">
+                <p class="text-[11px] font-semibold uppercase tracking-[0.3em] text-gold-300">Travel guide</p>
+                <h3 class="mt-2 font-display text-2xl font-semibold text-white">Dades Valley, Morocco: Gorges, Kasbahs &amp; How to Visit</h3>
+                <p class="mt-4 font-jost text-[15px] leading-7 text-white/65">Dades Valley in Morocco: the Valley of a Thousand Kasbahs, the Dades Gorges and their switchbacks, the Monkey Fingers walk, how to visit and the best time.</p>
+                <span class="mt-auto flex items-center gap-2 pt-7 text-[13px] font-bold uppercase tracking-[0.16em] text-gold-300">Read Post &raquo;</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="/blog/marrakech-to-essaouira/" class="group flex h-full flex-col overflow-hidden rounded-3xl border border-gold-400/30 bg-[#0b0b0b] text-white shadow-xl shadow-black/30 transition duration-300 hover:-translate-y-2 hover:border-gold-400 hover:shadow-2xl hover:shadow-gold-500/25">
+              <div class="relative h-52 overflow-hidden">
+                <picture><source type="image/webp" srcset="/public/essaouira-medina-flag-blue-shutters-card-morocco-800.webp" /><img src="/public/essaouira-medina-flag-blue-shutters-card-morocco-800.jpg" alt="Blue shutters and a Moroccan flag in the medina of Essaouira on the Atlantic coast" width="800" height="533" loading="lazy" decoding="async" class="h-full w-full object-cover transition duration-700 group-hover:scale-105" style="object-position:center 55%" /></picture>
+                <div class="absolute inset-0 bg-gradient-to-t from-[#0b0b0b] via-black/10 to-transparent" aria-hidden="true"></div>
+              </div>
+              <div class="flex flex-1 flex-col p-7">
+                <p class="text-[11px] font-semibold uppercase tracking-[0.3em] text-gold-300">Getting around</p>
+                <h3 class="mt-2 font-display text-2xl font-semibold text-white">Marrakech to Essaouira: Bus, Private Driver &amp; Day Trip</h3>
+                <p class="mt-4 font-jost text-[15px] leading-7 text-white/65">Marrakech to Essaouira: distance, travel time, bus, shared taxi and private driver compared, whether a day trip works and how to book a private trip.</p>
+                <span class="mt-auto flex items-center gap-2 pt-7 text-[13px] font-bold uppercase tracking-[0.16em] text-gold-300">Read Post &raquo;</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="/blog/imlil-morocco/" class="group flex h-full flex-col overflow-hidden rounded-3xl border border-gold-400/30 bg-[#0b0b0b] text-white shadow-xl shadow-black/30 transition duration-300 hover:-translate-y-2 hover:border-gold-400 hover:shadow-2xl hover:shadow-gold-500/25">
+              <div class="relative h-52 overflow-hidden">
+                <picture><source type="image/webp" srcset="/public/family-tour-berber-village-atlas-mountains-morocco-card-800.webp" /><img src="/public/family-tour-berber-village-atlas-mountains-morocco-card-800.jpg" alt="A Berber village in the High Atlas Mountains of Morocco" width="800" height="600" loading="lazy" decoding="async" class="h-full w-full object-cover transition duration-700 group-hover:scale-105" style="object-position:center 55%" /></picture>
+                <div class="absolute inset-0 bg-gradient-to-t from-[#0b0b0b] via-black/10 to-transparent" aria-hidden="true"></div>
+              </div>
+              <div class="flex flex-1 flex-col p-7">
+                <p class="text-[11px] font-semibold uppercase tracking-[0.3em] text-gold-300">Travel guide</p>
+                <h3 class="mt-2 font-display text-2xl font-semibold text-white">Imlil, Morocco: Day Trip from Marrakech, Hikes &amp; Toubkal</h3>
+                <p class="mt-4 font-jost text-[15px] leading-7 text-white/65">Imlil in the High Atlas: how to visit from Marrakech in a day, the easy walks, the Toubkal base, where to eat and stay, the best time and how to book.</p>
+                <span class="mt-auto flex items-center gap-2 pt-7 text-[13px] font-bold uppercase tracking-[0.16em] text-gold-300">Read Post &raquo;</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="/blog/erg-chebbi-dunes/" class="group flex h-full flex-col overflow-hidden rounded-3xl border border-gold-400/30 bg-[#0b0b0b] text-white shadow-xl shadow-black/30 transition duration-300 hover:-translate-y-2 hover:border-gold-400 hover:shadow-2xl hover:shadow-gold-500/25">
+              <div class="relative h-52 overflow-hidden">
+                <picture><source type="image/webp" srcset="/public/camel-caravan-erg-chebbi-dunes-sunset-merzouga-morocco-800.webp" /><img src="/public/camel-caravan-erg-chebbi-dunes-sunset-merzouga-morocco-800.jpg" alt="A camel caravan with travellers crossing the Erg Chebbi dunes in the Moroccan Sahara" width="800" height="533" loading="lazy" decoding="async" class="h-full w-full object-cover transition duration-700 group-hover:scale-105" style="object-position:center 55%" /></picture>
+                <div class="absolute inset-0 bg-gradient-to-t from-[#0b0b0b] via-black/10 to-transparent" aria-hidden="true"></div>
+              </div>
+              <div class="flex flex-1 flex-col p-7">
+                <p class="text-[11px] font-semibold uppercase tracking-[0.3em] text-gold-300">Travel guide</p>
+                <h3 class="mt-2 font-display text-2xl font-semibold text-white">Erg Chebbi Dunes, Morocco: How to Visit &amp; Where to Stay</h3>
+                <p class="mt-4 font-jost text-[15px] leading-7 text-white/65">Erg Chebbi dunes in Morocco: where they are, how to visit from Marrakech, camel rides, desert camps, quad and buggy, sunrise and sunset, and the best time to go.</p>
+                <span class="mt-auto flex items-center gap-2 pt-7 text-[13px] font-bold uppercase tracking-[0.16em] text-gold-300">Read Post &raquo;</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="/blog/fes-to-chefchaouen/" class="group flex h-full flex-col overflow-hidden rounded-3xl border border-gold-400/30 bg-[#0b0b0b] text-white shadow-xl shadow-black/30 transition duration-300 hover:-translate-y-2 hover:border-gold-400 hover:shadow-2xl hover:shadow-gold-500/25">
+              <div class="relative h-52 overflow-hidden">
+                <picture><source type="image/webp" srcset="/public/chefchaouen-man-walking-blue-stairs-morocco-800.webp" /><img src="/public/chefchaouen-man-walking-blue-stairs-morocco-800.jpg" alt="The blue-washed town of Chefchaouen on a hillside in the Rif mountains" width="800" height="1421" loading="lazy" decoding="async" class="h-full w-full object-cover transition duration-700 group-hover:scale-105" style="object-position:center 55%" /></picture>
+                <div class="absolute inset-0 bg-gradient-to-t from-[#0b0b0b] via-black/10 to-transparent" aria-hidden="true"></div>
+              </div>
+              <div class="flex flex-1 flex-col p-7">
+                <p class="text-[11px] font-semibold uppercase tracking-[0.3em] text-gold-300">Getting around</p>
+                <h3 class="mt-2 font-display text-2xl font-semibold text-white">Fes to Chefchaouen: Bus, Taxi, Private Driver &amp; Day Trip</h3>
+                <p class="mt-4 font-jost text-[15px] leading-7 text-white/65">Fes to Chefchaouen: distance, travel time, bus, shared taxi and private driver compared, whether a day trip works, the best stops and how to book.</p>
+                <span class="mt-auto flex items-center gap-2 pt-7 text-[13px] font-bold uppercase tracking-[0.16em] text-gold-300">Read Post &raquo;</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="/blog/casablanca-to-fes/" class="group flex h-full flex-col overflow-hidden rounded-3xl border border-gold-400/30 bg-[#0b0b0b] text-white shadow-xl shadow-black/30 transition duration-300 hover:-translate-y-2 hover:border-gold-400 hover:shadow-2xl hover:shadow-gold-500/25">
+              <div class="relative h-52 overflow-hidden">
+                <picture><source type="image/webp" srcset="/public/hassan-ii-mosque-casablanca-dusk-card-morocco-800.webp" /><img src="/public/hassan-ii-mosque-casablanca-dusk-card-morocco-800.jpg" alt="The skyline of Casablanca with the Hassan II Mosque" width="800" height="533" loading="lazy" decoding="async" class="h-full w-full object-cover transition duration-700 group-hover:scale-105" style="object-position:center 55%" /></picture>
+                <div class="absolute inset-0 bg-gradient-to-t from-[#0b0b0b] via-black/10 to-transparent" aria-hidden="true"></div>
+              </div>
+              <div class="flex flex-1 flex-col p-7">
+                <p class="text-[11px] font-semibold uppercase tracking-[0.3em] text-gold-300">Getting around</p>
+                <h3 class="mt-2 font-display text-2xl font-semibold text-white">Casablanca to Fes: Train, Bus, Taxi &amp; Private Transfer</h3>
+                <p class="mt-4 font-jost text-[15px] leading-7 text-white/65">Casablanca to Fes: distance, travel time, train, bus, shared taxi and private transfer compared, how to go from the airport and how to book a private trip.</p>
+                <span class="mt-auto flex items-center gap-2 pt-7 text-[13px] font-bold uppercase tracking-[0.16em] text-gold-300">Read Post &raquo;</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="/blog/rabat-to-marrakech/" class="group flex h-full flex-col overflow-hidden rounded-3xl border border-gold-400/30 bg-[#0b0b0b] text-white shadow-xl shadow-black/30 transition duration-300 hover:-translate-y-2 hover:border-gold-400 hover:shadow-2xl hover:shadow-gold-500/25">
+              <div class="relative h-52 overflow-hidden">
+                <picture><source type="image/webp" srcset="/public/hassan-tower-rabat-morocco-tours-800.webp" /><img src="/public/hassan-tower-rabat-morocco-tours-800.jpg" alt="The Hassan Tower in Rabat under a clear sky" width="800" height="500" loading="lazy" decoding="async" class="h-full w-full object-cover transition duration-700 group-hover:scale-105" style="object-position:center 55%" /></picture>
+                <div class="absolute inset-0 bg-gradient-to-t from-[#0b0b0b] via-black/10 to-transparent" aria-hidden="true"></div>
+              </div>
+              <div class="flex flex-1 flex-col p-7">
+                <p class="text-[11px] font-semibold uppercase tracking-[0.3em] text-gold-300">Getting around</p>
+                <h3 class="mt-2 font-display text-2xl font-semibold text-white">Rabat to Marrakech: Train, Bus, Taxi &amp; Private Transfer</h3>
+                <p class="mt-4 font-jost text-[15px] leading-7 text-white/65">Rabat to Marrakech: distance, travel time, train, bus, shared taxi and private transfer compared, the stop in Casablanca and how to book a private trip.</p>
+                <span class="mt-auto flex items-center gap-2 pt-7 text-[13px] font-bold uppercase tracking-[0.16em] text-gold-300">Read Post &raquo;</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="/blog/volubilis-day-trip-from-fes/" class="group flex h-full flex-col overflow-hidden rounded-3xl border border-gold-400/30 bg-[#0b0b0b] text-white shadow-xl shadow-black/30 transition duration-300 hover:-translate-y-2 hover:border-gold-400 hover:shadow-2xl hover:shadow-gold-500/25">
+              <div class="relative h-52 overflow-hidden">
+                <picture><source type="image/webp" srcset="/public/hero-volubilis-roman-ruins-morocco-1600.webp" /><img src="/public/hero-volubilis-roman-ruins-morocco-1600.jpg" alt="The Roman ruins of Volubilis in Morocco with columns and an arch" width="1600" height="1071" loading="lazy" decoding="async" class="h-full w-full object-cover transition duration-700 group-hover:scale-105" style="object-position:center 55%" /></picture>
+                <div class="absolute inset-0 bg-gradient-to-t from-[#0b0b0b] via-black/10 to-transparent" aria-hidden="true"></div>
+              </div>
+              <div class="flex flex-1 flex-col p-7">
+                <p class="text-[11px] font-semibold uppercase tracking-[0.3em] text-gold-300">Travel guide</p>
+                <h3 class="mt-2 font-display text-2xl font-semibold text-white">Volubilis Day Trip from Fes: Roman Ruins, Meknes &amp; Tips</h3>
+                <p class="mt-4 font-jost text-[15px] leading-7 text-white/65">Volubilis day trip from Fes: the Roman ruins and mosaics, Moulay Idriss and Meknes, how long it takes, how to go, the best time and how to book a private trip.</p>
+                <span class="mt-auto flex items-center gap-2 pt-7 text-[13px] font-bold uppercase tracking-[0.16em] text-gold-300">Read Post &raquo;</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="/blog/marrakech-to-agadir/" class="group flex h-full flex-col overflow-hidden rounded-3xl border border-gold-400/30 bg-[#0b0b0b] text-white shadow-xl shadow-black/30 transition duration-300 hover:-translate-y-2 hover:border-gold-400 hover:shadow-2xl hover:shadow-gold-500/25">
+              <div class="relative h-52 overflow-hidden">
+                <picture><source type="image/webp" srcset="/public/essaouira-medina-flag-blue-shutters-card-morocco-800.webp" /><img src="/public/essaouira-medina-flag-blue-shutters-card-morocco-800.jpg" alt="Blue shutters and a Moroccan flag in a coastal medina on the Atlantic coast of Morocco" width="800" height="533" loading="lazy" decoding="async" class="h-full w-full object-cover transition duration-700 group-hover:scale-105" style="object-position:center 55%" /></picture>
+                <div class="absolute inset-0 bg-gradient-to-t from-[#0b0b0b] via-black/10 to-transparent" aria-hidden="true"></div>
+              </div>
+              <div class="flex flex-1 flex-col p-7">
+                <p class="text-[11px] font-semibold uppercase tracking-[0.3em] text-gold-300">Getting around</p>
+                <h3 class="mt-2 font-display text-2xl font-semibold text-white">Marrakech to Agadir: Bus, Taxi, Private Driver &amp; Stops</h3>
+                <p class="mt-4 font-jost text-[15px] leading-7 text-white/65">Marrakech to Agadir: distance, travel time, bus, shared taxi and private driver compared, the stops on the way and how to book a private transfer.</p>
+                <span class="mt-auto flex items-center gap-2 pt-7 text-[13px] font-bold uppercase tracking-[0.16em] text-gold-300">Read Post &raquo;</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="/blog/meknes-morocco/" class="group flex h-full flex-col overflow-hidden rounded-3xl border border-gold-400/30 bg-[#0b0b0b] text-white shadow-xl shadow-black/30 transition duration-300 hover:-translate-y-2 hover:border-gold-400 hover:shadow-2xl hover:shadow-gold-500/25">
+              <div class="relative h-52 overflow-hidden">
+                <picture><source type="image/webp" srcset="/public/donkey-and-cat-mud-brick-kasbah-alley-morocco-800.webp" /><img src="/public/donkey-and-cat-mud-brick-kasbah-alley-morocco-800.jpg" alt="A mud-brick alley in an old Moroccan kasbah" width="800" height="534" loading="lazy" decoding="async" class="h-full w-full object-cover transition duration-700 group-hover:scale-105" style="object-position:center 55%" /></picture>
+                <div class="absolute inset-0 bg-gradient-to-t from-[#0b0b0b] via-black/10 to-transparent" aria-hidden="true"></div>
+              </div>
+              <div class="flex flex-1 flex-col p-7">
+                <p class="text-[11px] font-semibold uppercase tracking-[0.3em] text-gold-300">Travel guide</p>
+                <h3 class="mt-2 font-display text-2xl font-semibold text-white">Meknes, Morocco: Things to Do, Day Trip from Fes &amp; Tips</h3>
+                <p class="mt-4 font-jost text-[15px] leading-7 text-white/65">Meknes in Morocco: the imperial city, Bab Mansour, the Moulay Ismail mausoleum and the medina, how to visit it as a day trip from Fes, and how to book.</p>
+                <span class="mt-auto flex items-center gap-2 pt-7 text-[13px] font-bold uppercase tracking-[0.16em] text-gold-300">Read Post &raquo;</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="/blog/marrakech-to-chefchaouen/" class="group flex h-full flex-col overflow-hidden rounded-3xl border border-gold-400/30 bg-[#0b0b0b] text-white shadow-xl shadow-black/30 transition duration-300 hover:-translate-y-2 hover:border-gold-400 hover:shadow-2xl hover:shadow-gold-500/25">
+              <div class="relative h-52 overflow-hidden">
+                <picture><source type="image/webp" srcset="/public/chefchaouen-blue-city-arch-stairs-card-morocco-800.webp" /><img src="/public/chefchaouen-blue-city-arch-stairs-card-morocco-800.jpg" alt="Blue-washed stairs and arches in the medina of Chefchaouen, Morocco" width="800" height="533" loading="lazy" decoding="async" class="h-full w-full object-cover transition duration-700 group-hover:scale-105" style="object-position:center 55%" /></picture>
+                <div class="absolute inset-0 bg-gradient-to-t from-[#0b0b0b] via-black/10 to-transparent" aria-hidden="true"></div>
+              </div>
+              <div class="flex flex-1 flex-col p-7">
+                <p class="text-[11px] font-semibold uppercase tracking-[0.3em] text-gold-300">Getting around</p>
+                <h3 class="mt-2 font-display text-2xl font-semibold text-white">Marrakech to Chefchaouen: Best Way, Time &amp; Private Tour</h3>
+                <p class="mt-4 font-jost text-[15px] leading-7 text-white/65">Marrakech to Chefchaouen: distance, travel time, train, bus, flight and private driver compared, the best route with stops and how to book a private trip.</p>
+                <span class="mt-auto flex items-center gap-2 pt-7 text-[13px] font-bold uppercase tracking-[0.16em] text-gold-300">Read Post &raquo;</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="/blog/morocco-private-tours/" class="group flex h-full flex-col overflow-hidden rounded-3xl border border-gold-400/30 bg-[#0b0b0b] text-white shadow-xl shadow-black/30 transition duration-300 hover:-translate-y-2 hover:border-gold-400 hover:shadow-2xl hover:shadow-gold-500/25">
+              <div class="relative h-52 overflow-hidden">
+                <picture><source type="image/webp" srcset="/public/jemaa-el-fnaa-night-market-card-marrakech-800.webp" /><img src="/public/jemaa-el-fnaa-night-market-card-marrakech-800.jpg" alt="Jemaa el-Fnaa square in Marrakech at dusk, with the minaret and the crowds" width="800" height="533" loading="lazy" decoding="async" class="h-full w-full object-cover transition duration-700 group-hover:scale-105" style="object-position:center 55%" /></picture>
+                <div class="absolute inset-0 bg-gradient-to-t from-[#0b0b0b] via-black/10 to-transparent" aria-hidden="true"></div>
+              </div>
+              <div class="flex flex-1 flex-col p-7">
+                <p class="text-[11px] font-semibold uppercase tracking-[0.3em] text-gold-300">Private tours</p>
+                <h3 class="mt-2 font-display text-2xl font-semibold text-white">Morocco Private Tours: Prices, Itineraries &amp; How to Book</h3>
+                <p class="mt-4 font-jost text-[15px] leading-7 text-white/65">Morocco private tours with your own driver and local guide: routes from 2 to 14 days, prices from 249 EUR, what is included and how to book. Free quote.</p>
+                <span class="mt-auto flex items-center gap-2 pt-7 text-[13px] font-bold uppercase tracking-[0.16em] text-gold-300">Read Post &raquo;</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="/blog/3-day-desert-tour-from-marrakech/" class="group flex h-full flex-col overflow-hidden rounded-3xl border border-gold-400/30 bg-[#0b0b0b] text-white shadow-xl shadow-black/30 transition duration-300 hover:-translate-y-2 hover:border-gold-400 hover:shadow-2xl hover:shadow-gold-500/25">
+              <div class="relative h-52 overflow-hidden">
+                <picture><source type="image/webp" srcset="/public/ait-ben-haddou-ksar-card-morocco-800.webp" /><img src="/public/ait-ben-haddou-ksar-card-morocco-800.jpg" alt="Camels walking across the Erg Chebbi dunes near Merzouga in the Moroccan Sahara" width="800" height="533" loading="lazy" decoding="async" class="h-full w-full object-cover transition duration-700 group-hover:scale-105" style="object-position:center 55%" /></picture>
+                <div class="absolute inset-0 bg-gradient-to-t from-[#0b0b0b] via-black/10 to-transparent" aria-hidden="true"></div>
+              </div>
+              <div class="flex flex-1 flex-col p-7">
+                <p class="text-[11px] font-semibold uppercase tracking-[0.3em] text-gold-300">Sahara</p>
+                <h3 class="mt-2 font-display text-2xl font-semibold text-white">3-Day Desert Tour from Marrakech: Itinerary, Price &amp; Booking</h3>
+                <p class="mt-4 font-jost text-[15px] leading-7 text-white/65">3-day desert tour from Marrakech to Merzouga: day-by-day itinerary, private tour from 249 EUR, what is included, best time and how to book. Free quote.</p>
+                <span class="mt-auto flex items-center gap-2 pt-7 text-[13px] font-bold uppercase tracking-[0.16em] text-gold-300">Read Post &raquo;</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="/blog/luxury-trip-to-morocco-7-day-itinerary/" class="group flex h-full flex-col overflow-hidden rounded-3xl border border-gold-400/30 bg-[#0b0b0b] text-white shadow-xl shadow-black/30 transition duration-300 hover:-translate-y-2 hover:border-gold-400 hover:shadow-2xl hover:shadow-gold-500/25">
+              <div class="relative h-52 overflow-hidden">
+                <picture><source type="image/webp" srcset="/public/camel-trek-travellers-dunes-cost-card-morocco-800.webp" /><img src="/public/camel-trek-travellers-dunes-cost-card-morocco-800.jpg" alt="Golden sand dunes of Erg Chebbi near Merzouga in the Moroccan Sahara" width="800" height="533" loading="lazy" decoding="async" class="h-full w-full object-cover transition duration-700 group-hover:scale-105" style="object-position:center 55%" /></picture>
+                <div class="absolute inset-0 bg-gradient-to-t from-[#0b0b0b] via-black/10 to-transparent" aria-hidden="true"></div>
+              </div>
+              <div class="flex flex-1 flex-col p-7">
+                <p class="text-[11px] font-semibold uppercase tracking-[0.3em] text-gold-300">Luxury</p>
+                <h3 class="mt-2 font-display text-2xl font-semibold text-white">Luxury Trip to Morocco: 7-Day Itinerary &amp; Planning Tips</h3>
+                <p class="mt-4 font-jost text-[15px] leading-7 text-white/65">Plan a luxury trip to Morocco: a 7-day itinerary with riads, a luxury desert camp in Merzouga, private driver and guide, best time, stays and how to book.</p>
+                <span class="mt-auto flex items-center gap-2 pt-7 text-[13px] font-bold uppercase tracking-[0.16em] text-gold-300">Read Post &raquo;</span>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="/blog/morocco-holidays-tour-packages/" class="group flex h-full flex-col overflow-hidden rounded-3xl border border-gold-400/30 bg-[#0b0b0b] text-white shadow-xl shadow-black/30 transition duration-300 hover:-translate-y-2 hover:border-gold-400 hover:shadow-2xl hover:shadow-gold-500/25">
+              <div class="relative h-52 overflow-hidden">
+                <picture><source type="image/webp" srcset="/public/morocco-desert-tours-dunes-card-800.webp" /><img src="/public/morocco-desert-tours-dunes-card-800.jpg" alt="The ksar of Ait Ben Haddou, a village of red earth in the Moroccan desert landscape" width="800" height="533" loading="lazy" decoding="async" class="h-full w-full object-cover transition duration-700 group-hover:scale-105" style="object-position:center 55%" /></picture>
+                <div class="absolute inset-0 bg-gradient-to-t from-[#0b0b0b] via-black/10 to-transparent" aria-hidden="true"></div>
+              </div>
+              <div class="flex flex-1 flex-col p-7">
+                <p class="text-[11px] font-semibold uppercase tracking-[0.3em] text-gold-300">Packages</p>
+                <h3 class="mt-2 font-display text-2xl font-semibold text-white">Morocco Holidays &amp; Tour Packages: Prices &amp; Routes</h3>
+                <p class="mt-4 font-jost text-[15px] leading-7 text-white/65">Morocco holidays and tour packages from 249 EUR: private 3 to 14 day routes, what is included, prices, best time and how to choose and book. Free quote.</p>
+                <span class="mt-auto flex items-center gap-2 pt-7 text-[13px] font-bold uppercase tracking-[0.16em] text-gold-300">Read Post &raquo;</span>
+              </div>
+            </a>
+          </li>
           <li>
             <a href="/blog/casablanca-to-marrakech/" class="group flex h-full flex-col overflow-hidden rounded-3xl border border-gold-400/30 bg-[#0b0b0b] text-white shadow-xl shadow-black/30 transition duration-300 hover:-translate-y-2 hover:border-gold-400 hover:shadow-2xl hover:shadow-gold-500/25">
               <div class="relative h-52 overflow-hidden">

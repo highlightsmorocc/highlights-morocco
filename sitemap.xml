@@ -2561,6 +2561,26 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.highlightsmoroccotours.com/blog/marrakech-souks/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/blog/marrakech-souks/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/blog/marrakech-souks/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/blog/marrakech-souks/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/blog/marrakech-souks/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/blog/marrakech-souks/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/blog/morocco-in-december/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/blog/morocco-in-december/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/blog/morocco-in-december/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/blog/morocco-in-december/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/blog/morocco-in-december/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/blog/morocco-in-december/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.highlightsmoroccotours.com/blog/capital-de-marruecos/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/blog/capital-de-marruecos/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/blog/capital-de-marruecos/"/>

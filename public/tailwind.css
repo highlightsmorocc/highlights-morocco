@@ -36,3 +36,4 @@ li.text-center>span.font-display.text-6xl{color:#9a6d14}
 
 /* footer legal bar */
 .ft-legal{display:flex;flex-direction:column;align-items:center;gap:1rem;padding:2rem 0;text-align:center;font-family:Jost,system-ui,sans-serif;font-size:.875rem}.ft-brand{display:block;transition:opacity .2s}.ft-brand:hover{opacity:.85}.ft-brand img{display:block;width:7.5rem;height:auto}.ft-line{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:.5rem 1rem;margin:0;color:rgba(255,255,255,.9)}.ft-line a{color:#c99a2e;transition:color .2s}.ft-line a:hover{color:#e9c96a}.ft-line i{font-style:normal;color:rgba(255,255,255,.55)}
+.ft-copy{margin:0;color:rgba(255,255,255,.62)}

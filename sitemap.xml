@@ -2561,6 +2561,26 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.highlightsmoroccotours.com/blog/morocco-private-driver/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/blog/morocco-private-driver/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/blog/morocco-private-driver/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/blog/morocco-private-driver/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/blog/morocco-private-driver/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/blog/morocco-private-driver/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/blog/excursiones-desde-marrakech/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/blog/excursiones-desde-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/blog/excursiones-desde-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/blog/excursiones-desde-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/blog/excursiones-desde-marrakech/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/blog/excursiones-desde-marrakech/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.highlightsmoroccotours.com/blog/morocco-culture/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/blog/morocco-culture/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/blog/morocco-culture/"/>

@@ -4190,4 +4190,14 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://www.highlightsmoroccotours.com/blog/sahara-desert-tours/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.highlightsmoroccotours.com/blog/sahara-desert-tours/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.highlightsmoroccotours.com/es/blog/sahara-desert-tours/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://www.highlightsmoroccotours.com/pt/blog/sahara-desert-tours/"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.highlightsmoroccotours.com/it/blog/sahara-desert-tours/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.highlightsmoroccotours.com/blog/sahara-desert-tours/"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
